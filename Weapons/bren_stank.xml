@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<base><History><PreviousPath>s:\complete\weapons\allies\light\bren\current.wpn</PreviousPath><PreviousDate>10.01.2003</PreviousDate><PreviousTime>11:06:38</PreviousTime><PreviousOwner>Alexander.Valencia</PreviousOwner><Action>Exported as</Action><CurrentPath>s:\versions\current\data\weapons\bren.xml</CurrentPath><CurrentDate>10.01.2003</CurrentDate><CurrentTime>11:06:39</CurrentTime><CurrentOwner>Alexander.Valencia</CurrentOwner></History><RPG Dispersion="3.5" AimingTime="0.7" AmmoPerBurst="6" RangeMax="44" RangeMin="1" Ceiling="0" DeltaAngle="10" RevealRadius="0"><KeyName>Bren</KeyName><StatsType>Weapon</StatsType><Shells><item TrajectoryType="0" Piercing="4" PiercingRandom="0" DamagePower="12" DamageRandom="7" Area="0" Area2="0" ProjectileSpeed="1000" DetonationPower="0" FireRate="600" RelaxTime="1.3" DamageType="0" TraceProbability="0.2" TraceSpeedCoeff="0.9"><Specials Size="32"><BitArray><item data="0"/><item data="0"/><item data="0"/><item data="0"/><item data="0"/></BitArray></Specials><InfantryFireSound/>
+        <EffectGunFire>shootmgunalt2\Bren
+        </EffectGunFire>
+        <EffectTrajectory/>
+        <EffectHitDirect>pumc
+        </EffectHitDirect>
+        <EffectHitMiss>pumc
+        </EffectHitMiss>
+        <EffectHitReflect>pumc
+        </EffectHitReflect>
+        <EffectHitGround>pumc
+        </EffectHitGround>
+        <EffectHitWater>bulletinwater1
+        </EffectHitWater>
+        <EffectHitAir>pumc
+        </EffectHitAir>
+        <Craters/>
+        <FlashFire Power='0' Duration='0'/>
+        <FlashExplosion Power='0' Duration='0'/>
+      </item>
+    </Shells>
+  </RPG>
+</base>

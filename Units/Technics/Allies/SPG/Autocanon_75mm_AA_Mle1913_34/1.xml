@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Andrew (Dark Fox) -->
+<base>
+	<History>
+		<PreviousPath>d:\andrywwork\техника\Французская_75мм_пушка_на_автомобиле\current.msh</PreviousPath>
+		<PreviousDate>04.11.2003</PreviousDate>
+		<PreviousTime>16:51:36</PreviousTime>
+		<PreviousOwner>Andrei</PreviousOwner>
+		<Action>Exported as</Action>
+		<CurrentPath>d:\andrywwork\техника\Французская_75мм_пушка_на_автомобиле\export\1.xml</CurrentPath>
+		<CurrentDate>05.11.2003</CurrentDate>
+		<CurrentTime>13:19:10</CurrentTime>
+		<CurrentOwner>Andrei</CurrentOwner>
+	</History>
+	<RPG MaxHP="60" RepairCost="1" Sight="35" SightPower="1.2" Speed="13.39" Passability="-0.27" Priority="1" Camouflage="6" Weight="5500" Price="1" UninstallRotate="4" UninstallTransport="4" RotateSpeed="38.5" TurnRadius="5" TowingForce="0" Crew="3" Passangers="0" BoundTileRadius="1" SmallAABBCoeff="1" TowPoint="3" EntrancePoint="-1" FatalitySmokePoint="-1" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.04" TrackWidth="0.1" TrackStart="0.1" TrackEnd="0.1" TrackIntensity="1" TrackLifetime="2000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>75mm_gun_car</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>art_aagun</Type><AIClass>wheel</AIClass><Commands Size="51"><BitArray><item data="7"/><item data="67"/><item data="0"/><item data="0"/><item data="128"/><item data="32"/><item data="4"/></BitArray></Commands><Exposures Size="0"><BitArray/></Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="562" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/>
+					<item Length="562" Action="0" Index="1" AABB_A="-1" AABB_D="-1"/>
+					<item Length="562" Action="0" Index="2" AABB_A="-1" AABB_D="-1"/>
+					<item Length="562" Action="0" Index="3" AABB_A="-1" AABB_D="-1"/>
+					<item Length="562" Action="0" Index="4" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="62" Action="0" Index="9" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="62" Action="0" Index="10" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="62" Action="0" Index="11" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="62" Action="0" Index="12" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="1187" Action="0" Index="5" AABB_A="0" AABB_D="0"/>
+					<item Length="1187" Action="0" Index="6" AABB_A="1" AABB_D="1"/>
+					<item Length="1187" Action="0" Index="7" AABB_A="2" AABB_D="2"/>
+					<item Length="1187" Action="0" Index="8" AABB_A="3" AABB_D="3"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="62" Action="0" Index="13" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="62" Action="0" Index="14" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As>
+			<item>
+				<Center x="31.4269" y="-0.00293922"/>
+				<HalfSize x="53.25" y="52.5948"/>
+			</item>
+			<item>
+				<Center x="-4.32382" y="9.43911"/>
+				<HalfSize x="26.2008" y="61.8427"/>
+			</item>
+			<item>
+				<Center x="1.18685" y="3.70046"/>
+				<HalfSize x="22.8634" y="57.575"/>
+			</item>
+			<item>
+				<Center x="-34.7303" y="-3.25807"/>
+				<HalfSize x="54.2584" y="54.8742"/>
+			</item>
+		</AABB_As>
+		<AABB_Ds>
+			<item>
+				<Center x="52.0148" y="1.17163"/>
+				<HalfSize x="31.8616" y="50.8837"/>
+			</item>
+			<item>
+				<Center x="-2.04222" y="18.387"/>
+				<HalfSize x="28.464" y="52.6756"/>
+			</item>
+			<item>
+				<Center x="0.755939" y="6.94157"/>
+				<HalfSize x="22.9515" y="55.8856"/>
+			</item>
+			<item>
+				<Center x="-55.2526" y="-2.70631"/>
+				<HalfSize x="34.0265" y="54.7392"/>
+			</item>
+		</AABB_Ds>
+		<AcksRefs>
+			<item>sounds\ack\euro\eur_armor_car</item>
+		</AcksRefs>
+		<AcksRef/>
+		<Platforms>
+			<item VerticalRotateSpeed="1" HorizontalRotationSpeed="1" ModelPart="0" GunCarriageParts="-254" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="12" HorizontalRotationSpeed="6" ModelPart="1" GunCarriageParts="-254" FirstGun="0" NumGuns="1">
+				<Constraint Min="-6.28319" Max="6.28319"/>
+				<ConstraintVertical Min="0" Max="0.872665"/>
+			</item>
+		</Platforms>
+		<Guns>
+			<item Priority="0" Ammo="50" Direction="65535" ReloadCost="1303" ShootPoint="5" Recoil="1" RecoilLength="3.99983" RecoilTime="50" ModelPart="4" RecoilShakeTime="500" RecoilShakeAngle="0.02">
+				<Weapon>75mm mle1913_34_AA</Weapon>
+			</item>
+		</Guns>
+		<ArmorLeft Min="3" Max="3"/>
+		<ArmorRight Min="3" Max="3"/>
+		<ArmorTop Min="3" Max="3"/>
+		<ArmorBottom Min="3" Max="3"/>
+		<ArmorFront Min="3" Max="3"/>
+		<ArmorBack Min="3" Max="3"/>
+		<AABBCenter x="0.0236635" y="-0.759617"/>
+		<AABBHalfSize x="14.0633" y="36.3142"/>
+		<ExhaustPoints>
+			<item data="13"/>
+		</ExhaustPoints>
+		<DamagePoints>
+			<item data="15"/>
+			<item data="16"/>
+			<item data="17"/>
+			<item data="18"/>
+			<item data="19"/>
+		</DamagePoints>
+		<PeoplePoints/>
+		<TowPoint2D x="0" y="-30.4054"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="0" y="0"/>
+		<PeoplePoints2D/>
+		<AmmoPoint2D x="0" y="0"/>
+		<Gunners>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</Gunners>
+		<EffectDiesel>smokedisel1</EffectDiesel>
+		<EffectSmoke>smokeflame2lit</EffectSmoke>
+		<EffectWheelDust>dustmove1</EffectWheelDust>
+		<EffectShootDust></EffectShootDust>
+		<EffectFatality>expfatality1mid</EffectFatality>
+		<EffectEntrenching/>
+		<EffectDisappear>brakedown2</EffectDisappear>
+		<JoggingX Period1="1.2" Period2="0.5" Amp1="0.8" Amp2="0.5" Phase1="0.3" Phase2="2.1"/>
+		<JoggingY Period1="0.8" Period2="0.4" Amp1="0.4" Amp2="0.2" Phase1="1.9" Phase2="0.2"/>
+		<JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<SoundMoveStart>Auto1_start</SoundMoveStart>
+		<SoundMove>Auto6_cycle</SoundMove>
+		<SoundMoveStop>Auto1_stop</SoundMoveStop>
+		<DeathCraters>
+			<item>objects\terraobjects\death_hole\huge\01\1</item>
+			<item>objects\terraobjects\death_hole\little\02\1</item>
+			<item>objects\terraobjects\death_hole\verybig\02\1</item>
+		</DeathCraters>
+	</RPG>
+</base>

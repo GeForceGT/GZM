@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<base>
+  <History>
+    <PreviousPath>s:\complete\weapons\Allies\Light\bazooka\current.wpn
+    </PreviousPath>
+    <PreviousDate>01.12.2002
+    </PreviousDate>
+    <PreviousTime>22:27:39
+    </PreviousTime>
+    <PreviousOwner>Alexander.Valencia
+    </PreviousOwner>
+    <Action>Batch exported as
+    </Action>
+    <CurrentPath>s:\versions\current\data\weapons\bazooka.xml
+    </CurrentPath>
+    <CurrentDate>01.12.2002
+    </CurrentDate>
+    <CurrentTime>22:29:18
+    </CurrentTime>
+    <CurrentOwner>Alexander.Valencia
+    </CurrentOwner>
+  </History>
+  <RPG Dispersion='1.9' AimingTime='1.6' AmmoPerBurst='1' RangeMax='44' RangeMin='1' Ceiling='0' DeltaAngle='10' RevealRadius='0'>
+    <KeyName>bazooka
+    </KeyName>
+    <StatsType>Weapon
+    </StatsType>
+    <Shells>
+      <item TrajectoryType='0' Piercing='210' PiercingRandom='50' DamagePower='120' DamageRandom='50' Area='1.08' Area2='3.44' ProjectileSpeed='140' DetonationPower='0' BrokeTrackProbability='28' FireRate='30' RelaxTime='12' DamageType='0' TraceProbability='0' TraceSpeedCoeff='0'>
+        <Specials Size='32'>
+          <BitArray>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+          </BitArray>
+        </Specials>
+        <InfantryFireSound>Cannon_shot75M</InfantryFireSound>
+        <EffectGunFire>shootgun2
+        </EffectGunFire>
+        <EffectTrajectory>
+        </EffectTrajectory>
+        <EffectHitDirect>directhit1
+        </EffectHitDirect>
+        <EffectHitMiss>reflecthit1
+        </EffectHitMiss>
+        <EffectHitReflect>reflecthit1
+        </EffectHitReflect>
+        <EffectHitGround>expground2
+        </EffectHitGround>
+        <EffectHitWater>expwater2
+        </EffectHitWater>
+        <EffectHitAir/>
+        <Craters>
+          <item>objects\terraobjects\shell_hole\little\01\1
+          </item>
+          <item>objects\terraobjects\shell_hole\little\02\1
+          </item>
+          <item>objects\terraobjects\shell_hole\little\03\1
+          </item>
+        </Craters>
+        <FlashFire Power='100' Duration='500'/>
+        <FlashExplosion Power='250' Duration='500'/>
+      </item>
+    </Shells>
+  </RPG>
+</base>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<base>
+-
+	<History>
+</History>
+-
+	<RPG Dispersion="0" AimingTime="0.1" AmmoPerBurst="1" RangeMax="6" RangeMin="4" Ceiling="0" DeltaAngle="120" RevealRadius="0">
+<KeyName>satchel_charge</KeyName>
+<StatsType>Weapon</StatsType>
+-
+	<Shells>
+-
+	<item TrajectoryType="0" Piercing="700" PiercingRandom="0" DamagePower="2800" DamageRandom="800" Area="3.5" Area2="4" ProjectileSpeed="1" DetonationPower="5" FireRate="1" RelaxTime="10" DamageType="0" TraceProbability="0" BrokeTrackProbability="75" TraceSpeedCoeff="0.2">
+-
+	<Specials Size="32">
+-
+	<BitArray>
+<item data="0"/>
+<item data="0"/>
+<item data="0"/>
+<item data="0"/>
+<item data="0"/>
+</BitArray>
+</Specials>
+<InfantryFireSound></InfantryFireSound>
+<EffectGunFire></EffectGunFire>
+<EffectTrajectory/>
+<EffectHitDirect>expground5</EffectHitDirect>
+<EffectHitMiss>expground5</EffectHitMiss>
+<EffectHitReflect>expground5</EffectHitReflect>
+<EffectHitGround>expground5</EffectHitGround>
+<EffectHitWater>expwater3</EffectHitWater>
+<EffectHitAir/>
+-
+	<Craters>
+<item>objects\terraobjects\death_hole\huge\01\1</item>
+<item>objects\terraobjects\death_hole\huge\02\1</item>
+<item>objects\terraobjects\death_hole\huge\03\1</item>
+</Craters>
+<FlashFire Power="200" Duration="500"/>
+<FlashExplosion Power="200" Duration="800"/>
+</item>
+</Shells>
+</RPG>
+</base>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<base><History></History>
+<RPG Dispersion="30" AimingTime="20" AmmoPerBurst="1" RangeMax="1000" RangeMin="100" Ceiling="0" DeltaAngle="360" RevealRadius="360">
+<KeyName>V-2</KeyName><StatsType>Weapon</StatsType>
+<Shells>
+<item TrajectoryType="4" Piercing="1000" PiercingRandom="300" DamagePower="2200" DamageRandom="800" Area="10" Area2="32" ProjectileSpeed="30" DetonationPower="5" FireRate="3.5" RelaxTime="250" DamageType="0" TraceProbability="0" TraceSpeedCoeff="0.2">
+<Specials Size="32"><BitArray><item data="0"/><item data="0"/><item data="0"/><item data="0"/><item data="0"/></BitArray></Specials><InfantryFireSound></InfantryFireSound><EffectGunFire></EffectGunFire><EffectTrajectory>fau2\1</EffectTrajectory><EffectHitDirect>expfau2</EffectHitDirect><EffectHitMiss>misshit1</EffectHitMiss><EffectHitReflect>reflecthit2</EffectHitReflect><EffectHitGround>expfau2</EffectHitGround><EffectHitWater>expwater7</EffectHitWater><EffectHitAir></EffectHitAir><Craters><item>objects\terraobjects\shell_hole\grandverybig\01\1</item><item>objects\terraobjects\shell_hole\grandverybig\02\1</item><item>objects\terraobjects\shell_hole\grandverybig\03\1</item></Craters><FlashFire Power="500" Duration="800"/><FlashExplosion Power="2000" Duration="2000"/></item></Shells></RPG></base>

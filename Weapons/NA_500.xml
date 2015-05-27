@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<base><History></History><RPG Dispersion="50" AimingTime="0" AmmoPerBurst="30" RangeMax="200" RangeMin="0" Ceiling="2000" DeltaAngle="360" RevealRadius="0"><KeyName>NAPALM</KeyName><StatsType>Weapon</StatsType><Shells><item TrajectoryType="2" Piercing="70" PiercingRandom="7" DamagePower="750" DamageRandom="160" Area="3.7" Area2="11" ProjectileSpeed="10" DetonationPower="0" FireRate="150" RelaxTime="0" DamageType="0" TraceProbability="0" BrokeTrackProbability="25" TraceSpeedCoeff="0.9"><Specials Size="32"><BitArray><item data="0"/><item data="0"/><item data="0"/><item data="0"/><item data="0"/></BitArray></Specials><InfantryFireSound>bomb</InfantryFireSound>
+<EffectGunFire/>
+<EffectTrajectory>bomb1\1</EffectTrajectory>
+<EffectHitDirect>directhit2</EffectHitDirect>
+<EffectHitMiss>napalm1</EffectHitMiss>
+<EffectHitReflect>napalm2</EffectHitReflect>
+<EffectHitGround>napalm1</EffectHitGround>
+<EffectHitWater>napalm2</EffectHitWater>
+<EffectHitAir/><Craters><item>objects\terraobjects\shell_hole\napbig\01\1</item><item>objects\terraobjects\shell_hole\napbig\02\1</item><item>objects\terraobjects\shell_hole\napbig\03\1</item></Craters><FlashFire Power="100" Duration="1500"/><FlashExplosion Power="500" Duration="1500"/></item></Shells></RPG></base>

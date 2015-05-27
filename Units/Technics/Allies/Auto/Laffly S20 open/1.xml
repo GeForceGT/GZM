@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<base>
+	<History>
+		<PreviousPath>e:\blitzresouce\units\technics\french\transport\laffly s20 open\current.msh</PreviousPath>
+		<PreviousDate>28.10.2007</PreviousDate>
+		<PreviousTime>00:44:40</PreviousTime>
+		<PreviousOwner>tgd</PreviousOwner>
+		<Action>Exported as</Action>
+		<CurrentPath>d:\nival interactive\blitzkrieg\run\mods\MyMod\data\units\technics\french\transport\Laffly S20 open\1.xml</CurrentPath>
+		<CurrentDate>28.10.2007</CurrentDate>
+		<CurrentTime>01:12:00</CurrentTime>
+		<CurrentOwner>tgd</CurrentOwner>
+	</History>
+	<RPG MaxHP="80" RepairCost="1" Sight="30" SightPower="1" Speed="15.5" Passability="-0.01" Priority="1" Camouflage="2" Weight="5300" Price="1" UninstallRotate="0" UninstallTransport="0" RotateSpeed="31" TurnRadius="5" TowingForce="5000" Crew="2" Passangers="10" BoundTileRadius="1" SmallAABBCoeff="1" TowPoint="12" EntrancePoint="3" FatalitySmokePoint="8" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.05" TrackWidth="0.15" TrackStart="0.6" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>Laffly S20 open</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>trn_carrier</Type>
+		<AIClass>wheel</AIClass>
+		<Commands Size="40">
+			<BitArray>
+				<item data="33"/>
+				<item data="3"/>
+				<item data="128"/>
+				<item data="128"/>
+				<item data="129"/>
+				<item data="0"/>
+			</BitArray>
+		</Commands>
+		<Exposures Size="5">
+			<BitArray>
+				<item data="16"/>
+			</BitArray>
+		</Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="562" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/>
+					<item Length="562" Action="0" Index="1" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="1187" Action="0" Index="2" AABB_A="-1" AABB_D="0"/>
+					<item Length="1187" Action="0" Index="3" AABB_A="0" AABB_D="1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As>
+			<item>
+				<Center x="-0.780049" y="0.411453"/>
+				<HalfSize x="19.5802" y="43.8006"/>
+			</item>
+		</AABB_As>
+		<AABB_Ds>
+			<item>
+				<Center x="-0.121058" y="0.82864"/>
+				<HalfSize x="18.6897" y="46.4841"/>
+			</item>
+			<item>
+				<Center x="-0.121058" y="0.82864"/>
+				<HalfSize x="21.4361" y="47.3211"/>
+			</item>
+		</AABB_Ds>
+		<AcksRefs>
+			<item>sounds\ack\Euro\eur_truck</item>
+		</AcksRefs>
+		<AcksRef/>
+		<Platforms>
+			<item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="1" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="10" HorizontalRotationSpeed="4" ModelPart="2" GunCarriageParts="-1" FirstGun="0" NumGuns="1">
+				<Constraint Min="-6.28319" Max="6.28319"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+		</Platforms>
+		<Guns>
+			<item Priority="1" Ammo="4444" Direction="9295" ReloadCost="1" ShootPoint="13" Recoil="0" RecoilLength="0" RecoilTime="50" ModelPart="-1" RecoilShakeTime="500" RecoilShakeAngle="0">
+				<Weapon>7_62mm_browning_m1919a4</Weapon>
+			</item>
+		</Guns>
+		<ArmorLeft Min="1" Max="1"/>
+		<ArmorRight Min="1" Max="1"/>
+		<ArmorTop Min="1" Max="1"/>
+		<ArmorBottom Min="1" Max="1"/>
+		<ArmorFront Min="1" Max="4"/>
+		<ArmorBack Min="1" Max="1"/>
+		<AABBCenter x="-0.177327" y="0.82864"/>
+		<AABBHalfSize x="16.1777" y="43.6689"/>
+		<ExhaustPoints>
+			<item data="11"/>
+		</ExhaustPoints>
+		<DamagePoints>
+			<item data="4"/>
+			<item data="5"/>
+			<item data="6"/>
+			<item data="7"/>
+			<item data="9"/>
+			<item data="10"/>
+		</DamagePoints>
+		<PeoplePoints/>
+		<TowPoint2D x="0" y="-45.2164"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="-24.3236" y="14.5942"/>
+		<PeoplePoints2D/>
+		<AmmoPoint2D x="0" y="0"/>
+		<Gunners>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</Gunners>
+		<EffectDiesel>smokedisel1</EffectDiesel>
+		<EffectSmoke>smokeflame2lit</EffectSmoke>
+		<EffectWheelDust>dustmove2</EffectWheelDust>
+		<EffectShootDust/>
+		<EffectFatality>expfatality2lit</EffectFatality>
+		<EffectEntrenching/>
+		<EffectDisappear>brakedown2</EffectDisappear>
+		<JoggingX Period1="1.5" Period2="0.6" Amp1="0.6" Amp2="0.4" Phase1="0.1" Phase2="2.1"/>
+		<JoggingY Period1="1.1" Period2="0.7" Amp1="0.55" Amp2="0.35" Phase1="1.9" Phase2="0.2"/>
+		<JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<SoundMoveStart>Auto4_start</SoundMoveStart>
+		<SoundMove>Auto4_cycle</SoundMove>
+		<SoundMoveStop>Auto4_stop</SoundMoveStop>
+		<DeathCraters>
+			<item>objects\terraobjects\death_hole\big\01\1</item>
+			<item>objects\terraobjects\death_hole\big\02\1</item>
+			<item>objects\terraobjects\death_hole\big\03\1</item>
+		</DeathCraters>
+	</RPG>
+</base>

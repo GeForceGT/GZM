@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<base>
+	<RPG Dispersion="7" AimingTime="5" AmmoPerBurst="1" RangeMax="150" RangeMin="30" Ceiling="0" DeltaAngle="10" RevealRadius="630">
+		<KeyName>305mm_mortir</KeyName>
+		<StatsType>Weapon</StatsType>
+		<Shells>
+			<item TrajectoryType="3" Piercing="260" PiercingRandom="120" DamagePower="1600" DamageRandom="240" Area="5.96" Area2="25" ProjectileSpeed="45" DetonationPower="5" FireRate="4.2" RelaxTime="60" DamageType="0" TraceProbability="0" BrokeTrackProbability="75" TraceSpeedCoeff="1">
+				<Specials Size="32">
+					<BitArray>
+						<item data="0"/>
+						<item data="0"/>
+						<item data="0"/>
+						<item data="0"/>
+						<item data="0"/>
+					</BitArray>
+				</Specials>
+				<InfantryFireSound/>
+				<EffectGunFire>shootgun300</EffectGunFire>
+				<EffectTrajectory>shellkarl1\1</EffectTrajectory>
+				<EffectHitDirect>expgroundkarl</EffectHitDirect>
+				<EffectHitMiss>misshit1</EffectHitMiss>
+				<EffectHitReflect>reflecthit2</EffectHitReflect>
+				<EffectHitGround>expgroundkarl</EffectHitGround>
+				<EffectHitWater>expwater7</EffectHitWater>
+				<EffectHitAir/>
+				<Craters>
+					<item>objects\terraobjects\shell_hole\grandbig\01\1</item>
+					<item>objects\terraobjects\shell_hole\grandbig\02\1</item>
+					<item>objects\terraobjects\shell_hole\grandbig\03\1</item>
+				</Craters>
+				<FlashFire Power="200" Duration="800"/>
+				<FlashExplosion Power="600" Duration="800"/>
+			</item>
+		</Shells>
+	</RPG>
+</base>

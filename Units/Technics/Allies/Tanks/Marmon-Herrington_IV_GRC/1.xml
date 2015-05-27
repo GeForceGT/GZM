@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<base>
+	<History>
+		<PreviousPath>h:\program files\nival interactive\bk-resource_pack\units\technics\allies\tanks\marmon_herrington_iv\current.msh</PreviousPath>
+		<PreviousDate>16.05.2008</PreviousDate>
+		<PreviousTime>14:44:01</PreviousTime>
+		<PreviousOwner>Administrator</PreviousOwner>
+		<Action>Exported as</Action>
+		<CurrentPath>h:\units\technics\allies\tanks\marmon-herrington_iv\1.xml</CurrentPath>
+		<CurrentDate>16.05.2008</CurrentDate>
+		<CurrentTime>14:44:43</CurrentTime>
+		<CurrentOwner>Administrator</CurrentOwner>
+	</History>
+	<RPG MaxHP="100" RepairCost="1" Sight="45" SightPower="1.25" Speed="19.34" Passability="-0.14" Priority="1" Camouflage="4" Weight="6400" Price="1" UninstallRotate="0" UninstallTransport="0" RotateSpeed="34.3" TurnRadius="4" TowingForce="0" Crew="3" Passangers="0" BoundTileRadius="1" SmallAABBCoeff="0.85" TowPoint="-1" EntrancePoint="5" FatalitySmokePoint="-1" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.04" TrackWidth="0.2" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>Marmon_Herrington_IV</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>arm_light</Type>
+		<AIClass>wheel</AIClass>
+		<Commands Size="51">
+			<BitArray>
+				<item data="47"/>
+				<item data="67"/>
+				<item data="0"/>
+				<item data="0"/>
+				<item data="128"/>
+				<item data="32"/>
+				<item data="4"/>
+			</BitArray>
+		</Commands>
+		<Exposures Size="5">
+			<BitArray>
+				<item data="16"/>
+			</BitArray>
+		</Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="562" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As/>
+		<AABB_Ds/>
+		<AcksRefs>
+			<item>Sounds\Ack\greece\tank</item>
+		</AcksRefs>
+		<AcksRef/>
+		<Platforms>
+			<item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="0" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="0" HorizontalRotationSpeed="5.96" ModelPart="4" GunCarriageParts="-1" FirstGun="0" NumGuns="2">
+				<Constraint Min="-6.28319" Max="6.28319"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+		</Platforms>
+		<Guns>
+			<item Priority="0" Ammo="37" Direction="65535" ReloadCost="220" ShootPoint="8" Recoil="0" RecoilLength="12.5664" RecoilTime="50" ModelPart="4" RecoilShakeTime="400" RecoilShakeAngle="0.0523599">
+				<Weapon>40mm_2pdr_qfg</Weapon>
+			</item>
+			<item Priority="1" Ammo="1750" Direction="65535" ReloadCost="1" ShootPoint="9" Recoil="0" RecoilLength="12.5664" RecoilTime="50" ModelPart="4" RecoilShakeTime="500" RecoilShakeAngle="0">
+				<Weapon>7_62mm_browning_m1919a4</Weapon>
+			</item>
+		</Guns>
+		<ArmorLeft Min="14" Max="17"/>
+		<ArmorRight Min="14" Max="17"/>
+		<ArmorTop Min="12" Max="12"/>
+		<ArmorBottom Min="12" Max="12"/>
+		<ArmorFront Min="12" Max="18"/>
+		<ArmorBack Min="12" Max="17"/>
+		<AABBCenter x="0" y="-7.62939e-006"/>
+		<AABBHalfSize x="18.8212" y="43.2686"/>
+		<ExhaustPoints>
+			<item data="6"/>
+		</ExhaustPoints>
+		<DamagePoints>
+			<item data="7"/>
+		</DamagePoints>
+		<PeoplePoints/>
+		<TowPoint2D x="0" y="0"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="-17.1772" y="-2.8996e-006"/>
+		<PeoplePoints2D/>
+		<AmmoPoint2D x="0" y="0"/>
+		<Gunners>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</Gunners>
+		<EffectDiesel>smokedisel1</EffectDiesel>
+		<EffectSmoke>smokeflame2lit</EffectSmoke>
+		<EffectWheelDust/>
+		<EffectShootDust/>
+		<EffectFatality>expfatality2lit</EffectFatality>
+		<EffectEntrenching/>
+		<EffectDisappear>brakedown1</EffectDisappear>
+		<JoggingX Period1="1.2" Period2="0.5" Amp1="0.8" Amp2="0.5" Phase1="0.1" Phase2="2.3"/>
+		<JoggingY Period1="1" Period2="0.5" Amp1="0.6" Amp2="0.3" Phase1="2.6" Phase2="1"/>
+		<JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<SoundMoveStart>Auto2_start</SoundMoveStart>
+		<SoundMove>Auto5_cycle</SoundMove>
+		<SoundMoveStop>Auto2_stop</SoundMoveStop>
+		<DeathCraters>
+			<item>objects\terraobjects\death_hole\middle\01\1</item>
+			<item>objects\terraobjects\death_hole\middle\02\1</item>
+			<item>objects\terraobjects\death_hole\middle\03\1</item>
+		</DeathCraters>
+	</RPG>
+</base>

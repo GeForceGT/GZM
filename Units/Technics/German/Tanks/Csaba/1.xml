@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<base>
+	<History>
+		<PreviousPath>c:\blitzkrieg\complete\units\technics\german\tanks\scaba\current.msh</PreviousPath>
+		<PreviousDate>15.08.2008</PreviousDate>
+		<PreviousTime>17:57:07</PreviousTime>
+		<PreviousOwner>Admin</PreviousOwner>
+		<Action>Exported as</Action>
+		<CurrentPath>c:\program files\nival interactive\blitzkrieg\mods\mymod\data\units\technics\1.xml</CurrentPath>
+		<CurrentDate>15.08.2008</CurrentDate>
+		<CurrentTime>20:28:36</CurrentTime>
+		<CurrentOwner>Admin</CurrentOwner>
+	</History>
+	<RPG MaxHP="98" RepairCost="1" Sight="48" SightPower="0.8" Speed="16.55" Passability="-0.17" Priority="1" Camouflage="6" Weight="5950" Price="1" UninstallRotate="0" UninstallTransport="0" RotateSpeed="50.8" TurnRadius="5" TowingForce="0" Crew="0" Passangers="1" BoundTileRadius="1" SmallAABBCoeff="0.85" TowPoint="-1" EntrancePoint="9" FatalitySmokePoint="-1" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.05" TrackWidth="0.19" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>Scaba</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>arm_light</Type>
+		<AIClass>wheel</AIClass>
+		<Commands Size="51">
+			<BitArray>
+				<item data="47"/>
+				<item data="67"/>
+				<item data="0"/>
+				<item data="0"/>
+				<item data="128"/>
+				<item data="32"/>
+				<item data="4"/>
+			</BitArray>
+		</Commands>
+		<Exposures Size="5">
+			<BitArray>
+				<item data="16"/>
+			</BitArray>
+		</Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As/>
+		<AABB_Ds/>
+		<AcksRefs>
+			<item>sounds\ack\Hungarian\Tank</item>
+		</AcksRefs>
+		<AcksRef/>
+		<Platforms>
+			<item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="4" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="10" HorizontalRotationSpeed="5.45" ModelPart="5" GunCarriageParts="-1" FirstGun="0" NumGuns="2">
+				<Constraint Min="-6.28319" Max="6.28319"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+		</Platforms>
+		<Guns>
+			<item Priority="0" Ammo="200" Direction="65535" ReloadCost="22" ShootPoint="17" Recoil="1" RecoilLength="0" RecoilTime="50" ModelPart="8" RecoilShakeTime="400" RecoilShakeAngle="0.0523599">
+				<Weapon>20mmSoloturn</Weapon>
+			</item>
+			<item Priority="1" Ammo="3000" Direction="65535" ReloadCost="1" ShootPoint="18" Recoil="0" RecoilLength="0" RecoilTime="50" ModelPart="9" RecoilShakeTime="500" RecoilShakeAngle="0">
+				<Weapon>8mm_gebauer</Weapon>
+			</item>
+		</Guns>
+		<ArmorLeft Min="8" Max="13"/>
+		<ArmorRight Min="8" Max="13"/>
+		<ArmorTop Min="8" Max="10"/>
+		<ArmorBottom Min="8" Max="8"/>
+		<ArmorFront Min="13" Max="19"/>
+		<ArmorBack Min="8" Max="13"/>
+		<AABBCenter x="0.127773" y="1.42705"/>
+		<AABBHalfSize x="16.6067" y="34.043"/>
+		<ExhaustPoints>
+			<item data="14"/>
+			<item data="15"/>
+		</ExhaustPoints>
+		<DamagePoints>
+			<item data="10"/>
+			<item data="11"/>
+		</DamagePoints>
+		<PeoplePoints/>
+		<TowPoint2D x="0" y="0"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="18.0436" y="0.127969"/>
+		<PeoplePoints2D/>
+		<AmmoPoint2D x="0" y="0"/>
+		<Gunners>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</Gunners>
+		<EffectDiesel>smokedisel1</EffectDiesel>
+		<EffectSmoke>smokeflame1lit</EffectSmoke>
+		<EffectWheelDust/>
+		<EffectShootDust/>
+		<EffectFatality>expfatality2min</EffectFatality>
+		<EffectEntrenching/>
+		<EffectDisappear>brakedown1</EffectDisappear>
+		<JoggingX Period1="1.2" Period2="0.5" Amp1="0.8" Amp2="0.5" Phase1="0.1" Phase2="2.3"/>
+		<JoggingY Period1="1" Period2="0.5" Amp1="0.6" Amp2="0.3" Phase1="2.6" Phase2="1"/>
+		<JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<SoundMoveStart>Auto1_start</SoundMoveStart>
+		<SoundMove>Auto5_cycle</SoundMove>
+		<SoundMoveStop>Auto1_stop</SoundMoveStop>
+		<DeathCraters>
+			<item>objects\terraobjects\death_hole\middle\01\1</item>
+			<item>objects\terraobjects\death_hole\middle\02\1</item>
+			<item>objects\terraobjects\death_hole\middle\03\1</item>
+		</DeathCraters>
+	</RPG>
+</base>

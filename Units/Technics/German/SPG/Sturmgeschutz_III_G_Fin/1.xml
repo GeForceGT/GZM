@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<base>
+	<History>
+		<PreviousPath>c:\blitzkrieg\complete\units\technics\german\spg\stug_g_svin\current.msh</PreviousPath>
+		<PreviousDate>26.06.2008</PreviousDate>
+		<PreviousTime>18:45:06</PreviousTime>
+		<PreviousOwner>Admin</PreviousOwner>
+		<Action>Exported as</Action>
+		<CurrentPath>c:\program files\nival interactive\blitzkrieg\mods\mymod\data\units\technics\1.xml</CurrentPath>
+		<CurrentDate>28.06.2008</CurrentDate>
+		<CurrentTime>09:34:36</CurrentTime>
+		<CurrentOwner>Admin</CurrentOwner>
+	</History>
+	<RPG MaxHP="177" RepairCost="4" Sight="42" SightPower="1.2" Speed="10" Passability="0.35" Priority="1" Camouflage="6" Weight="23900" Price="1" UninstallRotate="0" UninstallTransport="0" RotateSpeed="30" TurnRadius="5" TowingForce="0" Crew="4" Passangers="10" BoundTileRadius="1" SmallAABBCoeff="0.7" TowPoint="-1" EntrancePoint="13" FatalitySmokePoint="-1" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0" TrackWidth="0.19" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>Sturmgeshutz III G</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>spg_antitank</Type>
+		<AIClass>track</AIClass>
+		<Commands Size="51">
+			<BitArray>
+				<item data="47"/>
+				<item data="67"/>
+				<item data="0"/>
+				<item data="0"/>
+				<item data="128"/>
+				<item data="32"/>
+				<item data="4"/>
+			</BitArray>
+		</Commands>
+		<Exposures Size="5">
+			<BitArray>
+				<item data="16"/>
+			</BitArray>
+		</Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As/>
+		<AABB_Ds/>
+		<AcksRefs>
+			<item>sounds\ack\Finnish\tank</item>
+		</AcksRefs>
+		<AcksRef/>
+		<Platforms>
+			<item VerticalRotateSpeed="1" HorizontalRotationSpeed="1" ModelPart="1" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="1" HorizontalRotationSpeed="11.5" ModelPart="4" GunCarriageParts="-250" FirstGun="0" NumGuns="1">
+				<Constraint Min="-0.174533" Max="0.174533"/>
+				<ConstraintVertical Min="3.42285e-008" Max="3.42285e-008"/>
+			</item>
+			<item VerticalRotateSpeed="1" HorizontalRotationSpeed="2" ModelPart="5" GunCarriageParts="-1" FirstGun="1" NumGuns="1">
+				<Constraint Min="-6.28319" Max="6.28319"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+		</Platforms>
+		<Guns>
+			<item Priority="0" Ammo="54" Direction="65534" ReloadCost="1235" ShootPoint="18" Recoil="1" RecoilLength="8.10787" RecoilTime="50" ModelPart="9" RecoilShakeTime="400" RecoilShakeAngle="0.0523599">
+				<Weapon>75mm_stuk40_l48</Weapon>
+			</item>
+			<item Priority="1" Ammo="600" Direction="65534" ReloadCost="1" ShootPoint="17" Recoil="0" RecoilLength="0" RecoilTime="50" ModelPart="7" RecoilShakeTime="400" RecoilShakeAngle="0.0523599">
+				<Weapon>mg_34_air</Weapon>
+			</item>
+		</Guns>
+		<ArmorLeft Min="37" Max="40"/><ArmorRight Min="37" Max="40"/><ArmorTop Min="17" Max="19"/><ArmorBottom Min="17" Max="17"/><ArmorFront Min="74" Max="86"/><ArmorBack Min="35" Max="50"/>
+		<AABBCenter x="0.0248594" y="1.36353"/>
+		<AABBHalfSize x="26.9662" y="45.0046"/>
+		<ExhaustPoints>
+			<item data="14"/>
+			<item data="15"/>
+		</ExhaustPoints>
+		<DamagePoints>
+			<item data="10"/>
+			<item data="11"/>
+		</DamagePoints>
+		<PeoplePoints/>
+		<TowPoint2D x="0" y="0"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="-27.1168" y="-0.150649"/>
+		<PeoplePoints2D/>
+		<AmmoPoint2D x="0" y="0"/>
+		<Gunners>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</Gunners>
+		<EffectDiesel>smokedisel1</EffectDiesel>
+		<EffectSmoke>smokeflame3mid</EffectSmoke>
+		<EffectWheelDust>dustmove1</EffectWheelDust>
+		<EffectShootDust></EffectShootDust>
+		<EffectFatality>expfatality3mid</EffectFatality>
+		<EffectEntrenching/>
+		<EffectDisappear>brakedown2</EffectDisappear>
+		<JoggingX Period1="1.2" Period2="0.5" Amp1="0.5" Amp2="0.4" Phase1="0.1" Phase2="2.1"/>
+		<JoggingY Period1="1" Period2="0.6" Amp1="0.3" Amp2="0.2" Phase1="0.3" Phase2="2.4"/>
+		<JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>		<SoundMoveStart>Tank2_custom_start</SoundMoveStart><SoundMove>Tank22_custom_cycle</SoundMove><SoundMoveStop>Tank2_custom_stop</SoundMoveStop><DeathCraters><item>objects\terraobjects\death_hole\big\01\1</item><item>objects\terraobjects\death_hole\big\02\1</item><item>objects\terraobjects\death_hole\big\03\1</item></DeathCraters></RPG></base>

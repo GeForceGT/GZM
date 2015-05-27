@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<base>
+	<History>
+		<PreviousPath>g:\blitzkrieg\complete\units\technics\su_100\current.msh</PreviousPath>
+		<PreviousDate>05.12.2007</PreviousDate>
+		<PreviousTime>14:57:41</PreviousTime>
+		<PreviousOwner>Alex</PreviousOwner>
+		<Action>Exported as</Action>
+		<CurrentPath>g:\blitzkrieg\1\SU_100\1.xml</CurrentPath>
+		<CurrentDate>05.12.2007</CurrentDate>
+		<CurrentTime>15:04:00</CurrentTime>
+		<CurrentOwner>Alex</CurrentOwner>
+	</History>
+	<RPG MaxHP="247" RepairCost="3" Sight="43" SightPower="1.3" Speed="12.5" Passability="0.53" Priority="1" Camouflage="4" Weight="31600" Price="1.02" UninstallRotate="1.4013e-045" UninstallTransport="1.4013e-045" RotateSpeed="46" TurnRadius="5" TowingForce="0" Crew="4" Passangers="10" BoundTileRadius="1" SmallAABBCoeff="0.55" TowPoint="-1" EntrancePoint="8" FatalitySmokePoint="9" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.04" TrackWidth="0.19" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>SU_100</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>spg_antitank</Type>
+		<AIClass>track</AIClass>
+		<Commands Size="51">
+			<BitArray>
+				<item data="47"/>
+				<item data="67"/>
+				<item data="0"/>
+				<item data="0"/>
+				<item data="128"/>
+				<item data="32"/>
+				<item data="4"/>
+			</BitArray>
+		</Commands>
+		<Exposures Size="5">
+			<BitArray>
+				<item data="16"/>
+			</BitArray>
+		</Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="562" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/>
+					<item Length="562" Action="0" Index="1" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="1187" Action="0" Index="2" AABB_A="0" AABB_D="0"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As>
+			<item>
+				<Center x="-0.0565615" y="28.8629"/>
+				<HalfSize x="24.9619" y="77.0597"/>
+			</item>
+		</AABB_As>
+		<AABB_Ds>
+			<item>
+				<Center x="-0.0565615" y="28.8629"/>
+				<HalfSize x="24.9619" y="77.0597"/>
+			</item>
+		</AABB_Ds>
+		<AcksRefs>
+			<item>sounds\ack\allies\cuban_tank</item>
+		</AcksRefs>
+		<AcksRef/>
+		<Platforms>
+			<item VerticalRotateSpeed="0" HorizontalRotationSpeed="12" ModelPart="1" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="0" HorizontalRotationSpeed="12" ModelPart="2" GunCarriageParts="-1" FirstGun="0" NumGuns="1">
+				<Constraint Min="-0.279253" Max="0.279253"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+		</Platforms>
+		<Guns>
+			<item Priority="0" Ammo="34" Direction="65535" ReloadCost="5472" ShootPoint="12" Recoil="1" RecoilLength="12.1618" RecoilTime="50" ModelPart="3" RecoilShakeTime="400" RecoilShakeAngle="0.0123599">
+				<Weapon>100mm_d10c</Weapon>
+			</item>
+		</Guns>
+		<ArmorLeft Min="45" Max="50"/>
+		<ArmorRight Min="45" Max="50"/>
+		<ArmorTop Min="20" Max="20"/>
+		<ArmorBottom Min="20" Max="20"/>
+		<ArmorFront Min="117" Max="133"/>
+		<ArmorBack Min="45" Max="67"/>
+		<AABBCenter x="-0.0565615" y="1.62186"/>
+		<AABBHalfSize x="24.9619" y="49.8186"/>
+		<ExhaustPoints>
+			<item data="10"/>
+			<item data="11"/>
+		</ExhaustPoints>
+		<DamagePoints>
+			<item data="4"/>
+			<item data="5"/>
+			<item data="6"/>
+			<item data="7"/>
+		</DamagePoints>
+		<PeoplePoints/>
+		<TowPoint2D x="0" y="0"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="25.5183" y="-9.81667"/>
+		<PeoplePoints2D/>
+		<AmmoPoint2D x="0" y="0"/>
+		<Gunners>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</Gunners>
+		<EffectDiesel>smokedisel1</EffectDiesel>
+		<EffectSmoke>smokeflame5mid</EffectSmoke>
+		<EffectWheelDust>dustmove1</EffectWheelDust>
+		<EffectShootDust/>
+		<EffectFatality>expfatality3mid</EffectFatality>
+		<EffectEntrenching/>
+		<EffectDisappear>brakedown2</EffectDisappear>
+		<JoggingX Period1="1.8" Period2="0.8" Amp1="0.6" Amp2="0.5" Phase1="0.1" Phase2="2.2"/>
+		<JoggingY Period1="1" Period2="0.4" Amp1="0.4" Amp2="0.3" Phase1="1.9" Phase2="0"/>
+		<JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<SoundMoveStart>Tank6_t34_start</SoundMoveStart>
+		<SoundMove>Tank6_t34_cycle</SoundMove>
+		<SoundMoveStop>Tank6_t34_stop</SoundMoveStop>
+		<DeathCraters>
+			<item>objects\terraobjects\death_hole\verybig\01\1</item>
+			<item>objects\terraobjects\death_hole\verybig\02\1</item>
+			<item>objects\terraobjects\death_hole\verybig\03\1</item>
+		</DeathCraters>
+	</RPG>
+</base>

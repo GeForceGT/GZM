@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<base>
+  <History>
+    <PreviousPath>s:\complete\units\technics\ussr\aviation\il_2m3\current.msh
+    </PreviousPath>
+    <PreviousDate>18.12.2002
+    </PreviousDate>
+    <PreviousTime>14:48:01
+    </PreviousTime>
+    <PreviousOwner>Alexander.Valencia
+    </PreviousOwner>
+    <Action>Exported as
+    </Action>
+    <CurrentPath>s:\versions\current\data\units\technics\ussr\aviation\il_2m3\1.xml
+    </CurrentPath>
+    <CurrentDate>22.01.2003
+    </CurrentDate>
+    <CurrentTime>11:48:21
+    </CurrentTime>
+    <CurrentOwner>elena.Sevostyanova
+    </CurrentOwner>
+  </History>
+  <RPG MaxHP='345' RepairCost='1' Sight='35' SightPower='2' Speed='40.59' Passability='1' Priority='1' Camouflage='0' Weight='1' Price='1' UninstallRotate='0' UninstallTransport='0' RotateSpeed='109.863' TurnRadius='17' TowingForce='0' Crew='2' Passangers='0' BoundTileRadius='1' SmallAABBCoeff='0.6' TowPoint='-1' EntrancePoint='-1' FatalitySmokePoint='-1' ShootDustPoint='-1' LeavesTracks='0' TrackOffset='0.15' TrackWidth='0.15' TrackStart='0.2' TrackEnd='0.2' TrackIntensity='0.7' TrackLifetime='10000' MaxHeight='800' DivingAngle='30' ClimbAngle='35' TiltAngle='28' TiltRatio='2'>
+    <KeyName>Il-2m3
+    </KeyName>
+    <StatsType>Mech
+    </StatsType>
+    <DamagedHPs/>
+    <Defence0 MinArmor='40' MaxArmor='90' Silhouette='0.5'/>
+    <Defence1 MinArmor='40' MaxArmor='90' Silhouette='0.5'/>
+    <Defence2 MinArmor='40' MaxArmor='90' Silhouette='0.5'/>
+    <Defence3 MinArmor='40' MaxArmor='90' Silhouette='0.5'/>
+    <Defence4 MinArmor='40' MaxArmor='90' Silhouette='0.5'/>
+    <Defence5 MinArmor='40' MaxArmor='90' Silhouette='0.5'/>
+    <Type>avia_attack
+    </Type>
+    <AIClass>human
+    </AIClass>
+    <Commands Size='17'>
+      <BitArray>
+        <item data='129'/>
+        <item data='0'/>
+        <item data='1'/>
+      </BitArray>
+    </Commands>
+    <Exposures Size='0'>
+      <BitArray/>
+    </Exposures>
+    <AnimDescs>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data>
+          <item Length='62' Action='0' Index='0' AABB_A='-1' AABB_D='-1'/>
+        </data>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+    </AnimDescs>
+    <AABB_As/>
+    <AABB_Ds/>
+    <AcksRefs>
+      <item>sounds\ack\russian\aviation
+      </item>
+    </AcksRefs>
+    <AcksRef/>
+    <Platforms>
+      <item VerticalRotateSpeed='1' HorizontalRotationSpeed='1' ModelPart='0' GunCarriageParts='-1' FirstGun='0' NumGuns='7'>
+        <Constraint Min='0' Max='0'/>
+        <ConstraintVertical Min='0' Max='0'/>
+      </item>
+      <item VerticalRotateSpeed='8' HorizontalRotationSpeed='12' ModelPart='2' GunCarriageParts='-253' FirstGun='7' NumGuns='1'>
+        <Constraint Min='-6.28319' Max='6.28319'/>
+        <ConstraintVertical Min='-0.123599' Max='0.123599'/>
+      </item>
+    </Platforms>
+    <Guns>
+      <item Priority='1' Ammo='160' Direction='65535' ReloadCost='1' ShootPoint='6' Recoil='0' RecoilLength='0' RecoilTime='50' ModelPart='-1' RecoilShakeTime='400' RecoilShakeAngle='0.0523599'>
+        <Weapon>23mm_vy
+        </Weapon>
+      </item>
+      <item Priority='1' Ammo='160' Direction='65535' ReloadCost='1' ShootPoint='7' Recoil='0' RecoilLength='0' RecoilTime='50' ModelPart='-1' RecoilShakeTime='400' RecoilShakeAngle='0.0523599'>
+        <Weapon>23mm_vy
+        </Weapon></item><item Priority="1" Ammo="96" Direction="32767" ReloadCost="1" ShootPoint="8" Recoil="0" RecoilLength="0" RecoilTime="15" ModelPart="-1" RecoilShakeTime="400" RecoilShakeAngle="0.0523599"><Weapon>Ptab_bomb
+        </Weapon>
+      </item>
+      <item Priority='1' Ammo='200' Direction='32767' ReloadCost='1' ShootPoint='9' Recoil='0' RecoilLength='0' RecoilTime='50' ModelPart='3' RecoilShakeTime='400' RecoilShakeAngle='0.0523599'>
+        <Weapon>12_7mm_ub
+        </Weapon>
+      </item>
+      <item Priority='1' Ammo='2' Direction='65535' ReloadCost='1' ShootPoint='6' Recoil='0' RecoilLength='0' RecoilTime='50' ModelPart='-1' RecoilShakeTime='400' RecoilShakeAngle='0.0523599'>
+        <Weapon>RocketAir_RS_132mm
+        </Weapon>
+      </item>
+      <item Priority='1' Ammo='2' Direction='65535' ReloadCost='1' ShootPoint='7' Recoil='0' RecoilLength='0' RecoilTime='50' ModelPart='-1' RecoilShakeTime='400' RecoilShakeAngle='0.0523599'>
+        <Weapon>RocketAir_RS_132mm
+        </Weapon>
+      </item>
+<item Priority='1' Ammo='750' Direction='65535' ReloadCost='1' ShootPoint='6' Recoil='0' RecoilLength='0' RecoilTime='50' ModelPart='-1' RecoilShakeTime='400' RecoilShakeAngle='0.0523599'>
+        <Weapon>7_62mm_shkas
+        </Weapon>
+      </item>
+<item Priority='1' Ammo='750' Direction='65535' ReloadCost='1' ShootPoint='7' Recoil='0' RecoilLength='0' RecoilTime='50' ModelPart='-1' RecoilShakeTime='400' RecoilShakeAngle='0.0523599'>
+        <Weapon>7_62mm_shkas
+        </Weapon>
+      </item>
+    </Guns>
+    <ArmorLeft Min='3' Max='8'/>
+    <ArmorRight Min='3' Max='8'/>
+    <ArmorTop Min='4' Max='8'/>
+    <ArmorBottom Min='8' Max='22'/>
+    <ArmorFront Min='10' Max='22'/>
+    <ArmorBack Min='2' Max='15'/>
+    <AABBCenter x='0' y='-25.3785'/>
+    <AABBHalfSize x='118.517' y='89.0089'/>
+    <ExhaustPoints/>
+    <DamagePoints>
+      <item data='4'/>
+      <item data='5'/>
+    </DamagePoints>
+    <PeoplePoints/>
+    <TowPoint2D x='0' y='0'/>
+    <HookPoint x='0' y='0'/>
+    <FrontWheel x='0' y='0'/>
+    <BackWheel x='0' y='0'/>
+    <EntrancePoint2D x='0' y='0'/>
+    <PeoplePoints2D/>
+    <AmmoPoint2D x='0' y='0'/>
+    <Gunners>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+    </Gunners>
+    <EffectDiesel/>
+    <EffectSmoke>smokeplane1
+    </EffectSmoke>
+    <EffectWheelDust/>
+    <EffectShootDust/>
+    <EffectFatality>
+    </EffectFatality>
+    <EffectEntrenching/>
+    <EffectDisappear/>
+    <JoggingX Period1='0' Period2='0' Amp1='0' Amp2='0' Phase1='0' Phase2='0'/>
+    <JoggingY Period1='0' Period2='0' Amp1='0' Amp2='0' Phase1='0' Phase2='0'/>
+    <JoggingZ Period1='0' Period2='0' Amp1='0' Amp2='0' Phase1='0' Phase2='0'/>
+    <SoundMoveStart/>
+    <SoundMove>USSR_AM38
+    </SoundMove>
+    <SoundMoveStop/>
+    <DeathCraters/>
+  </RPG>
+</base>

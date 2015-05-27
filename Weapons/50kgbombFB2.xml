@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<base>
+  <History>
+    <PreviousPath>s:\complete\weapons\common\aviation\50kg_bomb\current.wpn
+    </PreviousPath>
+    <PreviousDate>24.12.2002
+    </PreviousDate>
+    <PreviousTime>12:40:36
+    </PreviousTime>
+    <PreviousOwner>Alexander.Valencia
+    </PreviousOwner>
+    <Action>Exported as
+    </Action>
+    <CurrentPath>s:\versions\current\data\weapons\50kgbomb.xml
+    </CurrentPath>
+    <CurrentDate>24.12.2002
+    </CurrentDate>
+    <CurrentTime>12:40:42
+    </CurrentTime>
+    <CurrentOwner>Demon
+    </CurrentOwner>
+  </History>
+  <RPG Dispersion='26' AimingTime='0' AmmoPerBurst='2' RangeMax='200' RangeMin='0' Ceiling='2100' DeltaAngle='360' RevealRadius='0'>
+    <KeyName>50kg Bomb
+    </KeyName>
+    <StatsType>Weapon
+    </StatsType>
+    <Shells>
+      <item TrajectoryType='2' Piercing='55' PiercingRandom='0' DamagePower='155' DamageRandom='50' Area='3' Area2='6' ProjectileSpeed='10' DetonationPower='0' FireRate='300' RelaxTime='0' DamageType='0' TraceProbability='0' TraceSpeedCoeff='0.2'>
+        <Specials Size='32'>
+          <BitArray>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+          </BitArray>
+        </Specials>
+        <InfantryFireSound>bomb
+        </InfantryFireSound>
+        <EffectGunFire/>
+        <EffectTrajectory>bomb1\1
+        </EffectTrajectory>
+        <EffectHitDirect>directhit2
+        </EffectHitDirect>
+        <EffectHitMiss>expbomb3
+        </EffectHitMiss>
+        <EffectHitReflect>expbomb3
+        </EffectHitReflect>
+        <EffectHitGround>expbomb3
+        </EffectHitGround>
+        <EffectHitWater>expwater3
+        </EffectHitWater>
+        <EffectHitAir/>
+        <Craters>
+          <item>objects\terraobjects\shell_hole\big\01\1
+          </item>
+          <item>objects\terraobjects\shell_hole\big\02\1
+          </item>
+          <item>objects\terraobjects\shell_hole\big\03\1
+          </item>
+        </Craters>
+        <FlashFire Power='-1' Duration='0'/>
+        <FlashExplosion Power='300' Duration='550'/>
+      </item>
+    </Shells>
+  </RPG>
+</base>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<base><History><PreviousPath>f:\blitzkrieg1\complete\units\technics\m3a1_mg_new\current.msh</PreviousPath><PreviousDate>22.04.2011</PreviousDate><PreviousTime>22:47:36</PreviousTime><PreviousOwner>Alex_Z</PreviousOwner><Action>Exported as</Action><CurrentPath>f:\blitzkrieg\1\m3a1_mg_NEW\1.xml</CurrentPath><CurrentDate>22.04.2011</CurrentDate><CurrentTime>22:47:58</CurrentTime><CurrentOwner>Alex_Z</CurrentOwner></History><RPG MaxHP="85" RepairCost="1" Sight="48" SightPower="0.85" Speed="17.5" Passability="-0.08" Priority="1" Camouflage="4" Weight="5624" Price="1" UninstallRotate="1.4013e-045" UninstallTransport="1.4013e-045" RotateSpeed="74" TurnRadius="5" TowingForce="4000" Crew="2" Passangers="10" BoundTileRadius="1" SmallAABBCoeff="0.9" TowPoint="19" EntrancePoint="20" FatalitySmokePoint="-1" ShootDustPoint="-1" LeavesTracks="0" TrackOffset="0.04" TrackWidth="0.15" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2"><KeyName>M3A1_MG</KeyName><StatsType>Mech</StatsType><DamagedHPs/><Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/><Type>arm_light</Type><AIClass>wheel</AIClass><Commands Size="51"><BitArray><item data="47"/><item data="67"/><item data="0"/><item data="0"/><item data="128"/><item data="32"/><item data="4"/></BitArray></Commands><Exposures Size="5"><BitArray><item data="16"/></BitArray></Exposures><AnimDescs><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data><item Length="562" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/><item Length="562" Action="0" Index="1" AABB_A="-1" AABB_D="-1"/></data></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item></AnimDescs><AABB_As/><AABB_Ds/><AcksRefs><item>sounds\ack\russian\auto3mgun-wheels</item></AcksRefs><AcksRef></AcksRef><Platforms><item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="2" GunCarriageParts="-1" FirstGun="0" NumGuns="0"><Constraint Min="0" Max="0"/><ConstraintVertical Min="0" Max="0"/></item><item VerticalRotateSpeed="2" HorizontalRotationSpeed="1.5" ModelPart="5" GunCarriageParts="-1" FirstGun="0" NumGuns="1"><Constraint Min="-0.279253" Max="0.785398"/><ConstraintVertical Min="0" Max="0"/></item><item VerticalRotateSpeed="2" HorizontalRotationSpeed="1.5" ModelPart="6" GunCarriageParts="-245" FirstGun="1" NumGuns="1"><Constraint Min="-0.610865" Max="0.698132"/><ConstraintVertical Min="0" Max="0.959931"/></item><item VerticalRotateSpeed="2" HorizontalRotationSpeed="2" ModelPart="7" GunCarriageParts="-243" FirstGun="2" NumGuns="1"><Constraint Min="-0.872665" Max="0.20944"/><ConstraintVertical Min="0" Max="0.785398"/></item></Platforms><Guns><item Priority="1" Ammo="4000" Direction="2001" ReloadCost="1" ShootPoint="21" Recoil="0" RecoilLength="0" RecoilTime="50" ModelPart="10" RecoilShakeTime="500" RecoilShakeAngle="0"><Weapon>7_62mm_browning_m1919a4</Weapon></item><item Priority="1" Ammo="4000" Direction="65535" ReloadCost="1" ShootPoint="22" Recoil="0" RecoilLength="0" RecoilTime="50" ModelPart="-1" RecoilShakeTime="500" RecoilShakeAngle="0"><Weapon>7_62mm_browning_m1919a4_air</Weapon></item><item Priority="1" Ammo="750" Direction="63523" ReloadCost="2" ShootPoint="23" Recoil="0" RecoilLength="1.0821" RecoilTime="50" ModelPart="7" RecoilShakeTime="500" RecoilShakeAngle="0"><Weapon>12_7mm_m2hb_air</Weapon></item></Guns><ArmorLeft Min="6" Max="6"/><ArmorRight Min="6" Max="6"/><ArmorTop Min="5" Max="7"/><ArmorBottom Min="6" Max="6"/><ArmorFront Min="12" Max="14"/><ArmorBack Min="6" Max="6"/><AABBCenter x="0" y="0.000123978"/><AABBHalfSize x="19.3889" y="50.1313"/><ExhaustPoints><item data="15"/></ExhaustPoints><DamagePoints><item data="16"/><item data="17"/><item data="18"/></DamagePoints><PeoplePoints/><TowPoint2D x="0" y="-48.4764"/><HookPoint x="0" y="0"/><FrontWheel x="0" y="0"/><BackWheel x="0" y="0"/><EntrancePoint2D x="0" y="-48.4078"/><PeoplePoints2D/><AmmoPoint2D x="0" y="0"/><Gunners><item><data/></item><item><data/></item><item><data/></item></Gunners><EffectDiesel>smokedisel1
+    </EffectDiesel>
+    <EffectSmoke>smokeflame1mid
+    </EffectSmoke>
+    <EffectWheelDust>
+    </EffectWheelDust>
+    <EffectShootDust/>
+    <EffectFatality>expfatality1mid
+    </EffectFatality>
+    <EffectEntrenching/>
+    <EffectDisappear>brakedown2
+    </EffectDisappear>
+    <JoggingX Period1='1.5' Period2='0.6' Amp1='0.6' Amp2='0.4' Phase1='0.1' Phase2='2.1'/>
+    <JoggingY Period1='1.1' Period2='0.7' Amp1='0.55' Amp2='0.35' Phase1='1.9' Phase2='0.2'/>
+    <JoggingZ Period1='1' Period2='0.3' Amp1='1' Amp2='0.6' Phase1='0' Phase2='2.1'/>
+    <SoundMoveStart>Auto2_start
+    </SoundMoveStart>
+    <SoundMove>Auto5_cycle
+    </SoundMove>
+    <SoundMoveStop>Auto2_stop
+    </SoundMoveStop>
+    <DeathCraters>
+      <item>objects\terraobjects\death_hole\big\01\1
+      </item>
+      <item>objects\terraobjects\death_hole\big\02\1
+      </item>
+      <item>objects\terraobjects\death_hole\big\03\1
+      </item>
+    </DeathCraters>
+  </RPG>
+</base>

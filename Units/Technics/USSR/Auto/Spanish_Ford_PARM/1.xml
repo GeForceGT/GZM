@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<base><History><PreviousPath>d:\b\complete\units\technics\ussr\auto\gaz_aa_parm\current.msh</PreviousPath><PreviousDate>29.09.2004</PreviousDate><PreviousTime>21:33:22</PreviousTime><PreviousOwner>Incognito</PreviousOwner><Action>Exported as</Action><CurrentPath>d:\program files\nival interactive\blitzkrieg\mods\mymod\data\units\technics\ussr\auto\gaz_aa_parm\1.xml</CurrentPath><CurrentDate>29.09.2004</CurrentDate><CurrentTime>21:33:24</CurrentTime><CurrentOwner>Incognito</CurrentOwner></History><RPG MaxHP="80" RepairCost="1" Sight="30" SightPower="1" Speed="17.29" Passability="-0.11" Priority="1" Camouflage="6" Weight="2000" Price="1" UninstallRotate="0" UninstallTransport="0" RotateSpeed="74.5" TurnRadius="5" TowingForce="0" Crew="1" Passangers="0" BoundTileRadius="1" SmallAABBCoeff="1" TowPoint="8" EntrancePoint="9" FatalitySmokePoint="12" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.04" TrackWidth="0.19" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2"><KeyName>GAZ_AA_parm</KeyName><StatsType>Mech</StatsType><DamagedHPs/><Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/><Type>trn_support
+    </Type>
+    <AIClass>wheel
+    </AIClass>
+    <Commands Size='49'>
+      <BitArray>
+        <item data='1'/>
+        <item data='27'/>
+        <item data='0'/>
+        <item data='13'/>
+        <item data='130'/>
+        <item data='128'/>
+        <item data='1'/>
+      </BitArray>
+    </Commands>
+    <Exposures Size='0'>      <BitArray/></Exposures><AnimDescs><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data><item Length="562" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/><item Length="562" Action="0" Index="1" AABB_A="-1" AABB_D="-1"/><item Length="562" Action="0" Index="2" AABB_A="-1" AABB_D="-1"/><item Length="562" Action="0" Index="3" AABB_A="-1" AABB_D="-1"/><item Length="562" Action="0" Index="4" AABB_A="-1" AABB_D="-1"/></data></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data><item Length="1187" Action="0" Index="5" AABB_A="0" AABB_D="0"/><item Length="1187" Action="0" Index="6" AABB_A="1" AABB_D="1"/><item Length="1187" Action="0" Index="7" AABB_A="2" AABB_D="2"/><item Length="1187" Action="0" Index="8" AABB_A="3" AABB_D="3"/></data></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item></AnimDescs><AABB_As><item><Center x="1.36511" y="-2.0913"/><HalfSize x="21.8161" y="45.5824"/></item><item><Center x="-1.13133" y="-2.08363"/><HalfSize x="23.6905" y="46.3347"/></item><item><Center x="0.512416" y="-2.40497"/><HalfSize x="20.6912" y="46.1139"/></item><item><Center x="-1.51276" y="-2.08692"/><HalfSize x="19.7315" y="44.9182"/></item></AABB_As><AABB_Ds><item><Center x="2.70656" y="-2.08692"/><HalfSize x="20.3273" y="44.9182"/></item><item><Center x="-3.37098" y="-2.08692"/><HalfSize x="20.9927" y="44.9182"/></item><item><Center x="0.0867729" y="-2.50519"/><HalfSize x="17.3732" y="45.7919"/></item><item><Center x="0.728765" y="-2.22275"/><HalfSize x="18.2154" y="45.3694"/></item><item><Center x="-1.47776" y="-1.7126"/><HalfSize x="19.4139" y="45.7878"/></item></AABB_Ds><AcksRefs><item>sounds\ack\allies\spanish_truck</item></AcksRefs><AcksRef></AcksRef><Platforms><item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="4" GunCarriageParts="-1" FirstGun="0" NumGuns="0"><Constraint Min="0" Max="0"/><ConstraintVertical Min="0" Max="0"/></item><item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="-1" GunCarriageParts="-1" FirstGun="0" NumGuns="0"><Constraint Min="0" Max="0"/><ConstraintVertical Min="0" Max="0"/></item></Platforms><Guns/><ArmorLeft Min='1' Max='1'/>
+    <ArmorRight Min='1' Max='1'/>
+    <ArmorTop Min='1' Max='1'/>
+    <ArmorBottom Min='1' Max='1'/>
+    <ArmorFront Min='1' Max='3'/>
+    <ArmorBack Min='1' Max='1'/><AABBCenter x="0.0542755" y="-2.14386"/><AABBHalfSize x="16.2132" y="41.9663"/><ExhaustPoints><item data="9"/><item data="8"/></ExhaustPoints><DamagePoints><item data="6"/><item data="7"/><item data="11"/><item data="13"/><item data="14"/></DamagePoints><PeoplePoints/><TowPoint2D x="8.86619e-007" y="-46.268"/><HookPoint x="0" y="0"/><FrontWheel x="0" y="0"/><BackWheel x="0" y="0"/><EntrancePoint2D x="8.86619e-007" y="-46.829"/><PeoplePoints2D/><AmmoPoint2D x="0" y="0"/><Gunners><item><data/></item><item><data/></item><item><data/></item></Gunners><EffectDiesel>smokedisel1
+    </EffectDiesel>
+    <EffectSmoke>smokeflame1mid
+    </EffectSmoke>
+    <EffectWheelDust/>
+    <EffectShootDust/>
+    <EffectFatality>expfatality2mid
+    </EffectFatality>
+    <EffectEntrenching/>
+    <EffectDisappear>brakedown2
+    </EffectDisappear><JoggingX Period1="1.4" Period2="0.6" Amp1="0.6" Amp2="0.5" Phase1="0" Phase2="2.1"/><JoggingY Period1="0.8" Period2="0.3" Amp1="0.6" Amp2="0.4" Phase1="1.9" Phase2="0.2"/><JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/><SoundMoveStart>Auto8_start</SoundMoveStart><SoundMove>Auto1_cycle</SoundMove><SoundMoveStop>Auto8_stop</SoundMoveStop><DeathCraters><item>objects\terraobjects\death_hole\verybig\01\1</item><item>objects\terraobjects\death_hole\verybig\02\1</item><item>objects\terraobjects\death_hole\verybig\03\1</item></DeathCraters></RPG></base>

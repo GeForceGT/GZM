@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<base><History><PreviousPath>g:\blitzkrieg\complete\units\technics\willys_mb_usa_mg\current.msh</PreviousPath><PreviousDate>02.06.2007</PreviousDate><PreviousTime>20:48:38</PreviousTime><PreviousOwner>Alex</PreviousOwner><Action>Exported as</Action><CurrentPath>g:\blitzkrieg\1\willys_mb_usa_mg\1.xml</CurrentPath><CurrentDate>02.06.2007</CurrentDate><CurrentTime>20:48:44</CurrentTime><CurrentOwner>Alex</CurrentOwner></History><RPG MaxHP="90" RepairCost="1" Sight="52" SightPower="0.8" Speed="19.2" Passability="0.14" Priority="1" Camouflage="6" Weight="1500" Price="1" UninstallRotate="1.4013e-045" UninstallTransport="1.4013e-045" RotateSpeed="100" TurnRadius="5" TowingForce="500" Crew="2" Passangers="0" BoundTileRadius="1" SmallAABBCoeff="1" TowPoint="14" EntrancePoint="15" FatalitySmokePoint="1" ShootDustPoint="-1" LeavesTracks="0" TrackOffset="0.04" TrackWidth="0.2" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2"><KeyName>Willys_MB_USA_MG</KeyName><StatsType>Mech</StatsType><DamagedHPs/><Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/><Type>arm_light</Type><AIClass>track</AIClass><Commands Size="51"><BitArray><item data="15"/><item data="67"/><item data="0"/><item data="0"/><item data="128"/><item data="32"/><item data="4"/></BitArray></Commands><Exposures Size="0"><BitArray/></Exposures><AnimDescs><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data><item Length="562" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/><item Length="562" Action="0" Index="1" AABB_A="-1" AABB_D="-1"/></data></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item></AnimDescs><AABB_As/><AABB_Ds/><AcksRefs><item>sounds\ack\allies\auto3mgun-wheels</item></AcksRefs><AcksRef></AcksRef><Platforms><item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="4" GunCarriageParts="-1" FirstGun="0" NumGuns="0"><Constraint Min="0" Max="0"/><ConstraintVertical Min="0" Max="0"/></item><item VerticalRotateSpeed="2" HorizontalRotationSpeed="2" ModelPart="5" GunCarriageParts="-249" FirstGun="0" NumGuns="1"><Constraint Min="-0.872665" Max="0.872665"/><ConstraintVertical Min="-0.0872665" Max="0.785398"/></item></Platforms><Guns><item Priority="1" Ammo="500" Direction="65535" ReloadCost="2" ShootPoint="16" Recoil="0" RecoilLength="0" RecoilTime="50" ModelPart="8" RecoilShakeTime="500" RecoilShakeAngle="0"><Weapon>12_7mm_m2hb_air</Weapon></item></Guns><ArmorLeft Min='1' Max='1'/>
+    <ArmorRight Min='1' Max='1'/>
+    <ArmorTop Min='1' Max='1'/>
+    <ArmorBottom Min='1' Max='1'/>
+    <ArmorFront Min='1' Max='3'/>
+    <ArmorBack Min='1' Max='1'/><AABBCenter x="0" y="-5.57565"/><AABBHalfSize x="15.9035" y="34.4921"/><ExhaustPoints><item data="9"/></ExhaustPoints><DamagePoints><item data="10"/><item data="11"/><item data="12"/><item data="13"/></DamagePoints><PeoplePoints/><TowPoint2D x="0" y="-33.7894"/><HookPoint x="0" y="0"/><FrontWheel x="0" y="0"/><BackWheel x="0" y="0"/><EntrancePoint2D x="15.1057" y="-6.85424"/><PeoplePoints2D/><AmmoPoint2D x="0" y="0"/><Gunners><item><data/></item><item><data/></item><item><data/></item></Gunners><EffectDiesel>smokedisel1</EffectDiesel>
+<EffectSmoke>smokeflame2min</EffectSmoke>
+<EffectWheelDust/>
+<EffectShootDust/>
+<EffectFatality>expfatality2min</EffectFatality>
+<EffectEntrenching/>
+<EffectDisappear>brakedown2</EffectDisappear>
+<JoggingX Period1="1.6" Period2="0.6" Amp1="0.6" Amp2="0.4" Phase1="0.1" Phase2="2.1"/>
+<JoggingY Period1="1" Period2="0.4" Amp1="0.5" Amp2="0.3" Phase1="1.9" Phase2="0.3"/>
+<JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+<SoundMoveStart>Auto1_start</SoundMoveStart>
+<SoundMove>Auto6_cycle</SoundMove>
+<SoundMoveStop>Auto1_stop</SoundMoveStop><DeathCraters>
+<item>objects\terraobjects\death_hole\middle\01\1</item>
+<item>objects\terraobjects\death_hole\middle\02\1</item>
+<item>objects\terraobjects\death_hole\middle\03\1</item>
+</DeathCraters>
+</RPG>
+</base>

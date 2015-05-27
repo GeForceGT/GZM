@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<base>
+  <History>
+    <PreviousPath>d:\toys\blitzkrieg\resourses\complete\weapons\common\light\grenade_at\grenade_at.wpn
+    </PreviousPath>
+    <PreviousDate>22.07.2004
+    </PreviousDate>
+    <PreviousTime>16:17:58
+    </PreviousTime>
+    <PreviousOwner>Max
+    </PreviousOwner>
+    <Action>Exported as
+    </Action>
+    <CurrentPath>d:\cvs\stalingrad\data\weapons\grenade_at.xml
+    </CurrentPath>
+    <CurrentDate>22.07.2004
+    </CurrentDate>
+    <CurrentTime>16:18:05
+    </CurrentTime>
+    <CurrentOwner>Max
+    </CurrentOwner>
+  </History>
+  <RPG Dispersion='3.3' AimingTime='1.1' AmmoPerBurst='1' RangeMax='9' RangeMin='0' Ceiling='0' DeltaAngle='90' RevealRadius='0'>
+    <KeyName>trotil
+    </KeyName>
+    <StatsType>Weapon
+    </StatsType>
+    <Shells>
+      <item TrajectoryType='5' Piercing='200' PiercingRandom='0' DamagePower='20' DamageRandom='45' Area='1' Area2='1.9' ProjectileSpeed='10' DetonationPower='0' BrokeTrackProbability='30' FireRate='10' RelaxTime='12' DamageType='0' TraceProbability='0' TraceSpeedCoeff='0.2'>
+        <Specials Size='32'>
+          <BitArray>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+          </BitArray>
+        </Specials>
+        <InfantryFireSound/>
+        <EffectGunFire/>
+        <EffectTrajectory>grenade
+        </EffectTrajectory>
+        <EffectHitDirect>expground1
+        </EffectHitDirect>
+        <EffectHitMiss>expground1
+        </EffectHitMiss>
+        <EffectHitReflect>expground1
+        </EffectHitReflect>
+        <EffectHitGround>expground2
+        </EffectHitGround>
+        <EffectHitWater>expwater2
+        </EffectHitWater>
+        <EffectHitAir/>
+      </item>
+    </Shells>
+  </RPG>
+</base>

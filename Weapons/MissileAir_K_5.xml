@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<base>
+  <History>
+    <PreviousPath>s:\complete\weapons\German\Light\K_5\current.wpn
+    </PreviousPath>
+    <PreviousDate>01.12.2002
+    </PreviousDate>
+    <PreviousTime>22:27:42
+    </PreviousTime>
+    <PreviousOwner>Alexander.Valencia
+    </PreviousOwner>
+    <Action>Batch exported as
+    </Action>
+    <CurrentPath>s:\versions\current\data\weapons\K_5.xml
+    </CurrentPath>
+    <CurrentDate>01.12.2002
+    </CurrentDate>
+    <CurrentTime>22:29:25
+    </CurrentTime>
+    <CurrentOwner>Alex_Z
+    </CurrentOwner>
+  </History>
+  <RPG Dispersion='0' AimingTime='0' AmmoPerBurst='1' RangeMax='60' RangeMin='4' Ceiling='2100' DeltaAngle='15' RevealRadius='0'>
+    <KeyName>K_5
+    </KeyName>
+    <StatsType>Weapon
+    </StatsType>
+    <Shells>
+      <item TrajectoryType='0' Piercing='32' PiercingRandom='4' DamagePower="422" DamageRandom="190" Area="3.2" Area2="7.1" ProjectileSpeed='140' DetonationPower='0' BrokeTrackProbability='30' FireRate='20' RelaxTime='10' DamageType='0' TraceProbability='0' TraceSpeedCoeff='0.2'>
+        <Specials Size='32'>
+          <BitArray>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+          </BitArray>
+        </Specials>
+        <InfantryFireSound/>
+        <EffectGunFire>shootrocket1A
+        </EffectGunFire>
+        <EffectTrajectory>
+        </EffectTrajectory>
+        <EffectHitDirect>expair5
+        </EffectHitDirect>
+        <EffectHitMiss>misshit1
+        </EffectHitMiss>
+        <EffectHitReflect>reflecthit2
+        </EffectHitReflect>
+        <EffectHitGround>expground4bm
+        </EffectHitGround>
+        <EffectHitWater>expwater5
+        </EffectHitWater>
+        <EffectHitAir/>
+        <Craters>
+          <item>objects\terraobjects\shell_hole\verybig\01\1
+          </item>
+          <item>objects\terraobjects\shell_hole\verybig\02\1
+          </item>
+          <item>objects\terraobjects\shell_hole\verybig\03\1
+          </item>
+        </Craters>
+        <FlashFire Power='100' Duration='500'/>
+        <FlashExplosion Power='450' Duration='750'/>
+      </item>
+    </Shells>
+  </RPG>
+</base>

@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<base>
+	<History>
+		<PreviousPath>i:\blitzkrieg\complete\mayasamples\samplemodels\pavesi\1\current.msh</PreviousPath>
+		<PreviousDate>08.07.2009</PreviousDate>
+		<PreviousTime>21:52:20</PreviousTime>
+		<PreviousOwner>APA</PreviousOwner>
+		<Action>Exported as</Action>
+		<CurrentPath>i:\blitzkrieg\hun\pavesi_animation\1.xml</CurrentPath>
+		<CurrentDate>08.07.2009</CurrentDate>
+		<CurrentTime>21:52:41</CurrentTime>
+		<CurrentOwner>APA</CurrentOwner>
+	</History>
+	<RPG MaxHP="78" RepairCost="3" Sight="36" SightPower="1" Speed="5.5" Passability="-0.06" Priority="1" Camouflage="2" Weight="4600" Price="1" UninstallRotate="0" UninstallTransport="0" RotateSpeed="27.4" TurnRadius="5" TowingForce="4500" Crew="1"
+	     Passangers="6" BoundTileRadius="1" SmallAABBCoeff="1" TowPoint="10" EntrancePoint="9" FatalitySmokePoint="-1" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.05" TrackWidth="0.19" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7"
+	     TrackLifetime="100000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>Pavesi</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>trn_carrier</Type>
+		<AIClass>wheel</AIClass>
+		<Commands Size='40'>
+      <BitArray>
+        <item data='33'/>
+        <item data='3'/>
+        <item data='128'/>
+        <item data='128'/>
+        <item data='129'/>
+        <item data='0'/>
+      </BitArray>
+    </Commands>
+    <Exposures Size='5'>
+      <BitArray>
+        <item data='16'/>
+      </BitArray>
+    </Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="500" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="2437" Action="0" Index="1" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As/>
+		<AABB_Ds/>
+		<AcksRefs>
+			<item>sounds\ack\Italian\Truck</item>
+		</AcksRefs>
+		<AcksRef></AcksRef>
+		<Platforms>
+			<item VerticalRotateSpeed="1" HorizontalRotationSpeed="1" ModelPart="0" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="1" HorizontalRotationSpeed="1" ModelPart="-1" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+		</Platforms>
+		<Guns/>
+		<ArmorLeft Min='1' Max='1'/>
+    <ArmorRight Min='1' Max='1'/>
+    <ArmorTop Min='1' Max='1'/>
+    <ArmorBottom Min='1' Max='1'/>
+    <ArmorFront Min='1' Max='2'/>
+    <ArmorBack Min='1' Max='1'/>
+		<AABBCenter x="0.610656" y="-6.59316"/>
+		<AABBHalfSize x="20.9043" y="36.8108"/>
+		<ExhaustPoints>
+			<item data="8"/>
+			<item data="8"/>
+		</ExhaustPoints>
+		<DamagePoints>
+			<item data="7"/>
+			<item data="7"/>
+		</DamagePoints>
+		<PeoplePoints/>
+		<TowPoint2D x="0" y="-44.3498"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="15.3751" y="-45.5334"/>
+		<PeoplePoints2D/>
+		<AmmoPoint2D x="0" y="0"/>
+		<Gunners>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</Gunners>
+		<EffectDiesel>smokedisel1</EffectDiesel>
+		<EffectSmoke>smokeflame1mid</EffectSmoke>
+		<EffectWheelDust>dustmove1</EffectWheelDust>
+		<EffectShootDust></EffectShootDust>
+		<EffectFatality>expfatality1mid</EffectFatality>
+		<EffectEntrenching></EffectEntrenching>
+		<EffectDisappear>brakedown2</EffectDisappear>
+		<JoggingX Period1="1.4" Period2="0.6" Amp1="0.8" Amp2="0.6" Phase1="0.3" Phase2="2.1"/>
+		<JoggingY Period1="1" Period2="0.4" Amp1="0.6" Amp2="0.4" Phase1="1.9" Phase2="0.2"/>
+		<JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<SoundMoveStart>Auto3_start</SoundMoveStart>
+		<SoundMove>Tank3_custom_cycle</SoundMove>
+		<SoundMoveStop>Auto4_stop</SoundMoveStop>
+		<DeathCraters>
+			<item>objects\terraobjects\death_hole\verybig\01\1</item>
+			<item>objects\terraobjects\death_hole\verybig\02\1</item>
+			<item>objects\terraobjects\death_hole\verybig\03\1</item>
+		</DeathCraters>
+	</RPG>
+</base>

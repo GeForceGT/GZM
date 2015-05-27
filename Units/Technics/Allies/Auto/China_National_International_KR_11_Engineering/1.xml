@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<base>
+<History></History>
+<RPG MaxHP="98" RepairCost="1" Sight="30" SightPower="1" Speed="18" Passability="-0.09" Priority="1" Camouflage="6" Weight="3640" Price="1" 
+UninstallRotate="0" UninstallTransport="0" RotateSpeed="29" TurnRadius="5" TowingForce="4100" Crew="1" Passangers="10" BoundTileRadius="1" 
+SmallAABBCoeff="1" TowPoint="7" EntrancePoint="6" FatalitySmokePoint="-1" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.15" TrackWidth="0.15" 
+TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+<KeyName>China-JF-Truck</KeyName>
+<StatsType>Mech</StatsType>
+<DamagedHPs/>
+<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+<Type>trn_support</Type><AIClass>wheel</AIClass><Commands Size="49"><BitArray><item data="1"/><item data="27"/><item data="0"/><item data="13"/><item data="130"/><item data="128"/><item data="1"/></BitArray></Commands><Exposures Size="0"><BitArray/></Exposures>
+<AnimDescs>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+<item><data/></item>
+</AnimDescs>
+<AABB_As/>
+<AABB_Ds/>
+<AcksRefs><item>sounds\ack\China\chi_truck</item></AcksRefs>
+<AcksRef></AcksRef>
+<Platforms>
+<item VerticalRotateSpeed="1" HorizontalRotationSpeed="1" ModelPart="3" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+<Constraint Min="0" Max="0"/><ConstraintVertical Min="0" Max="0"/></item>
+<item VerticalRotateSpeed="1" HorizontalRotationSpeed="1" ModelPart="-1" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+<Constraint Min="0" Max="0"/><ConstraintVertical Min="0" Max="0"/></item>
+</Platforms>
+<Guns/>
+<ArmorLeft Min='1' Max='1'/>
+    <ArmorRight Min='1' Max='1'/>
+    <ArmorTop Min='1' Max='1'/>
+    <ArmorBottom Min='1' Max='1'/>
+    <ArmorFront Min='1' Max='3'/>
+    <ArmorBack Min='1' Max='1'/>
+<AABBCenter x="0.0154123" y="-2.46717"/>
+<AABBHalfSize x="20.0795" y="57.4708"/>
+<ExhaustPoints><item data="5"/></ExhaustPoints>
+<DamagePoints><item data="4"/></DamagePoints>
+<PeoplePoints/><TowPoint2D x="0" y="-53.0543"/><HookPoint x="0" y="0"/><FrontWheel x="0" y="0"/><BackWheel x="0" y="0"/><EntrancePoint2D x="0" y="-62.5927"/><PeoplePoints2D/><AmmoPoint2D x="0" y="0"/>
+<Gunners><item><data/></item><item><data/></item><item><data/></item></Gunners>
+<EffectDiesel>smokedisel1</EffectDiesel><EffectSmoke>smokeflame5mid</EffectSmoke><EffectWheelDust>dustmove1</EffectWheelDust><EffectShootDust></EffectShootDust><EffectFatality>expfatality3mid</EffectFatality><EffectEntrenching></EffectEntrenching><EffectDisappear>brakedown2</EffectDisappear>
+    <JoggingX Period1='1.6' Period2='0.6' Amp1='0.5' Amp2='0.3' Phase1='0' Phase2='2.1'/>
+    <JoggingY Period1='1' Period2='0.4' Amp1='0.4' Amp2='0.2' Phase1='1.9' Phase2='0.2'/>
+    <JoggingZ Period1='1' Period2='0.3' Amp1='1' Amp2='0.6' Phase1='0' Phase2='2.1'/>
+<SoundMoveStart>Auto3_start</SoundMoveStart>
+<SoundMove>Auto3_cycle</SoundMove>
+<SoundMoveStop>Auto3_stop</SoundMoveStop>
+<DeathCraters></DeathCraters>
+</RPG></base>

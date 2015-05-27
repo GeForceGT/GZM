@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<base>
+	<History>
+		<PreviousPath>d:\adrian\games\blitzkrieg\complete\units\technics\german\artillery\sigg_33_grille\current.msh</PreviousPath>
+		<PreviousDate>18.05.2005</PreviousDate>
+		<PreviousTime>23:37:13</PreviousTime>
+		<PreviousOwner>Moorview Assoc</PreviousOwner>
+		<Action>Exported as</Action>
+		<CurrentPath>d:\adrian\games\blitzkrieg\run\mods\mymod\data\units\technics\german\artillery\sigg_33_grille\1.xml</CurrentPath>
+		<CurrentDate>20.05.2005</CurrentDate>
+		<CurrentTime>22:41:39</CurrentTime>
+		<CurrentOwner>Moorview Assoc</CurrentOwner>
+	</History>
+	<RPG MaxHP="150" RepairCost="2" Sight="40" SightPower="1.3" Speed="8.75" Passability="0.37" Priority="1" Camouflage="4" Weight="11500" Price="1" UninstallRotate="1.4013e-045" UninstallTransport="1.4013e-045" RotateSpeed="30" TurnRadius="5" TowingForce="0" Crew="4" Passangers="0" BoundTileRadius="1" SmallAABBCoeff="0.85" TowPoint="15" EntrancePoint="14" FatalitySmokePoint="1" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.05" TrackWidth="0.19" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>Sigg 33 Pz38(t) "Grille"</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>art_howitzer</Type>
+		<AIClass>track</AIClass>
+		<Commands Size="51">
+			<BitArray>
+				<item data="15"/>
+				<item data="195"/>
+				<item data="1"/>
+				<item data="0"/>
+				<item data="128"/>
+				<item data="32"/>
+				<item data="4"/>
+			</BitArray>
+		</Commands>
+		<Exposures Size="0">
+			<BitArray/>
+		</Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="562" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/>
+					<item Length="562" Action="0" Index="1" AABB_A="-1" AABB_D="-1"/>
+					<item Length="562" Action="0" Index="2" AABB_A="-1" AABB_D="-1"/>
+					<item Length="562" Action="0" Index="3" AABB_A="-1" AABB_D="-1"/>
+					<item Length="562" Action="0" Index="4" AABB_A="-1" AABB_D="-1"/>
+					<item Length="562" Action="0" Index="5" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="1125" Action="0" Index="6" AABB_A="0" AABB_D="0"/>
+					<item Length="1125" Action="0" Index="7" AABB_A="1" AABB_D="1"/>
+					<item Length="1125" Action="0" Index="8" AABB_A="2" AABB_D="2"/>
+					<item Length="1125" Action="0" Index="9" AABB_A="3" AABB_D="3"/>
+					<item Length="1125" Action="0" Index="10" AABB_A="4" AABB_D="4"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As>
+			<item>
+				<Center x="0" y="0.529642"/>
+				<HalfSize x="17.5339" y="38.9657"/>
+			</item>
+			<item>
+				<Center x="0" y="0.529642"/>
+				<HalfSize x="17.5339" y="38.9657"/>
+			</item>
+			<item>
+				<Center x="0" y="0.529642"/>
+				<HalfSize x="17.5339" y="38.9657"/>
+			</item>
+			<item>
+				<Center x="0" y="0.529642"/>
+				<HalfSize x="17.5339" y="38.9657"/>
+			</item>
+			<item>
+				<Center x="0" y="0.529642"/>
+				<HalfSize x="17.5339" y="38.9657"/>
+			</item>
+		</AABB_As>
+		<AABB_Ds>
+			<item>
+				<Center x="0" y="0.529642"/>
+				<HalfSize x="17.5339" y="38.9657"/>
+			</item>
+			<item>
+				<Center x="0" y="0.529642"/>
+				<HalfSize x="17.5339" y="38.9657"/>
+			</item>
+			<item>
+				<Center x="0" y="0.529642"/>
+				<HalfSize x="17.5339" y="38.9657"/>
+			</item>
+			<item>
+				<Center x="0" y="0.529642"/>
+				<HalfSize x="17.5339" y="38.9657"/>
+			</item>
+			<item>
+				<Center x="0" y="0.529642"/>
+				<HalfSize x="17.5339" y="38.9657"/>
+			</item>
+			<item>
+				<Center x="0" y="0.529642"/>
+				<HalfSize x="17.5339" y="38.9657"/>
+			</item>
+		</AABB_Ds>
+		<AcksRefs>
+			<item>sounds\ack\german\artillery1tracks-spg</item>
+		</AcksRefs>
+		<AcksRef/>
+		<Platforms>
+			<item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="-1" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="40" HorizontalRotationSpeed="40" ModelPart="3" GunCarriageParts="-252" FirstGun="0" NumGuns="1">
+				<Constraint Min="-0.0523599" Max="0.0523599"/>
+				<ConstraintVertical Min="0" Max="0.682773"/>
+			</item>
+		</Platforms>
+		<Guns>
+			<item Priority="0" Ammo="15" Direction="65535" ReloadCost="6840" ShootPoint="20" Recoil="1" RecoilLength="13.08082" RecoilTime="75" ModelPart="5" RecoilShakeTime="500" RecoilShakeAngle="0.0523599">
+				<Weapon>15cm_sIG33</Weapon>
+			</item>
+		</Guns>
+		<ArmorLeft Min="15" Max="16"/>
+		<ArmorRight Min="15" Max="16"/>
+		<ArmorTop Min="3" Max="8"/>
+		<ArmorBottom Min="8" Max="8"/>
+		<ArmorFront Min="15" Max="52"/>
+		<ArmorBack Min="15" Max="16"/>
+		<AABBCenter x="0" y="0.529642"/>
+		<AABBHalfSize x="17.5339" y="38.9657"/>
+		<ExhaustPoints>
+			<item data="13"/>
+		</ExhaustPoints>
+		<DamagePoints>
+			<item data="9"/>
+			<item data="10"/>
+			<item data="11"/>
+		</DamagePoints>
+		<PeoplePoints/>
+		<TowPoint2D x="0" y="-36.4627"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="-20.3882" y="-15.378"/>
+		<PeoplePoints2D/>
+		<AmmoPoint2D x="0" y="0"/>
+		<Gunners>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</Gunners>
+		<EffectDiesel>smokedisel1</EffectDiesel>
+		<EffectSmoke>smokeflame1mid</EffectSmoke>
+		<EffectWheelDust>dustmove1</EffectWheelDust>
+		<EffectShootDust>dustshoot</EffectShootDust>
+		<EffectFatality>expfatality2mid</EffectFatality>
+		<EffectEntrenching/>
+		<EffectDisappear>brakedown2</EffectDisappear>
+		<JoggingX Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<JoggingY Period1="0.7" Period2="0.2" Amp1="0.6" Amp2="0.4" Phase1="1.9" Phase2="0"/>
+		<JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<SoundMoveStart>Tank12_custom_start</SoundMoveStart>
+		<SoundMove>Tank12_custom_cycle</SoundMove>
+		<SoundMoveStop>Tank12_custom_stop</SoundMoveStop>
+		<DeathCraters><item>objects\terraobjects\death_hole\big\01\1</item><item>objects\terraobjects\death_hole\big\02\1</item><item>objects\terraobjects\death_hole\big\03\1</item></DeathCraters>
+	</RPG>
+</base>

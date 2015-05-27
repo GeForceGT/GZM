@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<base>
+	<History>
+		<PreviousPath>g:\newunits\busz\1\current.msh</PreviousPath>
+		<PreviousDate>05.05.2010</PreviousDate>
+		<PreviousTime>21:47:28</PreviousTime>
+		<PreviousOwner>NAGY GÁBOR</PreviousOwner>
+		<Action>Exported as</Action>
+		<CurrentPath>g:\newunits\busz\medic2\1.xml</CurrentPath>
+		<CurrentDate>05.05.2010</CurrentDate>
+		<CurrentTime>21:50:48</CurrentTime>
+		<CurrentOwner>NAGY GÁBOR</CurrentOwner>
+	</History>
+	<RPG MaxHP="70" RepairCost="1" Sight="30" SightPower="1" Speed="19.5" Passability="-0.20" Priority="1" Camouflage="4" Weight="3800" Price="1" UninstallRotate="0" UninstallTransport="0" RotateSpeed="45.7" TurnRadius="5" TowingForce="0" Crew="1"
+	     Passangers="0" BoundTileRadius="1" SmallAABBCoeff="1" TowPoint="6" EntrancePoint="5" FatalitySmokePoint="-1" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.15" TrackWidth="0.15" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7"
+	     TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>Medicine</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>trn_medicine
+    </Type>
+    <AIClass>wheel
+    </AIClass>
+    <Commands Size="52"><BitArray><item data="33"/><item data="3"/><item data="0"/><item data="128"/><item data="129"/><item data="8"/><item data="12"/></BitArray></Commands><Exposures Size="5"><BitArray><item data="16"/></BitArray></Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As/>
+		<AABB_Ds/>
+		<AcksRefs>
+			<item>sounds\ack\german\auto1-wheels</item>
+		</AcksRefs>
+		<AcksRef></AcksRef>
+		<Platforms>
+			<item VerticalRotateSpeed="1" HorizontalRotationSpeed="1" ModelPart="0" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="1" HorizontalRotationSpeed="1" ModelPart="-1" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+		</Platforms>
+		<Guns/>
+		<ArmorLeft Min='1' Max='1'/>
+    <ArmorRight Min='1' Max='1'/>
+    <ArmorTop Min='1' Max='1'/>
+    <ArmorBottom Min='1' Max='1'/>
+    <ArmorFront Min='1' Max='3'/>
+    <ArmorBack Min='1' Max='1'/>
+		<AABBCenter x="2.52842" y="0.596239"/>
+		<AABBHalfSize x="19.3027" y="43.762"/>
+		<ExhaustPoints>
+			<item data="4"/>
+		</ExhaustPoints>
+		<DamagePoints>
+			<item data="3"/>
+		</DamagePoints>
+		<PeoplePoints/>
+		<TowPoint2D x="0" y="-41.3308"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="21.0433" y="-44.5654"/>
+		<PeoplePoints2D/>
+		<AmmoPoint2D x="0" y="0"/>
+		<Gunners>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</Gunners>
+		<EffectDiesel>smokedisel1
+    </EffectDiesel>
+    <EffectSmoke>smokeflame1mid
+    </EffectSmoke>
+    <EffectWheelDust/>
+    <EffectShootDust/>
+    <EffectFatality>expfatality2mid
+    </EffectFatality>
+    <EffectEntrenching/>
+    <EffectDisappear>brakedown2
+    </EffectDisappear>
+    <JoggingX Period1='1.4' Period2='0.6' Amp1='0.8' Amp2='0.6' Phase1='0.3' Phase2='2.1'/>
+    <JoggingY Period1='1' Period2='0.4' Amp1='0.6' Amp2='0.4' Phase1='1.9' Phase2='0.2'/>
+    <JoggingZ Period1='1' Period2='0.3' Amp1='1' Amp2='0.6' Phase1='0' Phase2='2.1'/>
+    <SoundMoveStart>Auto2_start
+    </SoundMoveStart>
+    <SoundMove>Auto2_cycle
+    </SoundMove>
+    <SoundMoveStop>Auto2_stop
+    </SoundMoveStop>
+    <DeathCraters>
+      <item>objects\terraobjects\death_hole\verybig\01\1
+      </item>
+      <item>objects\terraobjects\death_hole\verybig\02\1
+      </item>
+      <item>objects\terraobjects\death_hole\verybig\03\1
+      </item>
+    </DeathCraters>
+  </RPG>
+</base>

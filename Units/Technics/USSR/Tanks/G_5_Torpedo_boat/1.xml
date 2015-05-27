@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2007 by Andrei -->
+<base>
+	<History>
+		<PreviousPath>f:\blitzkrieg1\complete\units\technics\g_5_torpedo_boat\current00.msh</PreviousPath>
+		<PreviousDate>06.08.2011</PreviousDate>
+		<PreviousTime>11:36:51</PreviousTime>
+		<PreviousOwner>Alex_Z</PreviousOwner>
+		<Action>Exported as</Action>
+		<CurrentPath>f:\blitzkrieg\1\G_5_Torpedo_boat\1.xml</CurrentPath>
+		<CurrentDate>06.08.2011</CurrentDate>
+		<CurrentTime>11:36:58</CurrentTime>
+		<CurrentOwner>Alex_Z</CurrentOwner>
+	</History>
+	<RPG MaxHP="175" RepairCost="1" Sight="45" SightPower="1.2" Speed="20" Passability="1" Priority="1" Camouflage="0" Weight="16500" Price="1.04" UninstallRotate="1.4013e-045" UninstallTransport="1.4013e-045" RotateSpeed="10" TurnRadius="15" TowingForce="0" Crew="6" Passangers="0" BoundTileRadius="4" SmallAABBCoeff="0.85" TowPoint="-1" EntrancePoint="-1" FatalitySmokePoint="15" ShootDustPoint="-1" LeavesTracks="0" TrackOffset="0.04" TrackWidth="0.15" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>G_5_Torpedo_boat</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>arm_heavy</Type>
+		<AIClass>track</AIClass>
+		<Commands Size="51">
+			<BitArray>
+				<item data="15"/>
+				<item data="131"/>
+				<item data="0"/>
+				<item data="32"/>
+				<item data="128"/>
+				<item data="0"/>
+				<item data="4"/>
+			</BitArray>
+		</Commands>
+		<Exposures Size="0">
+			<BitArray/>
+		</Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="3125" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As>
+			<item>
+				<Center x="-0.303437" y="-1.08299"/>
+				<HalfSize x="29.4312" y="163"/>
+			</item>
+		</AABB_As>
+		<AABB_Ds>
+			<item>
+				<Center x="-0.303437" y="-1.08299"/>
+				<HalfSize x="29.4312" y="163"/>
+			</item>
+		</AABB_Ds>
+		<AcksRefs>
+			<item>sounds\ack\russian\ship1</item>
+		</AcksRefs>
+		<AcksRef/>
+		<Platforms>
+			<item VerticalRotateSpeed="10" HorizontalRotationSpeed="10" ModelPart="0" GunCarriageParts="-1" FirstGun="0" NumGuns="2">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="1.7" HorizontalRotationSpeed="2.3" ModelPart="1" GunCarriageParts="-252" FirstGun="2" NumGuns="1">
+				<Constraint Min="-6.28319" Max="6.28319"/>
+				<ConstraintVertical Min="0" Max="0.785398"/>
+			</item>
+			<item VerticalRotateSpeed="1.7" HorizontalRotationSpeed="2.3" ModelPart="2" GunCarriageParts="-251" FirstGun="3" NumGuns="1">
+				<Constraint Min="-6.28319" Max="6.28319"/>
+				<ConstraintVertical Min="-0.785398" Max="0"/>
+			</item>
+		</Platforms>
+		<Guns>
+			<item Priority="0" Ammo="1" Direction="65515" ReloadCost="10000" ShootPoint="16" Recoil="1" RecoilLength="0" RecoilTime="50" ModelPart="-1" RecoilShakeTime="500" RecoilShakeAngle="0.0123599">
+				<Weapon>torpedo_53_39</Weapon>
+			</item>
+			<item Priority="0" Ammo="1" Direction="65535" ReloadCost="10000" ShootPoint="17" Recoil="1" RecoilLength="0" RecoilTime="50" ModelPart="-1" RecoilShakeTime="500" RecoilShakeAngle="0.0123599">
+				<Weapon>torpedo_53_39</Weapon>
+			</item>
+			<item Priority="1" Ammo="750" Direction="65535" ReloadCost="2" ShootPoint="19" Recoil="0" RecoilLength="0" RecoilTime="50" ModelPart="6" RecoilShakeTime="500" RecoilShakeAngle="0.0123599">
+				<Weapon>12_7mm_dshk</Weapon>
+			</item>
+			<item Priority="1" Ammo="750" Direction="32767" ReloadCost="2" ShootPoint="20" Recoil="0" RecoilLength="0" RecoilTime="50" ModelPart="7" RecoilShakeTime="500" RecoilShakeAngle="0.0123599">
+				<Weapon>12_7mm_dshk</Weapon>
+			</item>
+		</Guns>
+		<ArmorLeft Min="6" Max="8"/>
+		<ArmorRight Min="6" Max="8"/>
+		<ArmorTop Min="6" Max="8"/>
+		<ArmorBottom Min="6" Max="8"/>
+		<ArmorFront Min="6" Max="8"/>
+		<ArmorBack Min="6" Max="8"/>
+		<AABBCenter x="-0.303437" y="-1.08299"/>
+		<AABBHalfSize x="29.4312" y="163"/>
+		<ExhaustPoints>
+			<item data="13"/>
+			<item data="14"/>
+		</ExhaustPoints>
+		<DamagePoints>
+			<item data="8"/>
+			<item data="9"/>
+			<item data="10"/>
+			<item data="11"/>
+			<item data="12"/>
+		</DamagePoints>
+		<PeoplePoints/>
+		<TowPoint2D x="0" y="0"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="0" y="0"/>
+		<PeoplePoints2D/>
+		<AmmoPoint2D x="0" y="0"/>
+		<Gunners>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</Gunners>
+		<EffectDiesel>diselsmokeship1</EffectDiesel>
+		<EffectSmoke>smokeflame1K</EffectSmoke>
+		<EffectWheelDust/>
+		<EffectShootDust/>
+		<EffectFatality>expfatality1K</EffectFatality>
+		<EffectEntrenching/>
+		<EffectDisappear>brakedown2</EffectDisappear>
+		<JoggingX Period1="0" Period2="0" Amp1="0" Amp2="0" Phase1="0" Phase2="0"/>
+		<JoggingY Period1="0" Period2="0" Amp1="0" Amp2="0" Phase1="0" Phase2="0"/>
+		<JoggingZ Period1="0" Period2="0" Amp1="0" Amp2="0" Phase1="0" Phase2="0"/>
+		<SoundMoveStart>Shnelboat_start</SoundMoveStart>
+		<SoundMove>Shnelboat_cycle</SoundMove>
+		<SoundMoveStop>Shnelboat_stop</SoundMoveStop>
+		<DeathCraters/>
+	</RPG>
+</base>

@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<base>
+	
+	<RPG MaxHP="110" RepairCost="1" Sight="30" SightPower="1" Speed="2.4" Passability="1" Priority="1" Camouflage="0" Weight="8740" Price="1.02" UninstallRotate="17.89" UninstallTransport="17.89" RotateSpeed="12.04" TurnRadius="5" TowingForce="0" Crew="4"
+	     Passangers="0" BoundTileRadius="1" SmallAABBCoeff="0.85" TowPoint="7" EntrancePoint="-1" FatalitySmokePoint="-1" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.15" TrackWidth="0.15" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7"
+	     TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>vz32 220mm mortar</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>art_heavy_gun</Type>
+		<AIClass>wheel</AIClass>
+		<Commands Size="46">
+			<BitArray>
+				<item data="6"/>
+				<item data="194"/>
+				<item data="7"/>
+				<item data="0"/>
+				<item data="0"/>
+				<item data="32"/>
+			</BitArray>
+		</Commands>
+		<Exposures Size="32">
+			<BitArray>
+				<item data="2"/>
+				<item data="0"/>
+				<item data="0"/>
+				<item data="128"/>
+				<item data="0"/>
+			</BitArray>
+		</Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="562" Action="0" Index="6" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="3062" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="3062" Action="0" Index="1" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="625" Action="0" Index="2" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="625" Action="0" Index="3" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="1187" Action="0" Index="7" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="625" Action="0" Index="4" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="625" Action="0" Index="5" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As/>
+		<AABB_Ds/>
+		<AcksRefs>
+			<item></item>
+		</AcksRefs>
+		<AcksRef></AcksRef>
+		<Platforms>
+			<item VerticalRotateSpeed="10" HorizontalRotationSpeed="20" ModelPart="0" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="66.63" HorizontalRotationSpeed="45" ModelPart="1" GunCarriageParts="-254" FirstGun="0" NumGuns="1">
+				<Constraint Min="-6.28319" Max="6.28319"/>
+				<ConstraintVertical Min="0" Max="1.0472"/>
+			</item>
+		</Platforms>
+		<Guns>
+			<item Priority="0" Ammo="5" Direction="65535" ReloadCost="23296" ShootPoint="8" Recoil="1" RecoilLength="3.24315" RecoilTime="50" ModelPart="3" RecoilShakeTime="400" RecoilShakeAngle="0.0523599">
+				<Weapon>220mm_mortar_Skoda_Wz32_1932</Weapon>
+			</item>
+		</Guns>
+		<ArmorLeft Min="10" Max="10"/>
+		<ArmorRight Min="10" Max="10"/>
+		<ArmorTop Min="10" Max="10"/>
+		<ArmorBottom Min="10" Max="10"/>
+		<ArmorFront Min="10" Max="10"/>
+		<ArmorBack Min="10" Max="10"/>
+		<AABBCenter x="-0.731758" y="9.09846"/>
+		<AABBHalfSize x="13.625" y="44.3186"/>
+		<ExhaustPoints/>
+		<DamagePoints/>
+		<PeoplePoints>
+			<item data="5"/>
+			<item data="6"/>
+			<item data="7"/>
+		</PeoplePoints>
+		<TowPoint2D x="0" y="-49.9649"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="0" y="0"/>
+		<PeoplePoints2D>
+			<item x="12.4943" y="-17.9544"/>
+			<item x="-0.350183" y="-27.9664"/>
+			<item x="-14.3995" y="-18.9783"/>
+		</PeoplePoints2D>
+		<AmmoPoint2D x="10.4037" y="-35.8295"/>
+		<Gunners>
+			<item>
+				<data>
+					<item x="-14.3995" y="-18.9783"/>
+					<item x="-0.350183" y="-27.9664"/>
+					<item x="12.4943" y="-17.9544"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item x="-8.0513" y="-60.7395"/>
+					<item x="9.27592" y="-55.1628"/>
+					<item x="-6.16936" y="-42.1882"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item x="-29.7384" y="-15.806"/>
+					<item x="5.46488" y="-42.8372"/>
+					<item x="34.7825" y="-16.1227"/>
+				</data>
+			</item>
+		</Gunners>
+		<EffectDiesel></EffectDiesel>
+		<EffectSmoke>smokeflame7Abig</EffectSmoke>
+		<EffectWheelDust></EffectWheelDust>
+		<EffectShootDust>dustshoot</EffectShootDust>
+		<EffectFatality>expfatality7Abig</EffectFatality>
+		<EffectEntrenching></EffectEntrenching>
+		<EffectDisappear></EffectDisappear>
+		<JoggingX Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<JoggingY Period1="0.7" Period2="0.2" Amp1="0.6" Amp2="0.4" Phase1="1.9" Phase2="0"/>
+		<JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<SoundMoveStart></SoundMoveStart>
+		<SoundMove></SoundMove>
+		<SoundMoveStop></SoundMoveStop>
+		<DeathCraters>
+			<item>objects\terraobjects\death_hole\big\01\1</item>
+			<item>objects\terraobjects\death_hole\big\02\1</item>
+			<item>objects\terraobjects\death_hole\big\03\1</item>
+		</DeathCraters>
+	</RPG>
+</base>

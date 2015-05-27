@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2007 by Andrei -->
+<base>
+	<History>
+		<PreviousPath>f:\blitzkrieg1\complete\units\technics\vosper_ii_series_torpedo_boat_gb\current00.msh</PreviousPath>
+		<PreviousDate>01.10.2011</PreviousDate>
+		<PreviousTime>14:53:34</PreviousTime>
+		<PreviousOwner>Alex_Z</PreviousOwner>
+		<Action>Exported as</Action>
+		<CurrentPath>F:\blitzkrieg\1\Vosper_II_series_Torpedo_boat_GB\1.xml</CurrentPath>
+		<CurrentDate>01.10.2011</CurrentDate>
+		<CurrentTime>14:53:44</CurrentTime>
+		<CurrentOwner>Alex_Z</CurrentOwner>
+	</History>
+	<RPG MaxHP="480" RepairCost="1" Sight="68" SightPower="1.2" Speed="18.3" Passability="1" Priority="1" Camouflage="0" Weight="40000" Price="1.04" UninstallRotate="1.4013e-045" UninstallTransport="1.4013e-045" RotateSpeed="16" TurnRadius="15" TowingForce="0" Crew="13" Passangers="0" BoundTileRadius="4" SmallAABBCoeff="0.9" TowPoint="-1" EntrancePoint="-1" FatalitySmokePoint="-1" ShootDustPoint="-1" LeavesTracks="0" TrackOffset="0.02" TrackWidth="0.15" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>Vosper_II_series_Torpedo_boat_GB</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>arm_light</Type>
+		<AIClass>track</AIClass>
+		<Commands Size="51">
+			<BitArray>
+				<item data="15"/>
+				<item data="131"/>
+				<item data="0"/>
+				<item data="32"/>
+				<item data="128"/>
+				<item data="0"/>
+				<item data="4"/>
+			</BitArray>
+		</Commands>
+		<Exposures Size="0">
+			<BitArray/>
+		</Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="3062" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/>
+					<item Length="2437" Action="0" Index="1" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As/>
+		<AABB_Ds/>
+		<AcksRefs>
+			<item>sounds\ack\israel\tank</item>
+		</AcksRefs>
+		<AcksRef/>
+		<Platforms>
+			<item VerticalRotateSpeed="10" HorizontalRotationSpeed="10" ModelPart="0" GunCarriageParts="-1" FirstGun="0" NumGuns="2">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="4.5" HorizontalRotationSpeed="2" ModelPart="4" GunCarriageParts="-248" FirstGun="2" NumGuns="1">
+				<Constraint Min="-2.53073" Max="2.53073"/>
+				<ConstraintVertical Min="0" Max="1.0472"/>
+			</item>
+			<item VerticalRotateSpeed="5" HorizontalRotationSpeed="2.5" ModelPart="3" GunCarriageParts="-250" FirstGun="3" NumGuns="2">
+				<Constraint Min="0.349066" Max="5.93412"/>
+				<ConstraintVertical Min="0" Max="1.0472"/>
+			</item>
+		</Platforms>
+		<Guns>
+			<item Priority="0" Ammo="1" Direction="193" ReloadCost="8200" ShootPoint="14" Recoil="1" RecoilLength="0" RecoilTime="50" ModelPart="-1" RecoilShakeTime="500" RecoilShakeAngle="0.0123599">
+				<Weapon>torpedo_markviii_gb</Weapon>
+			</item>
+			<item Priority="0" Ammo="1" Direction="65166" ReloadCost="8200" ShootPoint="13" Recoil="1" RecoilLength="0" RecoilTime="50" ModelPart="-1" RecoilShakeTime="500" RecoilShakeAngle="0.0123599">
+				<Weapon>torpedo_markviii_gb</Weapon>
+			</item>
+			<item Priority="1" Ammo="480" Direction="65535" ReloadCost="25" ShootPoint="20" Recoil="0" RecoilLength="5.06145" RecoilTime="50" ModelPart="4" RecoilShakeTime="500" RecoilShakeAngle="0.0123599">
+				<Weapon>20mm_oerlikon_crusader</Weapon>
+			</item>
+			<item Priority="1" Ammo="480" Direction="32767" ReloadCost="25" ShootPoint="18" Recoil="0" RecoilLength="5.58505" RecoilTime="50" ModelPart="3" RecoilShakeTime="500" RecoilShakeAngle="0.0123599">
+				<Weapon>20mm_oerlikon_crusader</Weapon>
+			</item>
+			<item Priority="1" Ammo="480" Direction="32767" ReloadCost="25" ShootPoint="19" Recoil="0" RecoilLength="5.58505" RecoilTime="50" ModelPart="3" RecoilShakeTime="500" RecoilShakeAngle="0.0123599">
+				<Weapon>20mm_oerlikon_crusader</Weapon>
+			</item>
+		</Guns>
+		<ArmorLeft Min="8" Max="10"/>
+		<ArmorRight Min="8" Max="10"/>
+		<ArmorTop Min="8" Max="10"/>
+		<ArmorBottom Min="8" Max="10"/>
+		<ArmorFront Min="8" Max="10"/>
+		<ArmorBack Min="8" Max="10"/>
+		<AABBCenter x="-0.303438" y="-9.51997"/>
+		<AABBHalfSize x="45.1161" y="146.766"/>
+		<ExhaustPoints>
+			<item data="15"/>
+			<item data="16"/>
+		</ExhaustPoints>
+		<DamagePoints>
+			<item data="10"/>
+			<item data="11"/>
+			<item data="12"/>
+		</DamagePoints>
+		<PeoplePoints/>
+		<TowPoint2D x="0" y="0"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="0" y="0"/>
+		<PeoplePoints2D/>
+		<AmmoPoint2D x="0" y="0"/>
+		<Gunners>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</Gunners>
+		<EffectDiesel>diselsmokeship1</EffectDiesel>
+		<EffectSmoke>smokeflame3big</EffectSmoke>
+		<EffectWheelDust/>
+		<EffectShootDust/>
+		<EffectFatality>expfatality2big</EffectFatality>
+		<EffectEntrenching/>
+		<EffectDisappear>brakedown2</EffectDisappear>
+		<JoggingX Period1="0" Period2="0" Amp1="0" Amp2="0" Phase1="0" Phase2="0"/>
+		<JoggingY Period1="0" Period2="0" Amp1="0" Amp2="0" Phase1="0" Phase2="0"/>
+		<JoggingZ Period1="0" Period2="0" Amp1="0" Amp2="0" Phase1="0" Phase2="0"/>
+		<SoundMoveStart>Shnelboat_start</SoundMoveStart>
+		<SoundMove>Shnelboat_cycle</SoundMove>
+		<SoundMoveStop>Shnelboat_stop</SoundMoveStop>
+		<DeathCraters/>
+	</RPG>
+</base>

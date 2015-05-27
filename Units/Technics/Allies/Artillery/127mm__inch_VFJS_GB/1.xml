@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<base>
+	<History/>
+	<RPG MaxHP="60" RepairCost="1" Sight="30" SightPower="1" Speed="3" Passability="1" Priority="1" Camouflage="30" Weight="1100" Price="1" UninstallRotate="6.74" UninstallTransport="10.47" RotateSpeed="73.36" TurnRadius="5" TowingForce="0" Crew="4" Passangers="0" BoundTileRadius="1" SmallAABBCoeff="0.85" TowPoint="6" EntrancePoint="-1" FatalitySmokePoint="1" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.04" TrackWidth="0.15" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>140mm_rpu_14</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>art_rocket</Type>
+		<AIClass>wheel</AIClass>
+		<Commands Size="46">
+			<BitArray>
+				<item data="135"/>
+				<item data="3"/>
+				<item data="7"/>
+				<item data="0"/>
+				<item data="0"/>
+				<item data="32"/>
+				
+			</BitArray>
+		</Commands>
+		<Exposures Size="32">
+			<BitArray>
+				<item data="2"/>
+				<item data="0"/>
+				<item data="0"/>
+				<item data="146"/>
+				<item data="0"/>
+			</BitArray>
+		</Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="562" Action="0" Index="4" AABB_A="-1" AABB_D="-1"/>
+					<item Length="562" Action="0" Index="5" AABB_A="-1" AABB_D="-1"/>
+					<item Length="562" Action="0" Index="6" AABB_A="-1" AABB_D="-1"/>
+					<item Length="562" Action="0" Index="7" AABB_A="-1" AABB_D="-1"/>
+					<item Length="562" Action="0" Index="8" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="4937" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="4937" Action="0" Index="1" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="2500" Action="0" Index="2" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="2500" Action="0" Index="3" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="2437" Action="0" Index="9" AABB_A="0" AABB_D="0"/>
+					<item Length="2437" Action="0" Index="10" AABB_A="1" AABB_D="1"/>
+					<item Length="2437" Action="0" Index="11" AABB_A="2" AABB_D="2"/>
+					<item Length="2437" Action="0" Index="12" AABB_A="3" AABB_D="3"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As>
+			<item>
+				<Center x="11.8431" y="4.53639"/>
+				<HalfSize x="12.7337" y="23.1921"/>
+			</item>
+			<item>
+				<Center x="-0.899717" y="1.17165"/>
+				<HalfSize x="27.4047" y="20.282"/>
+			</item>
+			<item>
+				<Center x="1.35562" y="1.11537"/>
+				<HalfSize x="27.7811" y="19.9978"/>
+			</item>
+			<item>
+				<Center x="-6.81817" y="7.14359"/>
+				<HalfSize x="28.6539" y="25.1263"/>
+			</item>
+		</AABB_As>
+		<AABB_Ds>
+			<item>
+				<Center x="-1.46674" y="2.99592"/>
+				<HalfSize x="24.7611" y="21.7657"/>
+			</item>
+			<item>
+				<Center x="-0.85867" y="2.01526"/>
+				<HalfSize x="20.439" y="20.8576"/>
+			</item>
+			<item>
+				<Center x="1.06288" y="0.813519"/>
+				<HalfSize x="22.5582" y="20.7926"/>
+			</item>
+			<item>
+				<Center x="-0.518827" y="2.24313"/>
+				<HalfSize x="20.8901" y="20.7085"/>
+			</item>
+			<item>
+				<Center x="0.314341" y="3.27075"/>
+				<HalfSize x="21.3096" y="21.8049"/>
+			</item>
+		</AABB_Ds>
+		<AcksRefs>
+			<item/>
+		</AcksRefs>
+		<AcksRef/>
+		<Platforms>
+			<item VerticalRotateSpeed="1" HorizontalRotationSpeed="1" ModelPart="0" GunCarriageParts="-1" FirstGun="0" NumGuns="0" RotatePerm="0" VerticalAngle="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="56.13" HorizontalRotationSpeed="38.16" ModelPart="1" GunCarriageParts="-1" FirstGun="0" NumGuns="1" RotatePerm="0" VerticalAngle="0">
+				<Constraint Min="-0.261799" Max="0.261799"/>
+				<ConstraintVertical Min="-0.174533" Max="0.785398"/>
+			</item>
+		</Platforms>
+		<Guns>
+			<item Priority="0" Ammo="30" Direction="65535" ReloadCost="8910" ShootPoint="11" Recoil="0" RecoilLength="0" RecoilTime="50" ModelPart="-1" RecoilShakeTime="400" RecoilShakeAngle="0.0523599">
+				<Weapon>127mm_VFJS</Weapon>
+			</item>
+		</Guns>
+		<ArmorLeft Min="10" Max="10"/>
+		<ArmorRight Min="10" Max="10"/>
+		<ArmorTop Min="10" Max="10"/>
+		<ArmorBottom Min="10" Max="10"/>
+		<ArmorFront Min="10" Max="10"/>
+		<ArmorBack Min="10" Max="10"/>
+		<AABBCenter x="-0.00244331" y="0.847353"/>
+		<AABBHalfSize x="11.2085" y="19.7646"/>
+		<ExhaustPoints/>
+		<DamagePoints>
+		<item data="4"/>
+		</DamagePoints>
+		<PeoplePoints>
+			<item data="6"/>
+			<item data="7"/>
+			<item data="8"/>
+			<item data="9"/>
+		</PeoplePoints>
+		<TowPoint2D x="0" y="-18.8285"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="0" y="0"/>
+		<PeoplePoints2D>
+			<item x="-11.3538" y="8.57169"/>
+			<item x="18.9141" y="-17.4659"/>
+			<item x="12.6153" y="5.2076"/>
+			<item x="-19.9743" y="-14.9769"/>
+		</PeoplePoints2D>
+		<AmmoPoint2D x="2.04312" y="-19.9965"/>
+		<Gunners>
+			<item>
+				<data>
+					<item x="-11.3538" y="8.57169"/>
+					<item x="18.9141" y="-17.4659"/>
+					<item x="12.6153" y="5.2076"/>
+					<item x="-19.9743" y="-14.9769"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item x="-14.3166" y="13.7165"/>
+					<item x="9.13807" y="-10.0111"/>
+					<item x="15.9043" y="13.352"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item x="-14.3166" y="13.7165"/>
+					<item x="-5.83383" y="-17.6246"/>
+					<item x="15.9043" y="13.352"/>
+				</data>
+			</item>
+		</Gunners>
+		<EffectDiesel/>
+		<EffectSmoke>smokeflame1N</EffectSmoke>
+		<EffectWheelDust/>
+		<EffectShootDust></EffectShootDust>
+		<EffectFatality>expfatality1N</EffectFatality>
+		<EffectEntrenching/>
+		<EffectDisappear/>
+		<JoggingX Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<JoggingY Period1="0.7" Period2="0.2" Amp1="0.6" Amp2="0.4" Phase1="1.9" Phase2="0"/>
+		<JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<SoundMoveStart/>
+		<SoundMove/>
+		<SoundMoveStop/>
+		<DeathCraters>
+			<item>objects\terraobjects\death_hole\verylittle\01\1</item>
+			<item>objects\terraobjects\death_hole\verylittle\02\1</item>
+			<item>objects\terraobjects\death_hole\verylittle\03\1</item>
+		</DeathCraters>
+	</RPG>
+</base>

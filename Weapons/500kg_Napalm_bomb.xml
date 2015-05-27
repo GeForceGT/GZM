@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<base>
+<History/>
+	<RPG Dispersion="70" AimingTime="0" AmmoPerBurst="35" RangeMax="200" RangeMin="0" Ceiling="2000" DeltaAngle="360" RevealRadius="0">
+<KeyName>500kg Napalm Bomb</KeyName>
+<StatsType>Weapon</StatsType>
+	<Shells>
+	<item TrajectoryType="2" Piercing="200" PiercingRandom="100" DamagePower="1000" DamageRandom="900" Area="4" Area2="7" ProjectileSpeed="10" DetonationPower="0" FireRate="300" RelaxTime="0" DamageType="0" TraceProbability="0" TraceSpeedCoeff="0.2">
+	<Specials Size="32">
+	<BitArray>
+<item data="0"/>
+<item data="0"/>
+<item data="0"/>
+<item data="0"/>
+<item data="0"/>
+</BitArray>
+</Specials>
+<InfantryFireSound>bomb</InfantryFireSound>
+<EffectGunFire/>
+<EffectTrajectory>bomb4\1</EffectTrajectory>
+<EffectHitDirect>directhit3</EffectHitDirect>
+<EffectHitMiss>napalm1</EffectHitMiss>
+<EffectHitReflect>napalm2</EffectHitReflect>
+<EffectHitGround>napalm1</EffectHitGround>
+<EffectHitWater>napalm2</EffectHitWater>
+<EffectHitAir/>
+	
+	<Craters>
+<item>objects\terraobjects\shell_hole\napbig\01\1</item>
+<item>objects\terraobjects\shell_hole\napbig\02\1</item>
+<item>objects\terraobjects\shell_hole\napbig\03\1</item>
+</Craters>
+<FlashFire Power="-1" Duration="0"/>
+<FlashExplosion Power="500" Duration="1000"/>
+</item>
+</Shells>
+</RPG>
+</base>

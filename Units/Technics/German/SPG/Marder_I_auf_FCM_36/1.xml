@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<base><History><PreviousPath>h:\blitzkrieg\complete\units\technics\marder_i_auf_fcm_36\current.msh</PreviousPath><PreviousDate>06.11.2009</PreviousDate><PreviousTime>20:11:45</PreviousTime><PreviousOwner>Alex_Z</PreviousOwner><Action>Exported as</Action><CurrentPath>h:\blitzkrieg\1\Marder_I_auf_FCM_36\1.xml</CurrentPath><CurrentDate>06.11.2009</CurrentDate><CurrentTime>20:11:52</CurrentTime><CurrentOwner>Alex_Z</CurrentOwner></History><RPG MaxHP="121" RepairCost="4" Sight="38" SightPower="1.25" Speed="5.75" Passability="0.28" Priority="1" Camouflage="4" Weight="12850" Price="1" UninstallRotate="1.4013e-045" UninstallTransport="1.4013e-045" RotateSpeed="14" TurnRadius="5" TowingForce="0" Crew="4" Passangers="0" BoundTileRadius="1" SmallAABBCoeff="0.85" TowPoint="-1" EntrancePoint="14" FatalitySmokePoint="19" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.05" TrackWidth="0.19" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2"><KeyName>Marder_I_auf_FCM_36</KeyName><StatsType>Mech</StatsType><DamagedHPs/><Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/><Type>spg_antitank</Type><AIClass>track</AIClass><Commands Size="51"><BitArray><item data="15"/><item data="67"/><item data="0"/><item data="0"/><item data="128"/><item data="32"/><item data="4"/></BitArray></Commands><Exposures Size="0"><BitArray/></Exposures><AnimDescs><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data><item Length="562" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/><item Length="562" Action="0" Index="1" AABB_A="-1" AABB_D="-1"/></data></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data><item Length="1187" Action="0" Index="2" AABB_A="-1" AABB_D="-1"/></data></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item></AnimDescs><AABB_As><item><Center x="0" y="0.125898"/><HalfSize x="18.4925" y="36.3797"/></item></AABB_As><AABB_Ds><item><Center x="0" y="0.125898"/><HalfSize x="18.4925" y="36.3797"/></item></AABB_Ds><AcksRefs><item>sounds\ack\german\artillery1tracks-spg</item></AcksRefs><AcksRef></AcksRef><Platforms><item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="1" GunCarriageParts="-1" FirstGun="0" NumGuns="0"><Constraint Min="0" Max="0"/><ConstraintVertical Min="0" Max="0"/></item><item VerticalRotateSpeed="0" HorizontalRotationSpeed="8" ModelPart="4" GunCarriageParts="-1" FirstGun="0" NumGuns="1"><Constraint Min="-0.296706" Max="0.296706"/><ConstraintVertical Min="0" Max="0"/></item><item VerticalRotateSpeed="2" HorizontalRotationSpeed="1.7" ModelPart="5" GunCarriageParts="-244" FirstGun="1" NumGuns="1"><Constraint Min="-0.698132" Max="0.523599"/><ConstraintVertical Min="0" Max="0"/></item></Platforms><Guns><item Priority="0" Ammo="48" Direction="65535" ReloadCost="1235" ShootPoint="20" Recoil="1" RecoilLength="6.64846" RecoilTime="50" ModelPart="10" RecoilShakeTime="500" RecoilShakeAngle="0.0523599"><Weapon>75mm_kwk40_l46</Weapon></item><item Priority="1" Ammo="600" Direction="65535" ReloadCost="1" ShootPoint="21" Recoil="0" RecoilLength="0" RecoilTime="50" ModelPart="13" RecoilShakeTime="500" RecoilShakeAngle="0.0523599"><Weapon>mg-42_tanks</Weapon></item></Guns><ArmorLeft Min="21" Max="40"/><ArmorRight Min="21" Max="40"/><ArmorTop Min="6" Max="20"/><ArmorBottom Min="12" Max="12"/><ArmorFront Min="21" Max="43"/><ArmorBack Min="25" Max="40"/><AABBCenter x="0" y="0.125898"/><AABBHalfSize x="18.4925" y="36.3797"/><ExhaustPoints><item data="15"/><item data="16"/></ExhaustPoints><DamagePoints><item data="17"/><item data="18"/></DamagePoints><PeoplePoints/><TowPoint2D x="0" y="0"/><HookPoint x="0" y="0"/><FrontWheel x="0" y="0"/><BackWheel x="0" y="0"/><EntrancePoint2D x="18.547" y="-19.349"/><PeoplePoints2D/><AmmoPoint2D x="0" y="0"/><Gunners><item><data/></item><item><data/></item><item><data/></item></Gunners><EffectDiesel>smokedisel1
+    </EffectDiesel>
+    <EffectSmoke>smokeflame1mid
+    </EffectSmoke>
+    <EffectWheelDust>dustmove1
+    </EffectWheelDust>
+    <EffectShootDust>dustshoot</EffectShootDust>
+    <EffectFatality>expfatality1mid
+    </EffectFatality>
+    <EffectEntrenching/>
+    <EffectDisappear>brakedown1
+    </EffectDisappear>
+    <JoggingX Period1="1.6" Period2="0.8" Amp1="0" Amp2="0.4" Phase1="0" Phase2="2.1"/>
+	<JoggingY Period1="1.3" Period2="0.7" Amp1="0.4" Amp2="0.3" Phase1="1.9" Phase2="0"/>
+	<JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+    <SoundMoveStart>Tank12_custom_start
+    </SoundMoveStart>
+    <SoundMove>Tank20_custom_cycle
+    </SoundMove>
+    <SoundMoveStop>Tank12_custom_stop
+    </SoundMoveStop>
+    <DeathCraters>
+      <item>objects\terraobjects\death_hole\middle\01\1
+      </item>
+      <item>objects\terraobjects\death_hole\middle\02\1
+      </item>
+      <item>objects\terraobjects\death_hole\middle\03\1
+      </item>
+    </DeathCraters>
+  </RPG>
+</base>

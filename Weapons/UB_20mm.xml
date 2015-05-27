@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<base>
+  <History>
+    <PreviousPath>s:\complete\weapons\ussr\aviation\UB_20\current.wpn
+    </PreviousPath>
+    <PreviousDate>24.01.2003
+    </PreviousDate>
+    <PreviousTime>14:42:15
+    </PreviousTime>
+    <PreviousOwner>Alexander.Valencia
+    </PreviousOwner>
+    <Action>Exported as
+    </Action>
+    <CurrentPath>s:\versions\current\data\weapons\UB_20mm.xml
+    </CurrentPath>
+    <CurrentDate>24.01.2003
+    </CurrentDate>
+    <CurrentTime>14:42:16
+    </CurrentTime>
+    <CurrentOwner>Demon
+    </CurrentOwner>
+  </History>
+  <RPG Dispersion='12.5' AimingTime='0' AmmoPerBurst='6' RangeMax='38' RangeMin='10' Ceiling='2100' DeltaAngle='16' RevealRadius='0'>
+    <KeyName>UB_20
+    </KeyName>
+    <StatsType>Weapon
+    </StatsType>
+    <Shells>
+      <item TrajectoryType='0' Piercing='7' PiercingRandom='2' DamagePower='20' DamageRandom='14' Area="0.1" Area2="0.5" ProjectileSpeed='800' DetonationPower='0' BrokeTrackProbability='6' FireRate='650' RelaxTime='0.04' DamageType='0' TraceProbability='0.5' TraceSpeedCoeff='0.7'>
+        <Specials Size='32'>
+          <BitArray>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+          </BitArray>
+        </Specials>
+        <InfantryFireSound/>
+        <EffectGunFire>shootmgavia2\SHVAK_20mm
+        </EffectGunFire>
+        <EffectTrajectory/>
+        <EffectHitDirect>directhitz1\1
+        </EffectHitDirect>
+        <EffectHitMiss>pumc3
+        </EffectHitMiss>
+        <EffectHitReflect>pumc2
+        </EffectHitReflect>
+        <EffectHitGround>expgroundoptimize1
+        </EffectHitGround>
+        <EffectHitWater>expwater1
+        </EffectHitWater>
+        <EffectHitAir>expair3
+        </EffectHitAir>
+        <Craters>
+          <item>objects\terraobjects\shell_hole\verylittle\01\1
+          </item>
+          <item>objects\terraobjects\shell_hole\verylittle\02\1
+          </item>
+          <item>objects\terraobjects\shell_hole\verylittle\03\1
+          </item>
+        </Craters>
+        <FlashFire Power='-1' Duration='0'/>
+        <FlashExplosion Power='-1' Duration='0'/>
+      </item>
+    </Shells>
+  </RPG>
+</base>

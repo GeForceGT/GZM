@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<base><History><PreviousPath>s:\complete\weapons\ussr\artillery\bm_8_48\current.wpn</PreviousPath><PreviousDate>23.12.2002</PreviousDate><PreviousTime>17:15:06</PreviousTime><PreviousOwner>Alexander.Valencia</PreviousOwner><Action>Exported as</Action><CurrentPath>s:\versions\current\data\weapons\bm_8_48.xml</CurrentPath><CurrentDate>23.12.2002</CurrentDate><CurrentTime>17:15:08</CurrentTime><CurrentOwner>Alexander.Valencia</CurrentOwner></History><RPG Dispersion="30" AimingTime="1" AmmoPerBurst="36" RangeMax="110" RangeMin="26" Ceiling="0" DeltaAngle="15" RevealRadius="122.5"><KeyName>BM-8-48</KeyName><StatsType>Weapon</StatsType><Shells><item TrajectoryType="1" Piercing="10" PiercingRandom="5" DamagePower="90" DamageRandom="50" Area="0.9" Area2="2.82" ProjectileSpeed="20" DetonationPower="0" BrokeTrackProbability="25" FireRate="156" RelaxTime="20" DamageType="0" TraceProbability="0" TraceSpeedCoeff="0.2"><Specials Size="32"><BitArray><item data="0"/><item data="0"/><item data="0"/><item data="0"/><item data="0"/></BitArray></Specials><InfantryFireSound></InfantryFireSound><EffectGunFire>shootrocket2K</EffectGunFire><EffectTrajectory>rocket1\1</EffectTrajectory><EffectHitDirect>directhit2</EffectHitDirect><EffectHitMiss>misshit1</EffectHitMiss><EffectHitReflect>reflecthit1</EffectHitReflect><EffectHitGround>expground3bm
+        </EffectHitGround>
+        <EffectHitWater>expwater3
+        </EffectHitWater>
+        <EffectHitAir/>
+        <Craters>
+          <item>objects\terraobjects\shell_hole\middle\01\1
+          </item>
+          <item>objects\terraobjects\shell_hole\middle\02\1
+          </item>
+          <item>objects\terraobjects\shell_hole\middle\03\1
+          </item>
+        </Craters><FlashFire Power="100" Duration="500"/><FlashExplosion Power="300" Duration="700"/></item></Shells></RPG></base>

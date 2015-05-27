@@ -1,0 +1,249 @@
+﻿<?xml version="1.0"?>
+<base>
+	<History>
+		<PreviousPath>i:\blitzkrieg\complete\mayasamples\samplemodels\tüzérség\1931m 15cmtarack\1\current.msh</PreviousPath>
+		<PreviousDate>07.06.2009</PreviousDate>
+		<PreviousTime>21:09:00</PreviousTime>
+		<PreviousOwner>APA</PreviousOwner>
+		<Action>Exported as</Action>
+		<CurrentPath>i:\blitzkrieg\hun\31m15cmhg\1.xml</CurrentPath>
+		<CurrentDate>07.06.2009</CurrentDate>
+		<CurrentTime>21:09:15</CurrentTime>
+		<CurrentOwner>APA</CurrentOwner>
+	</History>
+	<RPG MaxHP="81" RepairCost="1" Sight="30" SightPower="1" Speed="2" Passability="1" Priority="1" Camouflage="15" Weight="4542" Price="1" UninstallRotate="2.21" UninstallTransport="17.58" RotateSpeed="18.3" TurnRadius="5" TowingForce="0" Crew="4"
+	     Passangers="0" BoundTileRadius="1" SmallAABBCoeff="0.85" TowPoint="11" EntrancePoint="-1" FatalitySmokePoint="1" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.05" TrackWidth="0.15" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7"
+	     TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>31M15cmHG</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>art_heavy_gun</Type>
+		<AIClass>wheel</AIClass>
+		<Commands Size="46">
+			<BitArray>
+				<item data="6"/>
+				<item data="195"/>
+				<item data="7"/>
+				<item data="0"/>
+				<item data="0"/>
+				<item data="32"/>
+			</BitArray>
+		</Commands>
+		<Exposures Size="32">
+			<BitArray>
+				<item data="2"/>
+				<item data="0"/>
+				<item data="0"/>
+				<item data="146"/>
+				<item data="0"/>
+			</BitArray>
+		</Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="562" Action="0" Index="6" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="3062" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="3062" Action="0" Index="1" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="625" Action="0" Index="2" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="625" Action="0" Index="3" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="2437" Action="0" Index="7" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="625" Action="0" Index="4" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="625" Action="0" Index="5" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As/>
+		<AABB_Ds/>
+		<AcksRefs>
+			<item></item>
+		</AcksRefs>
+		<AcksRef></AcksRef>
+		<Platforms>
+			<item VerticalRotateSpeed="0" HorizontalRotationSpeed="10" ModelPart="0" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="56.13" HorizontalRotationSpeed="17.3" ModelPart="1" GunCarriageParts="-250" FirstGun="0" NumGuns="1">
+				<Constraint Min="-0.174533" Max="0.174533"/>
+				<ConstraintVertical Min="0" Max="0.698132"/>
+			</item>
+		</Platforms>
+		<Guns>
+			<item Priority="0" Ammo="18" Direction="65535" ReloadCost="2888" ShootPoint="13" Recoil="1" RecoilLength="0" RecoilTime="50" ModelPart="8" RecoilShakeTime="400" RecoilShakeAngle="0.0523599">
+				<Weapon>15cm_sfh_18</Weapon>
+			</item>
+		</Guns>
+		<ArmorLeft Min="10" Max="10"/>
+		<ArmorRight Min="10" Max="10"/>
+		<ArmorTop Min="10" Max="10"/>
+		<ArmorBottom Min="10" Max="10"/>
+		<ArmorFront Min="14" Max="18"/>
+		<ArmorBack Min="10" Max="10"/>
+		<AABBCenter x="1.94206" y="-2.05274"/>
+		<AABBHalfSize x="38.329" y="67.2078"/>
+		<ExhaustPoints/>
+		<DamagePoints>
+		<item data="4"/>
+		</DamagePoints>
+		<PeoplePoints>
+			<item data="9"/>
+			<item data="10"/>
+			<item data="11"/>
+		</PeoplePoints>
+		<TowPoint2D x="0" y="-65.2459"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="0" y="0"/>
+		<PeoplePoints2D>
+			<item x="-8.69439" y="-19.739"/>
+			<item x="0.0186643" y="-38.0935"/>
+			<item x="8.69086" y="-24.4202"/>
+		</PeoplePoints2D>
+		<AmmoPoint2D x="-6.2113" y="-60.0522"/>
+		<Gunners>
+			<item>
+				<data>
+					<item x="-8.69439" y="-19.739"/>
+					<item x="0.0186643" y="-38.0935"/>
+					<item x="8.69086" y="-24.4202"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item x="-14.7803" y="-13.712"/>
+					<item x="20.4368" y="-50.6068"/>
+					<item x="15.4407" y="-15.8028"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item x="-9.06465" y="-21.605"/>
+					<item x="15.2982" y="-42.905"/>
+					<item x="15.4407" y="-21.9694"/>
+				</data>
+			</item>
+		</Gunners>
+		<EffectDiesel></EffectDiesel>
+		<EffectSmoke>smokeflame6Abig</EffectSmoke>
+		<EffectWheelDust></EffectWheelDust>
+		<EffectShootDust>dustshoot</EffectShootDust>
+		<EffectFatality>expfatality6Abig</EffectFatality>
+		<EffectEntrenching></EffectEntrenching>
+		<EffectDisappear></EffectDisappear>
+		<JoggingX Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<JoggingY Period1="0.7" Period2="0.2" Amp1="0.6" Amp2="0.4" Phase1="1.9" Phase2="0"/>
+		<JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<SoundMoveStart></SoundMoveStart>
+		<SoundMove></SoundMove>
+		<SoundMoveStop></SoundMoveStop>
+		<DeathCraters>
+			<item>objects\terraobjects\death_hole\middle\01\1</item>
+			<item>objects\terraobjects\death_hole\middle\02\1</item>
+			<item>objects\terraobjects\death_hole\middle\03\1</item>
+		</DeathCraters>
+	</RPG>
+</base>

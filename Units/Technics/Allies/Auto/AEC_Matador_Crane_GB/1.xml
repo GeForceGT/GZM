@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<base><History><PreviousPath>h:\blitzkrieg\complete\units\technics\aec_matador_crane_gb\current.msh</PreviousPath><PreviousDate>28.10.2008</PreviousDate><PreviousTime>18:19:45</PreviousTime><PreviousOwner>Alex_Z</PreviousOwner><Action>Exported as</Action><CurrentPath>h:\blitzkrieg\1\AEC_Matador_Crane_GB\1.xml</CurrentPath><CurrentDate>28.10.2008</CurrentDate><CurrentTime>18:19:50</CurrentTime><CurrentOwner>Alex_Z</CurrentOwner></History><RPG MaxHP="105" RepairCost="1" Sight="35" SightPower="0.9" Speed="15.84" Passability="-0.2" Priority="1" Camouflage="0" Weight="8250" Price="1" UninstallRotate="0" UninstallTransport="0" RotateSpeed="40" TurnRadius="5" TowingForce="0" Crew="2" Passangers="0" BoundTileRadius="1" SmallAABBCoeff="1" TowPoint="14" EntrancePoint="13" FatalitySmokePoint="9" ShootDustPoint="-1" LeavesTracks="0" TrackOffset="0.04" TrackWidth="0.15" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2"><KeyName>AEC_Matador_Crane_GB</KeyName><StatsType>Mech</StatsType><DamagedHPs/><Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/><Type>trn_support</Type><AIClass>wheel</AIClass><Commands Size="49"><BitArray><item data="1"/><item data="3"/><item data="0"/><item data="13"/><item data="128"/><item data="128"/><item data="1"/></BitArray></Commands><Exposures Size="0"><BitArray/></Exposures><AnimDescs><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data><item Length="562" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/><item Length="562" Action="0" Index="1" AABB_A="-1" AABB_D="-1"/></data></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data><item Length="1187" Action="0" Index="2" AABB_A="0" AABB_D="0"/></data></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item></AnimDescs><AABB_As><item><Center x="0.0230112" y="1.75963"/><HalfSize x="17.9804" y="50.1062"/></item></AABB_As><AABB_Ds><item><Center x="0.0230112" y="1.75963"/><HalfSize x="17.9804" y="50.1062"/></item></AABB_Ds><AcksRefs><item>sounds\ack\allies\auto2-wheels</item></AcksRefs><AcksRef></AcksRef><Platforms><item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="5" GunCarriageParts="-1" FirstGun="0" NumGuns="0"><Constraint Min="0" Max="0"/><ConstraintVertical Min="0" Max="0"/></item><item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="7" GunCarriageParts="-1" FirstGun="0" NumGuns="0"><Constraint Min="0" Max="0"/><ConstraintVertical Min="0" Max="0"/></item></Platforms><Guns/><ArmorLeft Min="1" Max="1"/><ArmorRight Min="1" Max="1"/><ArmorTop Min="1" Max="1"/><ArmorBottom Min="1" Max="1"/><ArmorFront Min="1" Max="3"/><ArmorBack Min="1" Max="1"/><AABBCenter x="0.0230112" y="-1.40588"/><AABBHalfSize x="17.9804" y="53.2717"/><ExhaustPoints><item data="12"/></ExhaustPoints><DamagePoints><item data="10"/><item data="11"/></DamagePoints><PeoplePoints/><TowPoint2D x="0" y="-50.1856"/><HookPoint x="0" y="0"/><FrontWheel x="0" y="0"/><BackWheel x="0" y="0"/><EntrancePoint2D x="19.8288" y="36.8894"/><PeoplePoints2D/><AmmoPoint2D x="0" y="0"/><Gunners><item><data/></item><item><data/></item><item><data/></item></Gunners><EffectDiesel>smokedisel1
+    </EffectDiesel>
+    <EffectSmoke>smokeflame2mid
+    </EffectSmoke>
+    <EffectWheelDust>dustmove1
+    </EffectWheelDust>
+    <EffectShootDust/>
+    <EffectFatality>expfatality2mid
+    </EffectFatality>
+    <EffectEntrenching/>
+    <EffectDisappear>brakedown2
+    </EffectDisappear>
+    <JoggingX Period1='1.6' Period2='0.6' Amp1='0.5' Amp2='0.3' Phase1='0' Phase2='2.1'/>
+    <JoggingY Period1='1.1' Period2='0.3' Amp1='0.6' Amp2='0.2' Phase1='1.9' Phase2='0'/>
+    <JoggingZ Period1='1' Period2='0.3' Amp1='1' Amp2='0.6' Phase1='0' Phase2='2.1'/>
+    <SoundMoveStart>Auto2_start
+    </SoundMoveStart>
+    <SoundMove>Auto2_cycle
+    </SoundMove>
+    <SoundMoveStop>Auto2_stop
+    </SoundMoveStop>
+    <DeathCraters>
+      <item>objects\terraobjects\death_hole\verybig\01\1
+      </item>
+      <item>objects\terraobjects\death_hole\verybig\02\1
+      </item>
+      <item>objects\terraobjects\death_hole\verybig\03\1
+      </item>
+    </DeathCraters>
+  </RPG>
+</base>

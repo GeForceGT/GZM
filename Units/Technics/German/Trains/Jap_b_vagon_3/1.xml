@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<base>
+	<RPG MaxHP="265" RepairCost="3" Sight="35" SightPower="1.5" Speed="15" Passability="1" Priority="1" Camouflage="0" Weight="1" Price="1" UninstallRotate="0" UninstallTransport="0" RotateSpeed="20" TurnRadius="5" TowingForce="0" Crew="8" Passangers="0" BoundTileRadius="1" SmallAABBCoeff="0.85" TowPoint="7" EntrancePoint="6" FatalitySmokePoint="1" ShootDustPoint="-1" LeavesTracks="0" TrackOffset="0.15" TrackWidth="0.15" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+	<KeyName>Jap_armorwagon_3</KeyName><StatsType>Mech</StatsType><DamagedHPs/><Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+	<Type>train_armor</Type><AIClass>track</AIClass><Commands Size="17"><BitArray><item data="47"/><item data="2"/><item data="1"/></BitArray></Commands><Exposures Size="5"><BitArray><item data="16"/></BitArray></Exposures><AnimDescs><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data><item Length="562" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/></data></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item></AnimDescs>
+	<AABB_As/><AABB_Ds/><AcksRefs><item>Sounds\ack\Japanese\tank1</item></AcksRefs><AcksRef></AcksRef>
+	<Platforms>
+		<item VerticalRotateSpeed="1" HorizontalRotationSpeed="60" ModelPart="0" GunCarriageParts="-1" FirstGun="0" NumGuns="0"><Constraint Min="0" Max="0"/><ConstraintVertical Min="0" Max="0"/></item>
+		<item VerticalRotateSpeed="1" HorizontalRotationSpeed="20" ModelPart="1" GunCarriageParts="-1" FirstGun="0" NumGuns="1"><Constraint Min="-6.28319" Max="6.28319"/><ConstraintVertical Min="0" Max="0"/></item>
+	</Platforms>
+	<Guns>
+		<item Priority="0" Ammo="80" Direction="65535" ReloadCost="6480" ShootPoint="7" Recoil="1" RecoilLength="12.5664" RecoilTime="50" ModelPart="2" RecoilShakeTime="0" RecoilShakeAngle="0"><Weapon>155mm_Type4</Weapon></item>
+	</Guns>
+	<ArmorLeft Min="16" Max="16"/>
+	<ArmorRight Min="16" Max="16"/>
+	<ArmorTop Min="16" Max="16"/>
+	<ArmorBottom Min="16" Max="16"/>
+	<ArmorFront Min="16" Max="16"/>
+	<ArmorBack Min="16" Max="16"/>
+	<AABBCenter x="0.00939655" y="0.867691"/>
+	<AABBHalfSize x="20.8553" y="85.3167"/>
+	<ExhaustPoints/><DamagePoints><item data="5"/><item data="6"/></DamagePoints>
+	<PeoplePoints/>
+	<TowPoint2D x="0" y="84.3504"/>
+	<HookPoint x="-0.215208" y="-82.4975"/>
+	<FrontWheel x="0" y="60.1481"/>
+	<BackWheel x="0" y="-60.1481"/>
+	<EntrancePoint2D x="0" y="0"/>
+	<PeoplePoints2D/>
+	<AmmoPoint2D x="0" y="0"/>
+	<Gunners><item><data/></item><item><data/></item><item><data/></item></Gunners>
+	<EffectDiesel></EffectDiesel>
+	<EffectSmoke>smokeflameBV2</EffectSmoke>
+	<EffectWheelDust></EffectWheelDust>
+	<EffectShootDust></EffectShootDust>
+	<EffectFatality>smokeflameBV2</EffectFatality>
+	<EffectEntrenching></EffectEntrenching>
+	<EffectDisappear></EffectDisappear>
+	<JoggingX Period1="0" Period2="0" Amp1="0" Amp2="0" Phase1="0" Phase2="0"/>
+	<JoggingY Period1="0" Period2="0" Amp1="0" Amp2="0" Phase1="0" Phase2="0"/>
+	<JoggingZ Period1="0" Period2="0" Amp1="0" Amp2="0" Phase1="0" Phase2="0"/>
+	<SoundMoveStart></SoundMoveStart>
+	<SoundMove>RailCar_cycle</SoundMove>
+	<SoundMoveStop></SoundMoveStop>
+	<DeathCraters>
+		<item>objects\terraobjects\death_hole\huge\01\1</item>
+		<item>objects\terraobjects\death_hole\huge\02\1</item>
+		<item>objects\terraobjects\death_hole\huge\03\1</item>
+	</DeathCraters>
+</RPG>
+</base>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<base><History><PreviousPath>c:\documents and settings\nathan\desktop\hs_129b_3wa\current.msh</PreviousPath><PreviousDate>9/15/2007</PreviousDate><PreviousTime>8:35:41 PM</PreviousTime><PreviousOwner>Bk-Tools :: Unit Editor [version 1.0.2]</PreviousOwner><Action>Exported as</Action><CurrentPath>c:\documents and settings\nathan\desktop\units\humans\german\sniper\mods\mymod\data\units\technics\..\..\..\..\..\..\..\documents and settings\nathan\desktop\hs_129b_3wa\1.xml</CurrentPath><CurrentDate>9/15/2007</CurrentDate><CurrentTime>8:36:03 PM</CurrentTime><CurrentOwner>Bk-Tools :: Unit Editor [version 1.0.2]</CurrentOwner></History><RPG MaxHP='290' RepairCost='1' Sight='40' SightPower='2' Speed='31.59' Passability='1' Priority='1' Camouflage='0.2' Weight='0' Price='1' UninstallRotate='0' UninstallTransport='0' RotateSpeed='109.863' TurnRadius='21' TowingForce='0' Crew='1' Passangers='0' BoundTileRadius='1' SmallAABBCoeff='0.6' TowPoint='-1' EntrancePoint='-1' FatalitySmokePoint='-1' ShootDustPoint='-1' LeavesTracks='0' TrackOffset='0.15' TrackWidth='0.15' TrackStart='0.2' TrackEnd='0.2' TrackIntensity='0.7' TrackLifetime='10000' MaxHeight='900' DivingAngle='30' ClimbAngle='35' TiltAngle='28' TiltRatio='2'><KeyName>HS_129_30mk</KeyName><StatsType>Mech</StatsType><DamagedHPs/><Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/><Type>avia_attack</Type><AIClass>human</AIClass><Commands Size="64"><BitArray><item data="129"/><item data="0"/><item data="65"/></BitArray></Commands><Exposures Size="0"><BitArray/></Exposures><AnimDescs><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item></AnimDescs><AABB_As/><AABB_Ds/><AcksRefs><item>sounds\ack\german\aviation2</item></AcksRefs><AcksRef></AcksRef><Platforms><item VerticalRotateSpeed="1" HorizontalRotationSpeed="1" ModelPart="-1" GunCarriageParts="-1" FirstGun="0" NumGuns="2"><Constraint Min="0" Max="0"/><ConstraintVertical Min="0" Max="0"/></item><item VerticalRotateSpeed="1" HorizontalRotationSpeed="1" ModelPart="2" GunCarriageParts="-1" FirstGun="2" NumGuns="1"><Constraint Min="0" Max="0"/><ConstraintVertical Min="0" Max="0"/></item></Platforms><Guns><item Priority="1" Direction="65534" ReloadCost="1" ShootPoint="4" Recoil="0" RecoilLength="0" RecoilTime="50" ModelPart="0" RecoilShakeTime="500" RecoilShakeAngle="0" Ammo="125"><Weapon>20mm_mg_151</Weapon></item><item Priority="1" Direction="65534" ReloadCost="1" ShootPoint="3" Recoil="0" RecoilLength="0" RecoilTime="50" ModelPart="0" RecoilShakeTime="500" RecoilShakeAngle="0" Ammo="125"><Weapon>20mm_mg_151</Weapon></item><item Priority="0" Direction="65534" ReloadCost="1" ShootPoint="6" Recoil="0" RecoilLength="0" RecoilTime="50" ModelPart="2" RecoilShakeTime="500" RecoilShakeAngle="0" Ammo="100"><Weapon>30mm_mk_103</Weapon></item></Guns><ArmorLeft Min='4' Max='9'/>
+    <ArmorRight Min='4' Max='9'/>
+    <ArmorTop Min='5' Max='8'/>
+    <ArmorBottom Min='9' Max='14'/>
+    <ArmorFront Min='4' Max='9'/>
+    <ArmorBack Min='2' Max='10'/>
+    <AABBCenter x='0' y='-37.0266'/>
+    <AABBHalfSize x='114.88' y='76.4467'/>
+    <ExhaustPoints/>
+    <DamagePoints>
+      <item data='2'/>
+      <item data='3'/>
+      <item data='4'/>
+      <item data='5'/>
+    </DamagePoints>
+    <PeoplePoints/>
+    <TowPoint2D x='0' y='0'/>
+    <HookPoint x='0' y='0'/>
+    <FrontWheel x='0' y='0'/>
+    <BackWheel x='0' y='0'/>
+    <EntrancePoint2D x='0' y='0'/>
+    <PeoplePoints2D/>
+    <AmmoPoint2D x='0' y='0'/>
+    <Gunners>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+      <item>
+        <data/>
+      </item>
+    </Gunners>
+    <EffectDiesel/>
+    <EffectSmoke>smokeplane2
+    </EffectSmoke>
+    <EffectWheelDust/>
+    <EffectShootDust/>
+    <EffectFatality>
+    </EffectFatality>
+    <EffectEntrenching/>
+    <EffectDisappear/>
+    <JoggingX Period1='0' Period2='0' Amp1='0' Amp2='0' Phase1='0' Phase2='0'/>
+    <JoggingY Period1='0' Period2='0' Amp1='0' Amp2='0' Phase1='0' Phase2='0'/>
+    <JoggingZ Period1='0' Period2='0' Amp1='0' Amp2='0' Phase1='0' Phase2='0'/>
+    <SoundMoveStart/>
+    <SoundMove>Plane20_flying_custom
+    </SoundMove>
+    <SoundMoveStop/>
+    <DeathCraters/>
+  </RPG>
+</base>

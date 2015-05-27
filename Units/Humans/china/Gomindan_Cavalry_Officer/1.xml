@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by dima (df) -->
+<!---->
+<base>
+	<History>
+		<PreviousPath>d:\Модели\Пехота\french_gusar\current.unt</PreviousPath>
+		<PreviousDate>18.11.2003</PreviousDate>
+		<PreviousTime>11:45:54</PreviousTime>
+		<PreviousOwner>Andrei</PreviousOwner>
+		<Action>Exported as</Action>
+		<CurrentPath>d:\Модели\Пехота\french_gusar\export\1.xml</CurrentPath>
+		<CurrentDate>18.11.2003</CurrentDate>
+		<CurrentTime>12:31:28</CurrentTime>
+		<CurrentOwner>Andrei</CurrentOwner>
+	</History>
+	<RPG MaxHP="34" RepairCost="1" Sight="48" SightPower="0.9" Speed="13" Passability="1" Priority="0" Camouflage="35" Weight="1" Price="1" UninstallRotate="0" UninstallTransport="0" Armor="0" CanAttackUp="1" CanAttackDown="1" WalkSpeed="12.5" CrawlSpeed="7">
+		<KeyName>French_gusar</KeyName>
+		<StatsType>Infa</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>soldier</Type>
+		<AIClass>human</AIClass>
+		<Commands Size="51">
+			<BitArray>
+				<item data="15"/>
+				<item data="70"/>
+				<item data="0"/>
+				<item data="0"/>
+				<item data="132"/>
+				<item data="0"/>
+				<item data="4"/>
+			</BitArray>
+		</Commands>
+		<Exposures Size="0">
+			<BitArray/>
+		</Exposures>
+		<AnimDescs>
+			<item>
+				<data>
+					<item Length="1750" Action="0" Index="14" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="0" Action="0" Index="15" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="960" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="880" Action="0" Index="1" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="125" Action="0" Index="2" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="125" Action="0" Index="3" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="0" Action="0" Index="4" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="0" Action="0" Index="8" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="0" Action="0" Index="10" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="875" Action="0" Index="11" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="750" Action="0" Index="12" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="125" Action="0" Index="20" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="125" Action="0" Index="19" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="0" Action="0" Index="23" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="125" Action="0" Index="24" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="0" Action="0" Index="25" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="125" Action="0" Index="5" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="0" Action="0" Index="7" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="125" Action="0" Index="6" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="0" Action="0" Index="17" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="0" Action="0" Index="18" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="0" Action="0" Index="9" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="1125" Action="0" Index="16" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="125" Action="0" Index="13" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="0" Action="0" Index="21" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data>
+					<item Length="0" Action="0" Index="22" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+		</AnimDescs>
+		<AABB_As/>
+		<AABB_Ds/>
+		<AcksRefs>
+			<item>sounds\ack\china\chi_cavalry</item>
+		</AcksRefs>
+		<AcksRef/>
+		<Guns>
+			<item Priority="1" Ammo="160" Direction="0" ReloadCost="1">
+				<Weapon>beretta1938A</Weapon>
+			</item>
+			<item Priority="1" Ammo="3" Direction="0" ReloadCost="100">
+				<Weapon>grenadeBredaM35</Weapon>
+			</item>
+		</Guns>
+	<SoundMoveStart>Horse_cycle
+    </SoundMoveStart>
+    <SoundMove>Horse_cycle
+    </SoundMove>
+    <SoundMoveStop>Horse_cycle
+    </SoundMoveStop>
+    <EffectDiesel/>
+    <EffectSmoke/>
+    <EffectWheelDust/>
+    <EffectShootDust/>
+    <EffectFatality/>
+    <EffectEntrenching/>
+    <EffectDisappear/>
+	</RPG>
+</base>

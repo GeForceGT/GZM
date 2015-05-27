@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<base>
+	<History>
+		<PreviousPath>c:\users\pilar\desktop\junkers g-24\flying\current.msh</PreviousPath>
+		<PreviousDate>30.09.2012</PreviousDate>
+		<PreviousTime>16:29:01</PreviousTime>
+		<PreviousOwner>Pilar</PreviousOwner>
+		<Action>Exported as</Action>
+		<CurrentPath>c:\users\pilar\desktop\data\units\technics\allies\aviation\junkers g24_flying\1.xml</CurrentPath>
+		<CurrentDate>30.09.2012</CurrentDate>
+		<CurrentTime>16:29:22</CurrentTime>
+		<CurrentOwner>Pilar</CurrentOwner>
+	</History>
+	<RPG MaxHP="230" RepairCost="1" Sight="25" SightPower="3" Speed="21" Passability="1" Priority="1" Camouflage="0" Weight="0" Price="1" UninstallRotate="0" UninstallTransport="0" RotateSpeed="20" TurnRadius="24" TowingForce="0" Crew="2" Passangers="0" BoundTileRadius="1" SmallAABBCoeff="0.65" TowPoint="-1" EntrancePoint="-1" FatalitySmokePoint="-1" ShootDustPoint="-1" LeavesTracks="0" TrackOffset="0.15" TrackWidth="0.15" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="1000" DivingAngle="0" ClimbAngle="0" TiltAngle="28" TiltRatio="2">
+		<KeyName>Junkers G-24</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>avia_lander</Type>
+		<AIClass>human</AIClass>
+		<Commands Size="0">
+			<BitArray/>
+		</Commands>
+		<Exposures Size="0">
+			<BitArray/>
+		</Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data>
+					<item Length="62" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/>
+				</data>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As/>
+		<AABB_Ds/>
+		<AcksRefs>
+			<item>sounds\ack\greece\aviation</item>
+		</AcksRefs>
+		<AcksRef/>
+		<Platforms>
+			<item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="-1" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="-1" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+		</Platforms>
+		<Guns/>
+		<ArmorLeft Min="0" Max="0"/>
+		<ArmorRight Min="0" Max="0"/>
+		<ArmorTop Min="0" Max="0"/>
+		<ArmorBottom Min="0" Max="0"/>
+		<ArmorFront Min="0" Max="0"/>
+		<ArmorBack Min="0" Max="0"/>
+		<AABBCenter x="0" y="0"/>
+		<AABBHalfSize x="228.27" y="123.398"/>
+		<ExhaustPoints/>
+		<DamagePoints>
+			<item data="2"/>
+		</DamagePoints>
+		<PeoplePoints/>
+		<TowPoint2D x="0" y="0"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="0" y="0"/>
+		<PeoplePoints2D/>
+		<AmmoPoint2D x="0" y="0"/>
+		<Gunners>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</Gunners>
+		<EffectDiesel/>
+		<EffectSmoke>smokeplane3</EffectSmoke>
+		<EffectWheelDust/>
+		<EffectShootDust/>
+		<EffectFatality/>
+		<EffectEntrenching/>
+		<EffectDisappear/>
+		<JoggingX Period1="0" Period2="0" Amp1="0" Amp2="0" Phase1="0" Phase2="0"/>
+		<JoggingY Period1="0" Period2="0" Amp1="0" Amp2="0" Phase1="0" Phase2="0"/>
+		<JoggingZ Period1="0" Period2="0" Amp1="0" Amp2="0" Phase1="0" Phase2="0"/>
+		<SoundMoveStart/>
+		<SoundMove>Plane7_flying_custom</SoundMove>
+		<SoundMoveStop/>
+		<DeathCraters/>
+	</RPG>
+</base>

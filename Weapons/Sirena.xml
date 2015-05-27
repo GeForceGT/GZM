@@ -1,0 +1,32 @@
+<base>
+<RPG Dispersion="5" AimingTime="0" AmmoPerBurst="1" RangeMax="20" RangeMin="0" Ceiling="1400" DeltaAngle="360" RevealRadius="0">
+<KeyName>Sirena</KeyName>
+<StatsType>Weapon</StatsType>
+<Shells>
+<item TrajectoryType="2" Piercing="80" PiercingRandom="10" DamagePower="0" DamageRandom="0" Area="0" Area2="0" ProjectileSpeed="0" DetonationPower="0" BrokeTrackProbability="0" FireRate="60" RelaxTime="8" DamageType="0" TraceProbability="0" TraceSpeedCoeff="1">
+<Specials Size="32">
+<BitArray>
+<item data="0"/>
+<item data="0"/>
+<item data="0"/>
+<item data="0"/>
+<item data="0"/>
+</BitArray>
+</Specials>
+<InfantryFireSound></InfantryFireSound>
+<EffectGunFire>Siren</EffectGunFire>
+<EffectTrajectory></EffectTrajectory>
+<EffectHitDirect></EffectHitDirect>
+<EffectHitMiss></EffectHitMiss>
+<EffectHitReflect></EffectHitReflect>
+<EffectHitGround></EffectHitGround>
+<EffectHitWater></EffectHitWater>
+<EffectHitAir></EffectHitAir>
+<Craters>
+</Craters>
+<FlashFire Power="-1" Duration="-1"/>
+<FlashExplosion Power="-1" Duration="-1"/>
+</item>
+</Shells>
+</RPG>
+</base>

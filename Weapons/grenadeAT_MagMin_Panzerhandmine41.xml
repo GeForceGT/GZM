@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<base><History><PreviousPath>s:\complete\weapons\common\light\grenade_at\grenade_at.wpn</PreviousPath><PreviousDate>21.07.2002</PreviousDate><PreviousTime>15:48:29</PreviousTime><PreviousOwner>Alexander.Valencia</PreviousOwner><Action>Exported as</Action><CurrentPath>c:\a7\data\weapons\grenade_at.xml</CurrentPath><CurrentDate>21.07.2002</CurrentDate><CurrentTime>15:48:28</CurrentTime><CurrentOwner>Alexander.Valencia</CurrentOwner></History><RPG Dispersion="0.3" AimingTime="1" AmmoPerBurst="1" RangeMax="4" RangeMin="0" Ceiling="0" DeltaAngle="360" RevealRadius="0">
+<KeyName>AT Grenade</KeyName>
+<StatsType>Weapon</StatsType>
+<Shells>
+<item TrajectoryType="0" Piercing="200" PiercingRandom="0" DamagePower="85" DamageRandom="45" Area="1.0" Area2="1.4" ProjectileSpeed="8" DetonationPower="0" BrokeTrackProbability="25" FireRate="10" RelaxTime="8" DamageType="0" TraceProbability="0" TraceSpeedCoeff="1">
+<Specials Size="32">
+<BitArray>
+<item data="0"/>
+<item data="0"/>
+<item data="0"/>
+<item data="0"/>
+<item data="0"/>
+</BitArray>
+</Specials><InfantryFireSound></InfantryFireSound><EffectGunFire></EffectGunFire><EffectTrajectory>grenade</EffectTrajectory><EffectHitDirect>expground1</EffectHitDirect><EffectHitMiss>expground1</EffectHitMiss><EffectHitReflect>expground1</EffectHitReflect><EffectHitGround>expground1</EffectHitGround><EffectHitWater>expwater1</EffectHitWater><EffectHitAir></EffectHitAir><Craters/><FlashFire Power="-1" Duration="0"/><FlashExplosion Power="-1" Duration="0"/></item></Shells></RPG></base>

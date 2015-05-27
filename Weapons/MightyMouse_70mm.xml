@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<base>
+  <History>
+    <PreviousPath>s:\complete\weapons\German\Light\RS_82\current.wpn
+    </PreviousPath>
+    <PreviousDate>01.12.2002
+    </PreviousDate>
+    <PreviousTime>22:27:42
+    </PreviousTime>
+    <PreviousOwner>Alexander.Valencia
+    </PreviousOwner>
+    <Action>Batch exported as
+    </Action>
+    <CurrentPath>s:\versions\current\data\weapons\RS_82.xml
+    </CurrentPath>
+    <CurrentDate>01.12.2002
+    </CurrentDate>
+    <CurrentTime>22:29:25
+    </CurrentTime>
+    <CurrentOwner>Alex_Z
+    </CurrentOwner>
+  </History>
+  <RPG Dispersion='7' AimingTime='0' AmmoPerBurst='24' RangeMax='50' RangeMin='4' Ceiling='2100' DeltaAngle='15' RevealRadius='0'>
+    <KeyName>RS_82mm
+    </KeyName>
+    <StatsType>Weapon
+    </StatsType>
+    <Shells>
+      <item TrajectoryType='4' Piercing='24' PiercingRandom='4' DamagePower='84' DamageRandom='57' Area='0.80' Area2='2.40' ProjectileSpeed='90' DetonationPower='0' BrokeTrackProbability='15' FireRate='1800' RelaxTime='3' DamageType='0' TraceProbability='0' TraceSpeedCoeff='0.2'>
+        <Specials Size='32'>
+          <BitArray>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+          </BitArray>
+        </Specials>
+        <InfantryFireSound/>
+        <EffectGunFire>shootrocket3A
+        </EffectGunFire>
+        <EffectTrajectory>
+        </EffectTrajectory>
+        <EffectHitDirect>expair2
+        </EffectHitDirect>
+        <EffectHitMiss>misshit1
+        </EffectHitMiss>
+        <EffectHitReflect>reflecthit1
+        </EffectHitReflect>
+        <EffectHitGround>expground3dop1
+        </EffectHitGround>
+        <EffectHitWater>expwater2
+        </EffectHitWater>
+        <EffectHitAir/>
+        <Craters>
+          <item>objects\terraobjects\shell_hole\middle\01\1
+          </item>
+          <item>objects\terraobjects\shell_hole\middle\02\1
+          </item>
+          <item>objects\terraobjects\shell_hole\middle\03\1
+          </item>
+        </Craters>
+        <FlashFire Power='100' Duration='500'/>
+        <FlashExplosion Power='250' Duration='600'/>
+      </item>
+    </Shells>
+  </RPG>
+</base>

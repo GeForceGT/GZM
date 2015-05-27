@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<base>
+	<History>
+		<PreviousPath>c:\blitzkrieg\complete\units\technics\german\spg\opel20mm\current.msh</PreviousPath>
+		<PreviousDate>29.06.2008</PreviousDate>
+		<PreviousTime>15:37:19</PreviousTime>
+		<PreviousOwner>Admin</PreviousOwner>
+		<Action>Exported as</Action>
+		<CurrentPath>c:\program files\nival interactive\blitzkrieg\mods\mymod\data\units\technics\1.xml</CurrentPath>
+		<CurrentDate>29.06.2008</CurrentDate>
+		<CurrentTime>16:59:49</CurrentTime>
+		<CurrentOwner>Admin</CurrentOwner>
+	</History>
+	<RPG MaxHP="79" RepairCost="1" Sight="37" SightPower="1.1" Speed="18.51" Passability="-0.22" Priority="1" Camouflage="4" Weight="5900" Price="1" UninstallRotate="0.1" UninstallTransport="0.1" RotateSpeed="45" TurnRadius="9" TowingForce="0" Crew="4" Passangers="0" BoundTileRadius="1" SmallAABBCoeff="1" TowPoint="16" EntrancePoint="15" FatalitySmokePoint="-1" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.05" TrackWidth="0.19" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>Sdkfz 10/4</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>art_aagun</Type>
+		<AIClass>half-track</AIClass>
+		<Commands Size="51"><BitArray><item data="7"/><item data="67"/><item data="0"/><item data="0"/><item data="128"/><item data="32"/><item data="4"/></BitArray></Commands><Exposures Size="5"><BitArray><item data="16"/></BitArray></Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As/>
+		<AABB_Ds/>
+		<AcksRefs>
+			<item>sounds\ack\euro\ger_antiaircraft</item>
+		</AcksRefs>
+		<AcksRef/>
+		<Platforms>
+			<item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="4" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="4.8" HorizontalRotationSpeed="1.85" ModelPart="7" GunCarriageParts="-248" FirstGun="0" NumGuns="1">
+				<Constraint Min="-6.28319" Max="6.28319"/>
+				<ConstraintVertical Min="0" Max="0.785398"/>
+			</item>
+		</Platforms>
+		<Guns>
+			<item Priority="0" Ammo="300" Direction="65535" ReloadCost="22" ShootPoint="14" Recoil="1" RecoilLength="3.24315" RecoilTime="50" ModelPart="9" RecoilShakeTime="400" RecoilShakeAngle="0">
+				<Weapon>20mm_flak30_38</Weapon>
+			</item>
+		</Guns>
+		<ArmorLeft Min="3" Max="3"/>
+		<ArmorRight Min="3" Max="3"/>
+		<ArmorTop Min="3" Max="3"/>
+		<ArmorBottom Min="3" Max="3"/>
+		<ArmorFront Min="3" Max="5"/>
+		<ArmorBack Min="3" Max="3"/>
+		<AABBCenter x="0" y="14.6399"/>
+		<AABBHalfSize x="19.9262" y="49.3664"/>
+		<ExhaustPoints>
+			<item data="12"/>
+		</ExhaustPoints>
+		<DamagePoints>
+			<item data="10"/>
+		</DamagePoints>
+		<PeoplePoints/>
+		<TowPoint2D x="0" y="0"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="17.6173" y="33.0123"/>
+		<PeoplePoints2D/>
+		<AmmoPoint2D x="0" y="0"/>
+		<Gunners>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</Gunners>
+		<EffectDiesel>smokedisel1
+    </EffectDiesel>
+    <EffectSmoke>smokeflame2mid
+    </EffectSmoke>
+    <EffectWheelDust/>
+    <EffectShootDust/>
+    <EffectFatality>expfatality2mid
+    </EffectFatality>
+    <EffectEntrenching/>
+    <EffectDisappear>brakedown2
+    </EffectDisappear>
+    <JoggingX Period1='1.4' Period2='0.6' Amp1='0.8' Amp2='0.6' Phase1='0.3' Phase2='2.1'/>
+    <JoggingY Period1='1' Period2='0.4' Amp1='0.6' Amp2='0.4' Phase1='1.9' Phase2='0.2'/>
+    <JoggingZ Period1='1' Period2='0.3' Amp1='1' Amp2='0.6' Phase1='0' Phase2='2.1'/>
+    <SoundMoveStart>Auto2_start
+    </SoundMoveStart>
+    <SoundMove>Auto2_cycle
+    </SoundMove>
+    <SoundMoveStop>Auto2_stop
+    </SoundMoveStop>
+    <DeathCraters>
+      <item>objects\terraobjects\death_hole\verybig\01\1
+      </item>
+      <item>objects\terraobjects\death_hole\verybig\02\1
+      </item>
+      <item>objects\terraobjects\death_hole\verybig\03\1
+      </item>
+    </DeathCraters>
+  </RPG>
+</base>

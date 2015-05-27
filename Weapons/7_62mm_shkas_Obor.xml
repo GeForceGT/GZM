@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<base>
+  <History>
+    <PreviousPath>s:\complete\weapons\ussr\aviation\7_62mm_shkas\current.wpn
+    </PreviousPath>
+    <PreviousDate>24.01.2003
+    </PreviousDate>
+    <PreviousTime>14:42:00
+    </PreviousTime>
+    <PreviousOwner>Alexander.Valencia
+    </PreviousOwner>
+    <Action>Exported as
+    </Action>
+    <CurrentPath>s:\versions\current\data\weapons\7_62mm_shkas.xml
+    </CurrentPath>
+    <CurrentDate>24.01.2003
+    </CurrentDate>
+    <CurrentTime>14:42:02
+    </CurrentTime>
+    <CurrentOwner>Alexander.Valencia
+    </CurrentOwner>
+  </History>
+  <RPG Dispersion='22' AimingTime='0.4' AmmoPerBurst='36' RangeMax='34' RangeMin='1' Ceiling='2100' DeltaAngle='6' RevealRadius='0'>
+    <KeyName>7.62 SHKAS
+    </KeyName>
+    <StatsType>Weapon
+    </StatsType>
+    <Shells>
+      <item TrajectoryType='0' Piercing='2' PiercingRandom='2' DamagePower='13' DamageRandom='0' Area='0' Area2='0' ProjectileSpeed='850' DetonationPower='0' BrokeTrackProbability='0' FireRate='1800' RelaxTime='0.21' DamageType='0' TraceProbability='0.9' TraceSpeedCoeff='0.9'>
+        <Specials Size='32'>
+          <BitArray>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+          </BitArray>
+        </Specials>
+        <InfantryFireSound/>
+        <EffectGunFire>shootmgavia3\SHKAS_7_62mm
+        </EffectGunFire>
+        <EffectTrajectory/>
+        <EffectHitDirect>pumc
+        </EffectHitDirect>
+        <EffectHitMiss>pumc
+        </EffectHitMiss>
+        <EffectHitReflect>pumc
+        </EffectHitReflect>
+        <EffectHitGround>pumc
+        </EffectHitGround>
+        <EffectHitWater>bulletinwater1
+        </EffectHitWater>
+        <EffectHitAir/>
+        <Craters/>
+        <FlashFire Power='-1' Duration='0'/>
+        <FlashExplosion Power='-1' Duration='0'/>
+      </item>
+    </Shells>
+  </RPG>
+</base>

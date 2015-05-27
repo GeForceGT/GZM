@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<base><History><PreviousPath>s:\complete\weapons\ussr\artillery\85mm_52k\current.wpn</PreviousPath><PreviousDate>12.12.2002</PreviousDate><PreviousTime>19:11:44</PreviousTime><PreviousOwner>Alexander.Valencia</PreviousOwner><Action>Exported as</Action><CurrentPath>s:\versions\current\data\weapons\85mm_52_k.xml</CurrentPath><CurrentDate>12.12.2002</CurrentDate><CurrentTime>19:11:46</CurrentTime><CurrentOwner>Alexander.Valencia</CurrentOwner></History><RPG Dispersion="10" AimingTime="0" AmmoPerBurst="1" RangeMax="90" RangeMin="76" Ceiling="10500" DeltaAngle="180" RevealRadius="0"><KeyName>85mm 52-K</KeyName><StatsType>Weapon</StatsType><Shells><item TrajectoryType="1" Piercing="111" PiercingRandom="11" DamagePower="0" DamageRandom="0" Area="0" Area2="0" ProjectileSpeed="840" DetonationPower="0" BrokeTrackProbability="0" FireRate="0" RelaxTime="200" DamageType="0" TraceProbability="0" TraceSpeedCoeff="0.2"><Specials Size="32">
+<BitArray>
+<item data="0"/>
+<item data="0"/>
+<item data="0"/>
+<item data="0"/>
+<item data="0"/>
+</BitArray>
+</Specials>
+<InfantryFireSound></InfantryFireSound>
+<EffectGunFire>Musik\MuzikGerman06</EffectGunFire>
+<EffectTrajectory></EffectTrajectory>
+<EffectHitDirect></EffectHitDirect>
+<EffectHitMiss></EffectHitMiss>
+<EffectHitReflect></EffectHitReflect>
+<EffectHitGround></EffectHitGround>
+<EffectHitWater></EffectHitWater>
+<EffectHitAir></EffectHitAir>
+<Craters>
+</Craters>
+<FlashFire Power="-1" Duration="-1"/>
+<FlashExplosion Power="-1" Duration="-1"/>
+</item>
+</Shells>
+</RPG>
+</base>

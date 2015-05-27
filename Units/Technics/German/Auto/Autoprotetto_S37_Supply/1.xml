@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<base>
+	<History>
+		<PreviousPath>g:\bksajatmodellek\complete\mayasamples\samplemodels\00olasz\autos\as37_apc\as37_apc\current.msh</PreviousPath>
+		<PreviousDate>24.05.2010</PreviousDate>
+		<PreviousTime>16:53:00</PreviousTime>
+		<PreviousOwner>NAGY GÁBOR</PreviousOwner>
+		<Action>Exported as</Action>
+		<CurrentPath>g:\bksajatmodellek\complete\mayasamples\samplemodels\00olasz\autos\as37_apc\as37_apc_ammo\1.xml</CurrentPath>
+		<CurrentDate>24.05.2010</CurrentDate>
+		<CurrentTime>16:53:17</CurrentTime>
+		<CurrentOwner>NAGY GÁBOR</CurrentOwner>
+	</History>
+	<RPG MaxHP="85" RepairCost="1" Sight="35" SightPower="0.9" Speed="12.63" Passability="-0.08" Priority="1" Camouflage="8" Weight="5300" Price="1" UninstallRotate="0" UninstallTransport="0" RotateSpeed="31" TurnRadius="5" TowingForce="2500" Crew="2"
+	     Passangers="10" BoundTileRadius="1" SmallAABBCoeff="0.95" TowPoint="9" EntrancePoint="8" FatalitySmokePoint="-1" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0" TrackWidth="0.19" TrackStart="0.3" TrackEnd="0.2" TrackIntensity="0.7"
+	     TrackLifetime="100000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>AS 37 APC_ammo</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>trn_carrier
+    </Type>
+    <AIClass>wheel
+    </AIClass>
+    <Commands Size='40'>
+      <BitArray>
+        <item data='33'/>
+        <item data='3'/>
+        <item data='128'/>
+        <item data='128'/>
+        <item data='129'/>
+        <item data='0'/>
+      </BitArray>
+    </Commands>
+    <Exposures Size='5'>
+      <BitArray>
+        <item data='16'/>
+      </BitArray>
+    </Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As/>
+		<AABB_Ds/>
+		<AcksRefs>
+			<item>sounds\ack\italian\truck</item>
+		</AcksRefs>
+		<AcksRef></AcksRef>
+		<Platforms>
+			<item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="0" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+		</Platforms>
+		<Guns/>
+		<ArmorLeft Min="6" Max="7"/>
+		<ArmorRight Min="6" Max="7"/>
+		<ArmorTop Min="6" Max="6"/>
+		<ArmorBottom Min="6" Max="6"/>
+		<ArmorFront Min="11" Max="12"/>
+		<ArmorBack Min="6" Max="7"/>
+		<AABBCenter x="-0.128124" y="4.79886"/>
+		<AABBHalfSize x="18.942" y="40.4054"/>
+		<ExhaustPoints>
+			<item data="7"/>
+		</ExhaustPoints>
+		<DamagePoints>
+			<item data="6"/>
+		</DamagePoints>
+		<PeoplePoints/>
+		<TowPoint2D x="0.276983" y="-34.66"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="17.173" y="-36.5618"/>
+		<PeoplePoints2D/>
+		<AmmoPoint2D x="0" y="0"/>
+		<Gunners>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</Gunners>
+		<EffectDiesel>smokedisel1</EffectDiesel>
+		<EffectSmoke>smokeflame1mid</EffectSmoke>
+		<EffectWheelDust></EffectWheelDust>
+		<EffectShootDust></EffectShootDust>
+		<EffectFatality>expfatality1mid</EffectFatality>
+		<EffectEntrenching></EffectEntrenching>
+		<EffectDisappear>brakedown2</EffectDisappear>
+		<JoggingX Period1="1.6" Period2="0.6" Amp1="0.6" Amp2="0.4" Phase1="0.1" Phase2="2.1"/>
+		<JoggingY Period1="1" Period2="0.4" Amp1="0.5" Amp2="0.3" Phase1="1.9" Phase2="0.3"/>
+		<JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<SoundMoveStart>Auto2_start</SoundMoveStart>
+		<SoundMove>Auto5_cycle</SoundMove>
+		<SoundMoveStop>Auto2_stop</SoundMoveStop>
+		<DeathCraters>
+			<item>objects\terraobjects\death_hole\big\01\1</item>
+			<item>objects\terraobjects\death_hole\big\02\1</item>
+			<item>objects\terraobjects\death_hole\big\03\1</item>
+		</DeathCraters>
+	</RPG>
+</base>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<base><History><PreviousPath>g:\blitzkrieg\complete\units\technics\infantry_mkviiics_churchill_gb\current00.msh</PreviousPath><PreviousDate>30.03.2008</PreviousDate><PreviousTime>21:34:08</PreviousTime><PreviousOwner>Alex</PreviousOwner><Action>Exported as</Action><CurrentPath>g:\blitzkrieg\1\Infantry_MKVIIICS_Churchill_GB\1.xml</CurrentPath><CurrentDate>30.03.2008</CurrentDate><CurrentTime>21:34:12</CurrentTime><CurrentOwner>Alex</CurrentOwner></History><RPG MaxHP="300" RepairCost="6" Sight="46" SightPower="1.25" Speed="5.39" Passability="0.18" Priority="1" Camouflage="2" Weight="45000" Price="1" UninstallRotate="1.4013e-045" UninstallTransport="1.4013e-045" RotateSpeed="14" TurnRadius="5" TowingForce="0" Crew="5" Passangers="10" BoundTileRadius="1" SmallAABBCoeff="0.9" TowPoint="9" EntrancePoint="12" FatalitySmokePoint="1" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.04" TrackWidth="0.2" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2"><KeyName>Infantry_MKVIIICS_Churchill_GB</KeyName><StatsType>Mech</StatsType><DamagedHPs/><Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/><Type>arm_heavy</Type><AIClass>track</AIClass><Commands Size="51">
+			<BitArray>
+				<item data="47"/>
+				<item data="67"/>
+				<item data="0"/>
+				<item data="0"/>
+				<item data="128"/>
+				<item data="32"/>
+				<item data="4"/>
+			</BitArray>
+		</Commands>
+		<Exposures Size="5">
+			<BitArray>
+				<item data="16"/>
+			</BitArray>
+		</Exposures><AnimDescs><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data><item Length="562" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/><item Length="562" Action="0" Index="1" AABB_A="-1" AABB_D="-1"/></data></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data><item Length="1187" Action="0" Index="2" AABB_A="0" AABB_D="0"/><item Length="1187" Action="0" Index="3" AABB_A="1" AABB_D="1"/></data></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item></AnimDescs><AABB_As><item><Center x="0" y="-0.0306396"/><HalfSize x="30.9226" y="60.885"/></item><item><Center x="0" y="-0.0306396"/><HalfSize x="30.9226" y="60.885"/></item></AABB_As><AABB_Ds><item><Center x="0" y="-0.0306396"/><HalfSize x="30.9226" y="60.885"/></item><item><Center x="0" y="-0.0306396"/><HalfSize x="30.9226" y="60.885"/></item></AABB_Ds><AcksRefs><item>Sounds\Ack\England\eng_tank</item></AcksRefs><AcksRef></AcksRef><Platforms><item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="1" GunCarriageParts="-1" FirstGun="0" NumGuns="1"><Constraint Min="0" Max="0"/><ConstraintVertical Min="0" Max="0"/></item><item VerticalRotateSpeed="0" HorizontalRotationSpeed="7.5" ModelPart="2" GunCarriageParts="-1" FirstGun="1" NumGuns="2"><Constraint Min="-6.28319" Max="6.28319"/><ConstraintVertical Min="0" Max="0"/></item></Platforms><Guns><item Priority="1" Ammo="2475" Direction="65535" ReloadCost="1" ShootPoint="5" Recoil="0" RecoilLength="0" RecoilTime="50" ModelPart="-1" RecoilShakeTime="500" RecoilShakeAngle="0.0523599"><Weapon>7_92mm_besa</Weapon></item><item Priority="1" Ammo="2475" Direction="65535" ReloadCost="1" ShootPoint="15" Recoil="0" RecoilLength="12.5664" RecoilTime="50" ModelPart="2" RecoilShakeTime="500" RecoilShakeAngle="0.0523599"><Weapon>7_92mm_besa</Weapon></item><item Priority="0" Ammo="47" Direction="65535" ReloadCost="2550" ShootPoint="16" Recoil="1" RecoilLength="4.05394" RecoilTime="50" ModelPart="3" RecoilShakeTime="500" RecoilShakeAngle="0.0523599"><Weapon>95mm_gb</Weapon></item></Guns><ArmorLeft Min="82" Max="95"/><ArmorRight Min="82" Max="95"/><ArmorTop Min="16" Max="20"/><ArmorBottom Min="19" Max="25"/><ArmorFront Min="152" Max="155"/><ArmorBack Min="51" Max="95"/><AABBCenter x="0" y="-0.0306396"/><AABBHalfSize x="30.9226" y="60.885"/><ExhaustPoints><item data="7"/><item data="8"/></ExhaustPoints><DamagePoints><item data="10"/><item data="11"/><item data="13"/><item data="14"/></DamagePoints><PeoplePoints/><TowPoint2D x="0" y="-59.0009"/><HookPoint x="0" y="0"/><FrontWheel x="0" y="0"/><BackWheel x="0" y="0"/><EntrancePoint2D x="26.7899" y="-40.9172"/><PeoplePoints2D/><AmmoPoint2D x="0" y="0"/><Gunners><item><data/></item><item><data/></item><item><data/></item></Gunners><EffectDiesel>smokedisel1</EffectDiesel>
+		<EffectSmoke>smokeflame3big</EffectSmoke>
+		<EffectWheelDust>dustmove1</EffectWheelDust>
+		<EffectShootDust/>
+		<EffectFatality>expfatality2big</EffectFatality>
+		<EffectEntrenching/>
+		<EffectDisappear>brakedown2</EffectDisappear>
+		<JoggingX Period1="1.7" Period2="0.9" Amp1="0.4" Amp2="0.3" Phase1="0" Phase2="2.1"/>
+		<JoggingY Period1="1.4" Period2="0.8" Amp1="0.35" Amp2="0.25" Phase1="1.9" Phase2="0"/>
+		<JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<SoundMoveStart>Tank10_custom_start</SoundMoveStart>
+		<SoundMove>Tank25_custom_cycle</SoundMove>
+		<SoundMoveStop>Tank10_custom_stop</SoundMoveStop>
+		<DeathCraters>
+			<item>objects\terraobjects\death_hole\huge\01\1</item>
+			<item>objects\terraobjects\death_hole\huge\02\1</item>
+			<item>objects\terraobjects\death_hole\huge\03\1</item>
+		</DeathCraters>
+	</RPG>
+</base>

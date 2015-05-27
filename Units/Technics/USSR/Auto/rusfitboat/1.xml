@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<base>
+	<History>
+		<PreviousPath>g:\newunits\rusponton\1\current.msh</PreviousPath>
+		<PreviousDate>30.03.2010</PreviousDate>
+		<PreviousTime>15:26:33</PreviousTime>
+		<PreviousOwner>NAGY GÁBOR</PreviousOwner>
+		<Action>Exported as</Action>
+		<CurrentPath>g:\newunits\rusponton\rusfitboat\1.xml</CurrentPath>
+		<CurrentDate>30.03.2010</CurrentDate>
+		<CurrentTime>15:27:01</CurrentTime>
+		<CurrentOwner>NAGY GÁBOR</CurrentOwner>
+	</History>
+	<RPG MaxHP="90" RepairCost="1" Sight="40" SightPower="1.2" Speed="8" Passability="0.01" Priority="1" Camouflage="5" Weight="1800" Price="1" UninstallRotate="0" UninstallTransport="0" RotateSpeed="12" TurnRadius="20" TowingForce="0" Crew="2" Passangers="10" BoundTileRadius="1" SmallAABBCoeff="0.5" TowPoint="-1" EntrancePoint="1" FatalitySmokePoint="-1" ShootDustPoint="-1" LeavesTracks="0" TrackOffset="0.04" TrackWidth="0.19" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>rus_fit</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>trn_carrier</Type>
+		<AIClass>wheel</AIClass>
+		<Commands Size="40">
+			<BitArray>
+				<item data="113"/>
+				<item data="3"/>
+				<item data="0"/>
+				<item data="0"/>
+				<item data="128"/>
+				<item data="0"/>
+			</BitArray>
+		</Commands>
+		<Exposures Size="5">
+			<BitArray>
+				<item data="16"/>
+			</BitArray>
+		</Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As/>
+		<AABB_Ds/>
+		<AcksRefs>
+			<item></item>
+		</AcksRefs>
+		<AcksRef></AcksRef>
+		<Platforms>
+			<item VerticalRotateSpeed="1" HorizontalRotationSpeed="1" ModelPart="0" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+		</Platforms>
+		<Guns/>
+		<ArmorLeft Min="3" Max="6"/>
+		<ArmorRight Min="3" Max="6"/>
+		<ArmorTop Min="3" Max="6"/>
+		<ArmorBottom Min="3" Max="6"/>
+		<ArmorFront Min="3" Max="6"/>
+		<ArmorBack Min="3" Max="6"/>
+		<AABBCenter x="-0.617857" y="-7.12177"/>
+		<AABBHalfSize x="16.0957" y="41.3568"/>
+		<ExhaustPoints>
+			<item data="2"/>
+		</ExhaustPoints>
+		<DamagePoints>
+			<item data="3"/>
+		</DamagePoints>
+		<PeoplePoints/>
+		<TowPoint2D x="0" y="0"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="0" y="35.5235"/>
+		<PeoplePoints2D/>
+		<AmmoPoint2D x="0" y="0"/>
+		<Gunners>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</Gunners>
+		<EffectDiesel></EffectDiesel>
+		<EffectSmoke>expboat1</EffectSmoke>
+		<EffectWheelDust></EffectWheelDust>
+		<EffectShootDust></EffectShootDust>
+		<EffectFatality>expboat1</EffectFatality>
+		<EffectEntrenching></EffectEntrenching>
+		<EffectDisappear></EffectDisappear>
+		<JoggingX Period1="1.4" Period2="0.6" Amp1="0.8" Amp2="0.6" Phase1="0.3" Phase2="2.1"/>
+		<JoggingY Period1="1" Period2="0.4" Amp1="0.6" Amp2="0.4" Phase1="1.9" Phase2="0.2"/>
+		<JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<SoundMoveStart></SoundMoveStart>
+		<SoundMove></SoundMove>
+		<SoundMoveStop></SoundMoveStop>
+		<DeathCraters></DeathCraters>
+	</RPG>
+</base>

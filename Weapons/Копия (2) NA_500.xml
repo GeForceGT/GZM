@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<base><History><PreviousPath>s:\complete\weapons\common\aviation\Ptab_bomb\current.wpn</PreviousPath><PreviousDate>24.12.2002</PreviousDate><PreviousTime>12:39:12</PreviousTime><PreviousOwner>Alexander.Valencia</PreviousOwner><Action>Exported as</Action><CurrentPath>s:\versions\current\data\weapons\Ptab_bomb.xml</CurrentPath><CurrentDate>24.12.2002</CurrentDate><CurrentTime>12:39:17</CurrentTime><CurrentOwner>AlexZ</CurrentOwner></History><RPG Dispersion="80" AimingTime="0" AmmoPerBurst="40" RangeMax="200" RangeMin="0" Ceiling="2000" DeltaAngle="360" RevealRadius="0"><KeyName>NAPALM</KeyName><StatsType>Weapon</StatsType><Shells><item TrajectoryType="2" Piercing="70" PiercingRandom="7" DamagePower="90" DamageRandom="60" Area="2.7" Area2="5.39" ProjectileSpeed="8" DetonationPower="0" FireRate="3500" RelaxTime="0" DamageType="0" TraceProbability="0" BrokeTrackProbability="15" TraceSpeedCoeff="0.9"><Specials Size="32"><BitArray><item data="0"/><item data="0"/><item data="0"/><item data="0"/><item data="0"/></BitArray></Specials><InfantryFireSound>bomb</InfantryFireSound>
+<EffectGunFire/>
+<EffectTrajectory></EffectTrajectory>
+<EffectHitDirect>directhit2</EffectHitDirect>
+<EffectHitMiss>expbombNA</EffectHitMiss>
+<EffectHitReflect>napalm-ground</EffectHitReflect>
+<EffectHitGround>expbombNA</EffectHitGround>
+<EffectHitWater>napalm-ground</EffectHitWater>
+<EffectHitAir/><Craters><item>objects\terraobjects\death_hole\Verylittle\01\1</item><item>objects\terraobjects\death_hole\Verylittle\02\1</item><item>objects\terraobjects\death_hole\Verylittle\03\1</item></Craters><FlashFire Power="100" Duration="1500"/><FlashExplosion Power="200" Duration="1500"/></item></Shells></RPG></base>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0"?>
+<!---->
+<base>
+	<History></History>
+	<RPG MaxHP="250" RepairCost="1" Sight="30" SightPower="1" Speed="15" Passability="1" Priority="1" Camouflage="10" Weight="90000" Price="1" UninstallRotate="0" UninstallTransport="0" RotateSpeed="20" TurnRadius="5" TowingForce="0" Crew="4" Passangers="0" BoundTileRadius="1" SmallAABBCoeff="0.85" TowPoint="12" EntrancePoint="6" FatalitySmokePoint="1" ShootDustPoint="-1" LeavesTracks="0" TrackOffset="0.15" TrackWidth="0.15" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2">
+		<KeyName>Armoured Train</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/>
+		<Type>train_locomotive</Type>
+		<AIClass>track</AIClass>
+		<Commands Size="10">
+			<BitArray>
+				<item data="1"/>
+				<item data="2"/>
+			</BitArray>
+		</Commands>
+		<Exposures Size="0">
+			<BitArray/>
+		</Exposures>
+		<AnimDescs><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data><item Length="562" Action="0" Index="0" AABB_A="-1" AABB_D="-1"/></data></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item></AnimDescs>
+		<AABB_As>
+			<item>
+				<Center x="-0.301753" y="-16.2919"/>
+				<HalfSize x="25.4683" y="81.7633"/>
+			</item>
+			<item>
+				<Center x="-0.301753" y="-16.2919"/>
+				<HalfSize x="25.4683" y="81.7633"/>
+			</item>
+			<item>
+				<Center x="-0.301753" y="-16.2919"/>
+				<HalfSize x="25.4683" y="81.7633"/>
+			</item>
+			<item>
+				<Center x="-0.301753" y="-16.2919"/>
+				<HalfSize x="25.4683" y="81.7633"/>
+			</item>
+		</AABB_As>
+		<AABB_Ds>
+			<item>
+				<Center x="-0.301753" y="-16.2919"/>
+				<HalfSize x="25.4683" y="81.7633"/>
+			</item>
+			<item>
+				<Center x="-0.301753" y="-16.2919"/>
+				<HalfSize x="25.4683" y="81.7633"/>
+			</item>
+			<item>
+				<Center x="-0.301753" y="-16.2919"/>
+				<HalfSize x="25.4683" y="81.7633"/>
+			</item>
+			<item>
+				<Center x="-0.301753" y="-16.2919"/>
+				<HalfSize x="25.4683" y="81.7633"/>
+			</item>
+		</AABB_Ds>
+		<AcksRefs>
+		<item>sounds\ack\german\train</item>	
+		</AcksRefs>
+		<AcksRef/>
+		<Platforms>
+			<item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="-1" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="10" HorizontalRotationSpeed="60" ModelPart="-1" GunCarriageParts="-1" FirstGun="0" NumGuns="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+		</Platforms>
+		<Guns/>
+		<ArmorLeft Min="5" Max="10"/>
+		<ArmorRight Min="5" Max="10"/>
+		<ArmorTop Min="5" Max="10"/>
+		<ArmorBottom Min="5" Max="10"/>
+		<ArmorFront Min="5" Max="10"/>
+		<ArmorBack Min="5" Max="10"/>
+    <AABBCenter x="-0.356407" y="6.19601"/>
+    <AABBHalfSize x="20.901" y="73.3773"/>
+    <ExhaustPoints><item data="1"/></ExhaustPoints>
+    <DamagePoints/>
+    <PeoplePoints/>
+    <TowPoint2D x="0.050248" y="78.2066"/>
+    <HookPoint x="050248" y="-93.0452"/>
+		<FrontWheel x="0" y="37.775"/>
+		<BackWheel x="0" y="-64.5257"/>
+		<EntrancePoint2D x="24.3325" y="-73.8742"/>
+		<PeoplePoints2D/>
+		<AmmoPoint2D x="0" y="0"/>
+		<Gunners>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</Gunners>
+		<EffectDiesel>smoketrain</EffectDiesel>
+		<EffectSmoke>flamehouse1lok</EffectSmoke>
+		<EffectWheelDust/>
+		<EffectShootDust/>
+		<EffectFatality>flamehouse1lok</EffectFatality>
+		<EffectEntrenching/>
+		<EffectDisappear/>
+		<JoggingX Period1="0" Period2="0" Amp1="0" Amp2="0" Phase1="0" Phase2="0"/>
+		<JoggingY Period1="0" Period2="0" Amp1="0" Amp2="0" Phase1="0" Phase2="0"/>
+		<JoggingZ Period1="0" Period2="0" Amp1="0" Amp2="0" Phase1="0" Phase2="0"/>
+		<SoundMoveStart>Locomotive_start</SoundMoveStart>
+		<SoundMove>Locomotive_cycle</SoundMove>
+		<SoundMoveStop>Locomotive_stop</SoundMoveStop>
+		<DeathCraters>
+			<item>objects\terraobjects\death_hole\huge\01\1</item>
+			<item>objects\terraobjects\death_hole\huge\02\1</item>
+			<item>objects\terraobjects\death_hole\huge\03\1</item>
+		</DeathCraters>
+	</RPG>
+</base>

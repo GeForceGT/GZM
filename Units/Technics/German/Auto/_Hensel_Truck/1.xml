@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<base><History><PreviousPath>d:\cvs\stalingrad-src\nikitova\models\_hensel_truck\complete\current.msh</PreviousPath><PreviousDate>04.10.2004</PreviousDate><PreviousTime>14:51:20</PreviousTime><PreviousOwner>Max</PreviousOwner><Action>Exported as</Action><CurrentPath>d:\cvs\stalingrad\data\units\technics\german\auto\_hensel_truck\1.xml</CurrentPath><CurrentDate>04.10.2004</CurrentDate><CurrentTime>14:51:22</CurrentTime><CurrentOwner>Max</CurrentOwner></History><RPG MaxHP="85" RepairCost="1" Sight="30" SightPower="1" Speed="14" Passability="-0.16" Priority="1" Camouflage="2" Weight="6800" Price="1" UninstallRotate="1.4013e-045" UninstallTransport="1.4013e-045" RotateSpeed="37.4" TurnRadius="5" TowingForce="5800" Crew="1" Passangers="20" BoundTileRadius="1" SmallAABBCoeff="1" TowPoint="13" EntrancePoint="12" FatalitySmokePoint="19" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.05" TrackWidth="0.19" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2"><KeyName>Henshel</KeyName><StatsType>Mech</StatsType><DamagedHPs/><Defence0 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence1 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence2 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence3 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence4 MinArmor="40" MaxArmor="90" Silhouette="1"/><Defence5 MinArmor="40" MaxArmor="90" Silhouette="1"/><Type>trn_carrier
+    </Type>
+    <AIClass>wheel
+    </AIClass>
+    <Commands Size='44'>
+      <BitArray>
+        <item data='33'/>
+        <item data='3'/>
+        <item data='128'/>
+        <item data='128'/>
+        <item data='129'/>
+        <item data='8'/>
+      </BitArray>
+    </Commands>
+    <Exposures Size='5'>
+      <BitArray>
+        <item data='16'/>
+      </BitArray>    </Exposures><AnimDescs><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data><item Length="1187" Action="0" Index="0" AABB_A="0" AABB_D="0"/><item Length="1500" Action="0" Index="1" AABB_A="1" AABB_D="1"/></data></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data><item Length="1875" Action="0" Index="2" AABB_A="2" AABB_D="2"/></data></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item><item><data/></item></AnimDescs><AABB_As><item><Center x="-2.91413" y="-5.03861"/><HalfSize x="23.1212" y="64.8601"/></item><item><Center x="-5.25853" y="-0.108927"/><HalfSize x="30.7831" y="61.2026"/></item><item><Center x="0.365765" y="-0.585987"/><HalfSize x="19.8413" y="63.5879"/></item></AABB_As><AABB_Ds><item><Center x="-3.00881" y="-8.69611"/><HalfSize x="23.2159" y="59.9304"/></item><item><Center x="0.570287" y="-0.904036"/><HalfSize x="24.7498" y="60.0894"/></item><item><Center x="0.365765" y="-0.585987"/><HalfSize x="19.8413" y="63.5879"/></item></AABB_Ds><AcksRefs><item>sounds\ack\german\auto3-wheels</item></AcksRefs><AcksRef></AcksRef><Platforms><item VerticalRotateSpeed="1" HorizontalRotationSpeed="1" ModelPart="7" GunCarriageParts="-1" FirstGun="0" NumGuns="0"><Constraint Min="0" Max="0"/><ConstraintVertical Min="0" Max="0"/></item></Platforms><Guns/><ArmorLeft Min='1' Max='1'/>
+    <ArmorRight Min='1' Max='1'/>
+    <ArmorTop Min='1' Max='1'/>
+    <ArmorBottom Min='1' Max='1'/>
+    <ArmorFront Min='1' Max='3'/>
+    <ArmorBack Min='1' Max='1'/><AABBCenter x="-0.263025" y="-0.267944"/><AABBHalfSize x="20.4701" y="60.0894"/><ExhaustPoints/><DamagePoints><item data="13"/><item data="15"/><item data="17"/></DamagePoints><PeoplePoints/><TowPoint2D x="0" y="-51.8318"/><HookPoint x="0" y="0"/><FrontWheel x="0" y="0"/><BackWheel x="0" y="0"/><EntrancePoint2D x="0" y="-60.3608"/><PeoplePoints2D/><AmmoPoint2D x="0" y="0"/><Gunners><item><data/></item><item><data/></item><item><data/></item></Gunners><EffectDiesel>smokedisel1</EffectDiesel><EffectSmoke>smokeflame2big</EffectSmoke><EffectWheelDust>dustmove1</EffectWheelDust><EffectShootDust></EffectShootDust><EffectFatality>expfatality2big</EffectFatality><EffectEntrenching></EffectEntrenching><EffectDisappear>brakedown2</EffectDisappear><JoggingX Period1="1.4" Period2="0.6" Amp1="0.8" Amp2="0.6" Phase1="0.3" Phase2="2.1"/><JoggingY Period1="1" Period2="0.4" Amp1="0.6" Amp2="0.4" Phase1="1.9" Phase2="0.2"/><JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/><SoundMoveStart>Auto4_start</SoundMoveStart><SoundMove>Auto3_cycle</SoundMove><SoundMoveStop>Auto4_stop</SoundMoveStop><DeathCraters/></RPG></base>

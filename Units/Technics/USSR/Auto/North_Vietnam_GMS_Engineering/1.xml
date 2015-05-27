@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<base>
+	<History>
+		<PreviousOwner/>
+		<PreviousDate/>
+		<PreviousTime/>
+		<CurrentOwner>Bk-Tools :: Unit Editor [version 1.0.2]</CurrentOwner>
+		<CurrentDate>18.04.2006</CurrentDate>
+		<CurrentTime>17:40:09</CurrentTime>
+	</History>
+	<RPG RepairCost="1" SightPower="1" Passability="-0.06" Priority="1" Price="1" UninstallRotate="0" UninstallTransport="0" RadiationAbsorbtion="1" TurnRadius="5" TowingForce="0" Crew="1" Passangers="0" BoundTileRadius="1" SmallAABBCoeff="1" TowPoint="8" EntrancePoint="7" FatalitySmokePoint="5" ShootDustPoint="-1" LeavesTracks="1" TrackOffset="0.04" TrackWidth="0.15" TrackStart="0.2" TrackEnd="0.2" TrackIntensity="0.7" TrackLifetime="10000" MaxHeight="500" DivingAngle="20" ClimbAngle="20" TiltAngle="30" TiltRatio="2" MaxHP="115" Sight="30" Speed="17" Weight="5500" RotateSpeed="55" Camouflage="2">
+		<KeyName>Studebaker Engineering</KeyName>
+		<StatsType>Mech</StatsType>
+		<DamagedHPs/>
+		<Defence0 MinArmor="40" MaxArmor="90" Silhouette="0"/>
+		<Defence1 MinArmor="40" MaxArmor="90" Silhouette="0"/>
+		<Defence2 MinArmor="40" MaxArmor="90" Silhouette="0"/>
+		<Defence3 MinArmor="40" MaxArmor="90" Silhouette="0"/>
+		<Defence4 MinArmor="40" MaxArmor="90" Silhouette="0"/>
+		<Defence5 MinArmor="40" MaxArmor="90" Silhouette="0"/>
+		<Type>trn_support</Type>
+		<AIClass>wheel</AIClass>
+		<Commands Size="49">
+			<BitArray>
+				<item data="1"/>
+				<item data="27"/>
+				<item data="0"/>
+				<item data="13"/>
+				<item data="130"/>
+				<item data="128"/>
+				<item data="1"/>
+			</BitArray>
+		</Commands>
+		<Exposures Size="0">
+			<BitArray/>
+		</Exposures>
+		<AnimDescs>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</AnimDescs>
+		<AABB_As/>
+		<AABB_Ds/>
+		<AcksRefs>
+			<item>sounds\ack\Vietnam\tank1</item>
+		</AcksRefs>
+		<AcksRef/>
+		<Platforms>
+			<item VerticalRotateSpeed="1" HorizontalRotationSpeed="1" ModelPart="1" GunCarriageParts="-1" FirstGun="0" NumGuns="0" RotatePerm="0" VerticalAngle="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+			<item VerticalRotateSpeed="1" HorizontalRotationSpeed="1" ModelPart="-1" GunCarriageParts="-1" FirstGun="0" NumGuns="0" RotatePerm="0" VerticalAngle="0">
+				<Constraint Min="0" Max="0"/>
+				<ConstraintVertical Min="0" Max="0"/>
+			</item>
+		</Platforms>
+		<Guns/>
+		<ArmorLeft Min='1' Max='1'/>
+    <ArmorRight Min='1' Max='1'/>
+    <ArmorTop Min='1' Max='1'/>
+    <ArmorBottom Min='1' Max='1'/>
+    <ArmorFront Min='1' Max='3'/>
+    <ArmorBack Min='1' Max='1'/>
+		<AABBCenter x="0" y="-7.41715"/>
+		<AABBHalfSize x="17.9265" y="54.2049"/>
+		<ExhaustPoints>
+		</ExhaustPoints>
+		<DamagePoints>
+<item data="5"/>
+		</DamagePoints>
+		<PeoplePoints/>
+		<TowPoint2D x="0" y="-61.8584"/>
+		<HookPoint x="0" y="0"/>
+		<FrontWheel x="0" y="0"/>
+		<BackWheel x="0" y="0"/>
+		<EntrancePoint2D x="0" y="-61.5494"/>
+		<PeoplePoints2D/>
+		<AmmoPoint2D x="0" y="0"/>
+		<Gunners>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+			<item>
+				<data/>
+			</item>
+		</Gunners>
+		<EffectDiesel>smokedisel1</EffectDiesel>
+		<EffectSmoke>smokeflame3mid</EffectSmoke>
+		<EffectWheelDust>dustmove1
+		</EffectWheelDust>
+		<EffectShootDust/>
+		<EffectFatality>expfatality3mid</EffectFatality>
+		<EffectEntrenching/>
+		<EffectDisappear>brakedown2</EffectDisappear>
+		<JoggingX Period1="1.5" Period2="0.6" Amp1="0.5" Amp2="0.3" Phase1="0" Phase2="2.1"/>
+		<JoggingY Period1="1" Period2="0.4" Amp1="0.4" Amp2="0.2" Phase1="1.9" Phase2="0.2"/>
+		<JoggingZ Period1="1" Period2="0.3" Amp1="1" Amp2="0.6" Phase1="0" Phase2="2.1"/>
+		<SoundMoveStart>Auto3_start</SoundMoveStart>
+		<SoundMove>Auto3_cycle</SoundMove>
+		<SoundMoveStop>Auto3_stop</SoundMoveStop>
+		<DeathCraters>
+			<item>objects\terraobjects\death_hole\verybig\01\1</item>
+			<item>objects\terraobjects\death_hole\verybig\02\1</item>
+			<item>objects\terraobjects\death_hole\verybig\03\1</item>
+		</DeathCraters>
+	</RPG>
+</base>

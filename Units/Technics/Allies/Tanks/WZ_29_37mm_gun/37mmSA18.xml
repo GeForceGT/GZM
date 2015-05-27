@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<base>-
+  <History/>
+  <RPG Dispersion='2.88' AimingTime='0.4' AmmoPerBurst='1' RangeMax='45' RangeMin='4' Ceiling='0' DeltaAngle='10' RevealRadius='0'>
+    <KeyName>37mm gun Puteaux SA-18 L/21
+    </KeyName>
+    <StatsType>Weapon
+    </StatsType>
+    <Shells>-
+      <item TrajectoryType='0' Piercing='26' PiercingRandom='20' DamagePower='27' DamageRandom='15' Area='0.71' Area2='1.42' ProjectileSpeed='120' DetonationPower='0' BrokeTrackProbability='0' FireRate='55.0' RelaxTime='1.70' DamageType='0' TraceProbability='0' TraceSpeedCoeff='0.2'>-
+        <Specials Size='32'>-
+          <BitArray>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+            <item data='0'/>
+          </BitArray>
+        </Specials>
+        <InfantryFireSound/>
+        <EffectGunFire>shootgun2
+        </EffectGunFire>
+        <EffectTrajectory/>
+        <EffectHitDirect>directhit1
+        </EffectHitDirect>
+        <EffectHitMiss>misshit1
+        </EffectHitMiss>
+        <EffectHitReflect>reflecthit1
+        </EffectHitReflect>
+        <EffectHitGround>expground2
+        </EffectHitGround>
+        <EffectHitWater>expwater2
+        </EffectHitWater>
+        <EffectHitAir/>
+        <Craters>
+          <item>objects\terraobjects\shell_hole\little\01\1
+          </item>
+          <item>objects\terraobjects\shell_hole\little\02\1
+          </item>
+          <item>objects\terraobjects\shell_hole\little\03\1
+          </item>
+        </Craters>
+        <FlashFire Power='100' Duration='500'/>
+        <FlashExplosion Power='200' Duration='500'/>
+      </item>
+    </Shells>
+  </RPG>
+</base>
